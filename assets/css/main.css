@@ -978,11 +978,11 @@ table tfoot td {
 }
 
 .about .author-name {
-  font-family: 'PT Serif', serif;
+  font-family: sans-serif;
   margin: 0 0 10px;
   position: relative;
   padding-bottom: 15px;
-  font-size: 16px;
+  font-size: 24px;
   text-transform: uppercase;
   color: #333030;
   font-weight: 700;
