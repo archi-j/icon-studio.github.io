@@ -933,7 +933,7 @@ table tfoot td {
   right: 0;
   width: 280px;
   height: 100%;
-  padding: 25% 10px;
+  padding: 28% 10px;
 
   text-align: center;
   text-rendering: optimizeLegibility;
@@ -1006,7 +1006,7 @@ table tfoot td {
 .about p {
   font-family: sans-serif;
   margin: 0 0 10px;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.2;
 }
