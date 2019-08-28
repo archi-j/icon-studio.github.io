@@ -1479,3 +1479,194 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+/* ------------------------------------ */
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+	height: 115%;
+    text-rendering: optimizeLegibility;
+    background-image: url('../images/Background_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.contents{
+    position: relative;
+	top:10%;
+  	max-width:100%;
+	height:80%;
+  	text-transform: none;
+    vertical-align: middle;
+    text-align: center;
+    background-attachment: scroll;
+}
+
+.head{
+  font-family: sans-serif;
+  color:black;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.my_pic{
+  width: 180px;
+  height: 180px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+.instagram_button {
+  width: 24px;
+  height: 24px;
+  margin-right: 18px;
+  padding: 0px;
+  background-color: transparent;
+  background-image: url("../images/instagram_logo.png");
+  background-position: 0px 0px;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.instagram_button:hover {
+  background-image: url("../images/instagram_logo2.png");
+  background-size: 24px;
+  opacity: 1;
+}
+
+.brunch_button {
+  width: 24px;
+  height: 24px;
+  margin-right: 18px;
+  padding: 0px;
+  background-color: transparent;
+  background-image: url("../images/brunch_logo1.png");
+  background-position: 0px 0px;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.brunch_button:hover {
+  background-image: url("../images/brunch_logo2.png");
+  background-size: 24px;
+  opacity: 1;
+}
+
+.medium_button {
+  width: 24px;
+  height: 24px;
+  padding: 0px;
+  margin-right: 18px;
+  background-color: transparent;
+  background-image: url("../images/medium_logo1.png");
+  background-position: 0px 0px;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.medium_button:hover {
+  background-image: url("../images/medium_logo2.png");
+  background-size: 24px;
+}
+
+.github_icon {
+  margin-right: 18px;
+  padding-right: 0px;
+}
+
+.github_button {
+  width: 24px;
+  height: 24px;
+  margin-right: 18px;
+  padding: 0px;
+  background-color: transparent;
+  background-image: url("../images/github_logo.png");
+  background-position: 0px 0px;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  opacity: 1;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+.github_button:hover {
+  background-image: url("../images/github_logo2.png");
+  background-size: 24px;
+  background-attachment: scroll;
+  opacity: 1;
+}
+
+.linkedin_button {
+  width: 26px;
+  height: 24px;
+  margin-bottom: 2px;
+  padding: 0px;
+  background-color: transparent;
+  background-image: url("../images/linkedin_logo1.png");
+  background-position: 0px 0px;
+  background-size: 26px;
+  background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.linkedin_button:hover {
+  background-image: url("../images/linkedin_logo2.png");
+  background-size: 26px;
+  opacity: 1;
+}
+
+.w-button{
+	display:inline-block;
+	padding:9px 10px;
+	background-color:transparent;
+	color:white;border:0;
+	line-height:inherit;
+	text-decoration:none;
+	cursor:pointer;
+	border-radius:0
+}
+
+.email-link {
+    color: rgba(0,0,0,0.45);
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Times New Roman";
+    -webkit-transition: opacity .1s ease-in;
+}
+.email-link:hover,
+.email-link:focus {
+    color: royalblue;
+	text-decoration: underline;
+	opacity: 1;
+}
+
+.footer{
+  font-size: 12px;
+}
