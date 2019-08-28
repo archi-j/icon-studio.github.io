@@ -932,17 +932,16 @@ table tfoot td {
   left: 0;
   bottom: 0;
   right: 0;
-  width: 360px;
-  height: 100%;
+  width: 240px;
+  height: 80%;
   padding: 20px 10px;
 
   text-align: center;
   text-rendering: optimizeLegibility;
   background-image: url('../../images/Background_2.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-position: center;
-  background-attachment: scroll;
 
 }
 
