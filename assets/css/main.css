@@ -947,7 +947,6 @@ table tfoot td {
 .about {
   margin: 0 0 40px;
   text-align: center;
-  top:50%;
 }
 
 .about .cover-author-image {
@@ -1665,5 +1664,4 @@ a.newer-posts:hover {
 
 .footer{
   font-size: 12px;
-  bottom:50%;
 }
