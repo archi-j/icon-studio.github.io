@@ -935,6 +935,8 @@ table tfoot td {
   height: 100%;
   padding: 20px 10px;
 
+  text-align: center;
+  text-rendering: optimizeLegibility;
   background-image: url('../../images/Background_2.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -1004,8 +1006,8 @@ table tfoot td {
 .about p {
   font-family: sans-serif;
   margin: 0 0 10px;
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 1.8rem;
+  font-weight: 600;
   line-height: 1.2;
 }
 
