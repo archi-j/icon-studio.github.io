@@ -933,10 +933,8 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
 
   text-align: center;
-  height: 115%;
   text-rendering: optimizeLegibility;
   background-image: url('../../images/Background_2.png');
   background-repeat: no-repeat;
@@ -1491,22 +1489,6 @@ a.newer-posts:hover {
 }
 
 /* ------------------------------------ */
-
-.wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-	  height: 115%;
-    text-rendering: optimizeLegibility;
-    background-image: url('../../images/Background_2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
-}
 
 .contents{
     position: relative;
