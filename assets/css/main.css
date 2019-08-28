@@ -934,6 +934,16 @@ table tfoot td {
   height: 100%;
   padding: 20px 10px;
   background-color: #ffffff;
+
+  text-align: center;
+  height: 115%;
+  text-rendering: optimizeLegibility;
+  background-image: url('../../images/Background_2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+
 }
 
 .about {
@@ -1489,7 +1499,7 @@ a.newer-posts:hover {
     bottom: 0;
     left: 0;
     text-align: center;
-	height: 115%;
+	  height: 115%;
     text-rendering: optimizeLegibility;
     background-image: url('../../images/Background_2.png');
     background-repeat: no-repeat;
