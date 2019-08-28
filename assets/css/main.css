@@ -939,7 +939,7 @@ table tfoot td {
   text-rendering: optimizeLegibility;
   background-image: url('../../images/Background_2.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 
 }
@@ -1424,7 +1424,7 @@ a.newer-posts:hover {
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
   .sidebar footer {
-    margin-bottom: 100px;
+    margin-bottom: 10px;
   }
   .about {
     text-align: center;
