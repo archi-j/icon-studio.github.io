@@ -926,12 +926,12 @@ table tfoot td {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  width: 280px;
+  width: 240px;
   height: 100%;
   padding: 20px 10px;
 
