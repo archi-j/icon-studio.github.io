@@ -927,7 +927,7 @@ table tfoot td {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: fixed;
-  top: 50%;
+  top: 0;
   left: 0;
   bottom: 0;
   right: 0;
@@ -947,6 +947,7 @@ table tfoot td {
 .about {
   margin: 0 0 40px;
   text-align: center;
+  top:50%;
 }
 
 .about .cover-author-image {
@@ -1664,4 +1665,5 @@ a.newer-posts:hover {
 
 .footer{
   font-size: 12px;
+  bottom:50%;
 }
