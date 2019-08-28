@@ -926,7 +926,7 @@ table tfoot td {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -935,8 +935,6 @@ table tfoot td {
   height: 100%;
   padding: 20px 10px;
 
-  text-align: center;
-  text-rendering: optimizeLegibility;
   background-image: url('../../images/Background_2.png');
   background-repeat: no-repeat;
   background-size: cover;
