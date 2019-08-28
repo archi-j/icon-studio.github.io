@@ -1491,7 +1491,7 @@ a.newer-posts:hover {
     text-align: center;
 	height: 115%;
     text-rendering: optimizeLegibility;
-    background-image: url('../images/Background_2.png');
+    background-image: url('{{site.baseurl}}/images/Background_2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1536,7 +1536,7 @@ a.newer-posts:hover {
   margin-right: 18px;
   padding: 0px;
   background-color: transparent;
-  background-image: url("../images/instagram_logo.png");
+  background-image: url("{{site.baseurl}}/images/instagram_logo.png");
   background-position: 0px 0px;
   background-size: 24px;
   background-repeat: no-repeat;
@@ -1546,7 +1546,7 @@ a.newer-posts:hover {
 }
 
 .instagram_button:hover {
-  background-image: url("../images/instagram_logo2.png");
+  background-image: url("{{site.baseurl}}/images/instagram_logo2.png");
   background-size: 24px;
   opacity: 1;
 }
@@ -1557,7 +1557,7 @@ a.newer-posts:hover {
   margin-right: 18px;
   padding: 0px;
   background-color: transparent;
-  background-image: url("../images/brunch_logo1.png");
+  background-image: url("{{site.baseurl}}/images/brunch_logo1.png");
   background-position: 0px 0px;
   background-size: 24px;
   background-repeat: no-repeat;
@@ -1567,7 +1567,7 @@ a.newer-posts:hover {
 }
 
 .brunch_button:hover {
-  background-image: url("../images/brunch_logo2.png");
+  background-image: url("{{site.baseurl}}/images/brunch_logo2.png");
   background-size: 24px;
   opacity: 1;
 }
@@ -1578,7 +1578,7 @@ a.newer-posts:hover {
   padding: 0px;
   margin-right: 18px;
   background-color: transparent;
-  background-image: url("../images/medium_logo1.png");
+  background-image: url("{{site.baseurl}}/images/medium_logo1.png");
   background-position: 0px 0px;
   background-size: 24px;
   background-repeat: no-repeat;
@@ -1588,7 +1588,7 @@ a.newer-posts:hover {
 }
 
 .medium_button:hover {
-  background-image: url("../images/medium_logo2.png");
+  background-image: url("{{site.baseurl}}/images/medium_logo2.png");
   background-size: 24px;
 }
 
@@ -1603,7 +1603,7 @@ a.newer-posts:hover {
   margin-right: 18px;
   padding: 0px;
   background-color: transparent;
-  background-image: url("../images/github_logo.png");
+  background-image: url("{{site.baseurl}}/images/github_logo.png");
   background-position: 0px 0px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
@@ -1615,7 +1615,7 @@ a.newer-posts:hover {
 }
 
 .github_button:hover {
-  background-image: url("../images/github_logo2.png");
+  background-image: url("{{site.baseurl}}/images/github_logo2.png");
   background-size: 24px;
   background-attachment: scroll;
   opacity: 1;
@@ -1627,7 +1627,7 @@ a.newer-posts:hover {
   margin-bottom: 2px;
   padding: 0px;
   background-color: transparent;
-  background-image: url("../images/linkedin_logo1.png");
+  background-image: url("{{site.baseurl}}/images/linkedin_logo1.png");
   background-position: 0px 0px;
   background-size: 26px;
   background-repeat: no-repeat;
@@ -1637,7 +1637,7 @@ a.newer-posts:hover {
 }
 
 .linkedin_button:hover {
-  background-image: url("../images/linkedin_logo2.png");
+  background-image: url("{{site.baseurl}}/images/linkedin_logo2.png");
   background-size: 26px;
   opacity: 1;
 }
