@@ -1526,14 +1526,14 @@ a.newer-posts:hover {
 
 
 .instagram_button {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   margin-right: 18px;
   padding: 0px;
   background-color: transparent;
   background-image: url("../../images/instagram_logo.png");
   background-position: 0px 0px;
-  background-size: 24px;
+  background-size: 20px;
   background-repeat: no-repeat;
   opacity: 1;
   -webkit-transition: all 300ms ease;
@@ -1542,19 +1542,19 @@ a.newer-posts:hover {
 
 .instagram_button:hover {
   background-image: url("../../images/instagram_logo2.png");
-  background-size: 24px;
+  background-size: 20px;
   opacity: 1;
 }
 
 .brunch_button {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   margin-right: 18px;
   padding: 0px;
   background-color: transparent;
   background-image: url("../../images/brunch_logo1.png");
   background-position: 0px 0px;
-  background-size: 24px;
+  background-size: 20px;
   background-repeat: no-repeat;
   opacity: 1;
   -webkit-transition: all 300ms ease;
@@ -1563,19 +1563,19 @@ a.newer-posts:hover {
 
 .brunch_button:hover {
   background-image: url("../../images/brunch_logo2.png");
-  background-size: 24px;
+  background-size: 20px;
   opacity: 1;
 }
 
 .medium_button {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   padding: 0px;
   margin-right: 18px;
   background-color: transparent;
   background-image: url("../../images/medium_logo1.png");
   background-position: 0px 0px;
-  background-size: 24px;
+  background-size: 20px;
   background-repeat: no-repeat;
   opacity: 1;
   -webkit-transition: all 300ms ease;
@@ -1584,7 +1584,7 @@ a.newer-posts:hover {
 
 .medium_button:hover {
   background-image: url("../../images/medium_logo2.png");
-  background-size: 24px;
+  background-size: 20px;
 }
 
 .github_icon {
@@ -1593,14 +1593,14 @@ a.newer-posts:hover {
 }
 
 .github_button {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   margin-right: 18px;
   padding: 0px;
   background-color: transparent;
   background-image: url("../../images/github_logo.png");
   background-position: 0px 0px;
-  background-size: 24px 24px;
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   opacity: 1;
@@ -1611,20 +1611,20 @@ a.newer-posts:hover {
 
 .github_button:hover {
   background-image: url("../../images/github_logo2.png");
-  background-size: 24px;
+  background-size: 20px;
   background-attachment: scroll;
   opacity: 1;
 }
 
 .linkedin_button {
-  width: 26px;
-  height: 24px;
+  width: 21px;
+  height: 20px;
   margin-bottom: 2px;
   padding: 0px;
   background-color: transparent;
   background-image: url("../../images/linkedin_logo1.png");
   background-position: 0px 0px;
-  background-size: 26px;
+  background-size: 21px;
   background-repeat: no-repeat;
   opacity: 1;
   -webkit-transition: all 300ms ease;
@@ -1633,7 +1633,7 @@ a.newer-posts:hover {
 
 .linkedin_button:hover {
   background-image: url("../../images/linkedin_logo2.png");
-  background-size: 26px;
+  background-size: 21px;
   opacity: 1;
 }
 
