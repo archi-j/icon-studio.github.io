@@ -932,7 +932,7 @@ table tfoot td {
   bottom: 0;
   right: 0;
   width: 240px;
-  height: 50%;
+  height: 100%;
   padding: 20px 10px;
 
   text-align: center;
