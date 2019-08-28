@@ -939,7 +939,7 @@ table tfoot td {
   text-rendering: optimizeLegibility;
   background-image: url('../../images/Background_2.png');
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
   background-position: center;
 
 }
