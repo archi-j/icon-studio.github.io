@@ -1664,4 +1664,6 @@ a.newer-posts:hover {
 .current_menu_list,
 .menu_item a:hover {
   color:black;
+  padding:.2em 0;
+  text-decoration:none;
 }
