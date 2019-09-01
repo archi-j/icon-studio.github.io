@@ -1661,6 +1661,6 @@ a.newer-posts:hover {
   transition: all 300ms ease;
 }
 
-.current_menu_list .menu_item a:hover {
+.current_menu_list .menu_item:hover {
   color:black;
 }
