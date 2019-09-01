@@ -1667,9 +1667,8 @@ a.newer-posts:hover {
 }
 
 .menu{
-  font-size:.77778rem;
+  font-size:16px;
   line-height:1.5;
-  letter-spacing:.3em;
   list-style:none;
   margin:0;
   padding:0;
