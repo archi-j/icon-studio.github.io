@@ -1566,7 +1566,8 @@ a.newer-posts:hover {
 .email_button {
   width: 28px;
   height: 19px;
-  padding-bottom: : 5px;
+  margin-bottom: : 1px;
+  padding:0px;
   background-color: transparent;
   background-image: url("../../images/email_logo1.png");
   background-position: 0px 0px;
