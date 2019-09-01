@@ -1679,6 +1679,6 @@ a.newer-posts:hover {
   text-decoration:none;
 }
 
-.menu_list:hover {
+.current-menu_list .menu_list:hover {
   color:#d4a259;
 }
