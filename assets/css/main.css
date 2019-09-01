@@ -1649,15 +1649,12 @@ a.newer-posts:hover {
 }
 
 .menu_item{
-  padding:.3em 0;
-}
-
-.menu_item a{
 /*  font-size: 16px;
   list-style: none;
   text-align: center;
  line-height:1.5;
  */
+  padding:.3em 0;
   color:#aaa;
   text-decoration:none;
   -webkit-transition: all 300ms ease;
