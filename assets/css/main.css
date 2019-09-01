@@ -1673,4 +1673,12 @@ a.newer-posts:hover {
   padding: 0;
   line-height:1.5;
   margin: 0;
+  border-top:1px solid #333;
+  padding:.5em 0;
+  color:#aaa;
+  text-decoration:none;
+}
+
+.menu_list:hover {
+  color:#d4a259;
 }
