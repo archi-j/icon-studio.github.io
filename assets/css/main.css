@@ -1084,7 +1084,6 @@ footer .copyright {
   font-size: 14px;
   text-align: center;
   margin: 0;
-  padding-bottom: 5px;
 }
 
 .post {
@@ -1628,6 +1627,7 @@ a.newer-posts:hover {
     color: rgba(0,0,0,0.45);
     font-size: 15px;
     text-decoration: none;
+    padding-top: 5px;
     font-family: "Times New Roman";
     -webkit-transition: opacity .1s ease-in;
 }
