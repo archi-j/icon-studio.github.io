@@ -1666,19 +1666,32 @@ a.newer-posts:hover {
   font-size: 12px;
 }
 
-.menu_list{
-  font-size: 16px;
-  list-style: none;
-  text-align: center;
-  padding: 0;
+.menu{
+  border-bottom:1px solid #333;
+  font-size:.77778rem;
   line-height:1.5;
-  margin: 0;
+  letter-spacing:.15em;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-transform:uppercase;
+}
+
+.menu_item{
   border-top:1px solid #333;
   padding:.5em 0;
+}
+
+.menu_item a{
+/*  font-size: 16px;
+  list-style: none;
+  text-align: center;
+ line-height:1.5;
+ */
   color:#aaa;
   text-decoration:none;
 }
 
-.current-menu_list .menu_list:hover {
+.current_menu_list .menu_item:hover {
   color:#d4a259;
 }
