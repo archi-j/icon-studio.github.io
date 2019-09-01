@@ -1558,7 +1558,7 @@ a.newer-posts:hover {
 }
 
 .medium_button:hover {
-  background-image: url("../../images/medium_logo2.pn");
+  background-image: url("../../images/medium_logo2.png");
   background-size: 22px;
 }
 
@@ -1615,6 +1615,7 @@ a.newer-posts:hover {
 .linkedin_button {
   width: 24px;
   height: 22px;
+  margin-right: 18px;
   margin-bottom: 2px;
   padding: 0px;
   background-color: transparent;
