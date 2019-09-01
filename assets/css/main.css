@@ -1667,18 +1667,15 @@ a.newer-posts:hover {
 }
 
 .menu{
-  border-bottom:1px solid #333;
   font-size:.77778rem;
   line-height:1.5;
-  letter-spacing:.15em;
+  letter-spacing:.3em;
   list-style:none;
   margin:0;
   padding:0;
-  text-transform:uppercase;
 }
 
 .menu_item{
-  border-top:1px solid #333;
   padding:.5em 0;
 }
 
@@ -1692,6 +1689,6 @@ a.newer-posts:hover {
   text-decoration:none;
 }
 
-.current_menu_list .menu_item:hover {
-  color:#d4a259;
+.current_menu_list .menu_item a:hover {
+  color:#fff;
 }
