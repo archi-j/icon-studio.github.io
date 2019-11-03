@@ -30,9 +30,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
+  - jekyll-paginate-v2
 
-gems:
-    - jekyll-paginate-v2
 pagination:
     enabled: true
     per_page: 8
