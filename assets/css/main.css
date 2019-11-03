@@ -1687,5 +1687,5 @@ a.newer-posts:hover {
 .menu_item.active a,
 .menu_item a:hover {
   font-weight: bold;
-  color:black !important;
+  color:rgba(30, 30, 30, 1) !important;
 }
