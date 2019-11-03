@@ -31,6 +31,15 @@ plugins:
   - jekyll-paginate
   - jemoji
 
+gems:
+    - jekyll-paginate-v2
+pagination:
+    enabled: true
+    per_page: 8
+    limit: 0
+    sort_field: "date"
+    sort_reverse: true
+
 paginate: 8
 paginate_path: "/page/:num"
 
@@ -38,10 +47,10 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 
 urls:
     - text: About
-      url: /about/
+      url: /icon-studio.github.io/about/
     - text: Grasshopper
-      url: /GH/
+      url: /icon-studio.github.io/GH/
     - text: Construction 3D Printing
-      url: /3DP/
+      url: /icon-studio.github.io/3DP/
     - text: Computer Vision
-      url: /CV/
+      url: /icon-studio.github.io/CV/
