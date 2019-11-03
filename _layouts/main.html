@@ -19,12 +19,10 @@ layout: default
       <li class="menu_item{% if page.url == site.baseurl %} active{% endif %}">
         <a href="../_posts/GH">Grasshopper</a>
       </li>
-      <li class="menu_item{% if page.url == site.baseurl %} active{% endif %}">
-        <a href="../_posts/3DP">Construction 3D Printing</a>
-      </li>
-      <li class="menu_item{% if page.url == site.baseurl %} active{% endif %}">
-        <a href="../_posts/CV">Computer Vision</a>
-      </li>
+      {% for i in site.urls %}
+        <li class="menu_item{% if page.url == site.baseurl %} active{% endif %}">
+          <a href="{{ i.url }}">{{ i.text }}</a></li>
+      {% endfor %}
     </ul>
   </body>
   <footer>
