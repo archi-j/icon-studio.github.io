@@ -13,14 +13,8 @@ layout: default
   </header> <!-- End Header -->
   <body>
     <ul class="menu">
-      <li class="menu_item{% if page.url == site.baseurl %} active{% endif %}">
-        <a href="../_posts/about">About</a>
-      </li>
-      <li class="menu_item{% if page.url == site.baseurl %} active{% endif %}">
-        <a href="../_posts/GH">Grasshopper</a>
-      </li>
       {% for i in site.urls %}
-        <li class="menu_item{% if page.url == site.baseurl %} active{% endif %}">
+        <li class="menu_item{% if page.url == i.url %} active{% endif %}">
           <a href="{{ i.url }}">{{ i.text }}</a></li>
       {% endfor %}
     </ul>
