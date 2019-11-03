@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About
 date: 2019-11-03 13:32:20 +0300
 permalink: /about/
