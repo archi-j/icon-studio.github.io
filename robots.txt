@@ -1,1 +1,0 @@
-Sitemap: http://localhost:4000/icon-studio.github.io/sitemap.xml
