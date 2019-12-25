@@ -40,9 +40,6 @@ pagination:
     sort_field: "date"
     sort_reverse: true
 
-paginate: nil
-paginate_path: nil
-
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 
 urls:
