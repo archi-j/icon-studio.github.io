@@ -1,46 +1,233 @@
----
-title: Computer Vision
-layout: main
-pagination:
-    enabled: true
-    category: CV
-    per_page: 8
----
-{% for post in paginator.posts %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Computer Vision - Jihoon Chung: Designer, Builder, & Runner</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Jihoon Chung: Designer, Builder, & Runner" property="og:site_name">
+  
+    <meta content="Computer Vision" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+" property="og:description">
+  
+  
+    <meta content="http://localhost:4000/CV/" property="og:url">
+  
+  
+  
+    <meta content="http://localhost:4000/icon-studio.github.io/assets/img/../../images/my_pic.jpeg" property="og:image">
+  
+  
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+  
+    <meta name="twitter:title" content="Computer Vision">
+  
+  
+    <meta name="twitter:url" content="http://localhost:4000/CV/">
+  
+  
+    <meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+  
+  
+    <meta name="twitter:image:src" content="http://localhost:4000/icon-studio.github.io/assets/img/../../images/my_pic.jpeg">
+  
+
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/icon-studio.github.io/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/icon-studio.github.io/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/icon-studio.github.io/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/icon-studio.github.io/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/icon-studio.github.io/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/icon-studio.github.io/assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <p>DESIGNER. <br> BUILDER. <br> & RUNNER.</p>
+      <div class="cover-author-image">
+        <a href="/icon-studio.github.io/"><img src="../images/my_pic_2.jpg" alt="Jihoon Chung"></a>
+      </div>
+    </div>
+  </header> <!-- End Header -->
+  <body>
+    <ul class="menu">
+      
+        <li class="menu_item">
+          <a href="/icon-studio.github.io/about/">About</a></li>
+      
+        <li class="menu_item">
+          <a href="/icon-studio.github.io/GH/">Grasshopper</a></li>
+      
+        <li class="menu_item">
+          <a href="/icon-studio.github.io/3DP/">Construction 3D Printing</a></li>
+      
+        <li class="menu_item">
+          <a href="/icon-studio.github.io/CV/">Computer Vision</a></li>
+      
+    </ul>
+  </body>
+  <footer>
+    <section class="contact">
+      <br>
+			<a href="https://www.instagram.com/jihooonchung/" target="_blank" id="instagram_icon" class="instagram_button w-button"></a>
+			<a href="https://brunch.co.kr/@likecrazy" target="_blank" id="brunch_icon" class="brunch_button w-button"></a>
+			<a href="https://github.com/archi-j/My-studies" target="_blank" id="github_icon" class="github_button w-button"></a>
+			<a href="https://www.linkedin.com/in/jihoon-chung/" target="_blank" id="linkedin_icon" class="linkedin_button w-button"></a>
+      <br>
+			<a class="email-link" target="_blank" href="mailto:j_chung@yonsei.ac.kr">j_chung@yonsei.ac.kr</a>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2019 &copy; Jihoon Chung</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  
 
 
 <article class="post">
-  {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-  {% else %}
-  {% endif %}
+  
+    <a class="post-thumbnail" style="background-image: url(/icon-studio.github.io/assets/img/i-rest.jpg)" href="/icon-studio.github.io/CV_how-i-rest-from-work/"></a>
+  
   <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+    <h2 class="post-title"><a href="/icon-studio.github.io/CV_how-i-rest-from-work/">CV1</a></h2>
+    <p>Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up art party marfa deep...</p>
+    <span class="post-date">2017, Sep 12&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">4 minute read</span>
   </div>
 </article>
 
-{% endfor %}
+
+
+
+<article class="post">
+  
+    <a class="post-thumbnail" style="background-image: url(/icon-studio.github.io/assets/img/workflow.jpg)" href="/icon-studio.github.io/CV_10-tips-to-improve-your-workflow/"></a>
+  
+  <div class="post-content">
+    <h2 class="post-title"><a href="/icon-studio.github.io/CV_10-tips-to-improve-your-workflow/">CV4</a></h2>
+    <p>Asymmetrical portland enamel pin af heirloom ramps authentic thundercats. Synth truffaut schlitz aesthetic, palo santo...</p>
+    <span class="post-date">2017, Sep 12&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">5 minute read</span>
+  </div>
+</article>
+
+
+
+
+<article class="post">
+  
+    <a class="post-thumbnail" style="background-image: url(/icon-studio.github.io/assets/img/software.jpg)" href="/icon-studio.github.io/CV_the-best-organizer-software/"></a>
+  
+  <div class="post-content">
+    <h2 class="post-title"><a href="/icon-studio.github.io/CV_the-best-organizer-software/">CV6</a></h2>
+    <p>Church-key blog messenger bag, selfies umami man braid mlkshk. Pork belly cornhole meditation tumblr meh...</p>
+    <span class="post-date">2017, Sep 12&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">3 minute read</span>
+  </div>
+</article>
+
+
+
+
+<article class="post">
+  
+    <a class="post-thumbnail" style="background-image: url(/icon-studio.github.io/assets/img/how-to-start.jpg)" href="/icon-studio.github.io/CV_how-to-start-programming/"></a>
+  
+  <div class="post-content">
+    <h2 class="post-title"><a href="/icon-studio.github.io/CV_how-to-start-programming/">CV5</a></h2>
+    <p>Post-ironic jean shorts bushwick umami, synth beard austin hell of meh kitsch distillery sustainable plaid...</p>
+    <span class="post-date">2017, Sep 12&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">3 minute read</span>
+  </div>
+</article>
+
+
+
+
+<article class="post">
+  
+    <a class="post-thumbnail" style="background-image: url(/icon-studio.github.io/assets/img/js-1.png)" href="/icon-studio.github.io/CV_conference-on-javascript/"></a>
+  
+  <div class="post-content">
+    <h2 class="post-title"><a href="/icon-studio.github.io/CV_conference-on-javascript/">CV3</a></h2>
+    <p>Jean shorts organic cornhole, gochujang post-ironic chicharrones authentic flexitarian viral PBR&amp;B forage wolf. Man braid...</p>
+    <span class="post-date">2017, Sep 10&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">2 minute read</span>
+  </div>
+</article>
+
+
+
+
+<article class="post">
+  
+  
+  <div class="post-content">
+    <h2 class="post-title"><a href="/icon-studio.github.io/CV_welcome-to-jekyll/">CV2</a></h2>
+    <p>You’ll find this post in your _posts directory. Go ahead and edit it and re-build...</p>
+    <span class="post-date">2017, Apr 06&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">1 minute read</span>
+  </div>
+</article>
+
+
 
 
 <div class="container">
   <nav class="pagination" role="pagination">
     <ul>
-      {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-        <p><a class="newer-posts" href="{{ site.baseurl }}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a></p>
-        {% else %}
-        <p><a class="newer-posts" href="{{ site.baseurl }}/CV/{{ paginator.previous_page }}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a></p>
-        {% endif %}
-      {% endif %}
+      
 
-      <p><span class="page-number">Page {{ page }} of {{paginator.total_pages}}</span></p>
+      <p><span class="page-number">Page {"title"=>"Computer Vision", "layout"=>"main", "pagination"=>{"enabled"=>true, "category"=>"CV", "per_page"=>8}, "content"=>"{% for post in paginator.posts %}\n\n\n<article class=\"post\">\n  {% if post.img %}\n    <a class=\"post-thumbnail\" style=\"background-image: url({{\"/assets/img/\" | prepend: site.baseurl | append : post.img}})\" href=\"{{post.url | prepend: site.baseurl}}\"></a>\n  {% else %}\n  {% endif %}\n  <div class=\"post-content\">\n    <h2 class=\"post-title\"><a href=\"{{post.url | prepend: site.baseurl}}\">{{post.title}}</a></h2>\n    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>\n    <span class=\"post-date\">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>\n    <span class=\"post-words\">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains \"-\" %}{{ words | plus: 250 | divided_by: 250 | append: \" minute read\" }}{% endunless %}</span>\n  </div>\n</article>\n\n{% endfor %}\n\n\n<div class=\"container\">\n  <nav class=\"pagination\" role=\"pagination\">\n    <ul>\n      {% if paginator.previous_page %}\n        {% if paginator.previous_page == 1 %}\n        <p><a class=\"newer-posts\" href=\"{{ site.baseurl }}/\"><i class=\"fa fa-long-arrow-left\" aria-hidden=\"true\"></i></a></p>\n        {% else %}\n        <p><a class=\"newer-posts\" href=\"{{ site.baseurl }}/CV/{{ paginator.previous_page }}/\"><i class=\"fa fa-long-arrow-left\" aria-hidden=\"true\"></i></a></p>\n        {% endif %}\n      {% endif %}\n\n      <p><span class=\"page-number\">Page {{ page }} of {{paginator.total_pages}}</span></p>\n\n      {% if paginator.next_page %}\n      <p><a class=\"older-posts\" href=\"{{ site.baseurl }}/CV/{{ paginator.next_page }}/\"><i class=\"fa fa-long-arrow-right\" aria-hidden=\"true\"></i></a></p>\n      {% endif %}\n    </ul>\n  </nav>\n</div>\n", "dir"=>"/CV/", "name"=>"index.html", "path"=>"CV/index.html", "url"=>"/CV/"} of 1</span></p>
 
-      {% if paginator.next_page %}
-      <p><a class="older-posts" href="{{ site.baseurl }}/CV/{{ paginator.next_page }}/"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
-      {% endif %}
+      
     </ul>
   </nav>
 </div>
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-131742616-1', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>
