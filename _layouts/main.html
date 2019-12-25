@@ -1,0 +1,41 @@
+---
+layout: default
+pagination:
+  enabled: true
+---
+
+<aside class="sidebar">
+  <header>
+    <div class="about">
+      <p>{{site.about-author}}</p>
+      <div class="cover-author-image">
+        <a href="{{site.baseurl}}/"><img src="../images/my_pic_2.jpg" alt="{{site.author}}"></a>
+      </div>
+    </div>
+  </header> <!-- End Header -->
+  <body>
+    <ul class="menu">
+      {% for i in site.urls %}
+        <li class="menu_item{% if page.url == i.url %} active{% endif %}">
+          <a href="{{ i.url }}">{{ i.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </body>
+  <footer>
+    <section class="contact">
+      <br>
+			<a href="https://www.instagram.com/jihooonchung/" target="_blank" id="instagram_icon" class="instagram_button w-button"></a>
+			<a href="https://brunch.co.kr/@likecrazy" target="_blank" id="brunch_icon" class="brunch_button w-button"></a>
+			<a href="https://github.com/archi-j/My-studies" target="_blank" id="github_icon" class="github_button w-button"></a>
+			<a href="https://www.linkedin.com/in/jihoon-chung/" target="_blank" id="linkedin_icon" class="linkedin_button w-button"></a>
+      <br>
+			<a class="email-link" target="_blank" href="mailto:j_chung@yonsei.ac.kr">j_chung@yonsei.ac.kr</a>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  {{ content }}
+</div>
