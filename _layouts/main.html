@@ -19,7 +19,7 @@ pagination:
         <li class="menu_item{% if page.url == i.url %} active{% endif %}">
           {% if i.text == "Blog" %}
             <div class="dropdown">
-              <button class="dropbtn"><a href="{{ i.url }}">{{ i.text }}</a></button>
+              <button class="dropbtn"><a href="{{ i.url }}">{{ i.text }}</a></button></li>
 
               <div class="dropdown-content">
               {% for j in site.subblogs %}
