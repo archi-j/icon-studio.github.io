@@ -43,7 +43,7 @@ exclude:
 
 urls:
     - text: Home
-      url: /home/
+      url: /index.html
     - text: Research
       url: /research/
     - text: Design Works
