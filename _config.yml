@@ -5,7 +5,7 @@ baseurl: "/icon-studio.github.io" # the subpath of your site, e.g. /blog
 url: "https://archi-j.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 username: archi-j
-repo: icon-studio-clone.github.io
+repo: icon-studio.github.io
 branch: master
 site-twitter: #if your site has a twitter account, enter it here
 
@@ -42,13 +42,23 @@ exclude:
   - yarn.lock
 
 urls:
-    - text: About
-      url: /about/
+    - text: Home
+      url: /home/
+    - text: Research
+      url: /research/
+    - text: Design Works
+      url: /design/
+    - text: publication
+      url: /publication/
+    - text: Grasshopper
+      url: /GH/
     - text: Grasshopper
       url: /GH/
     - text: Construction 3D Printing
       url: /3DP/
     - text: Computer Vision
       url: /CV/
+    - text: About
+      url: /about/
     - text: Contact
       url: /contact/
