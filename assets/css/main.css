@@ -941,8 +941,8 @@ table tfoot td {
   bottom: 0;
   right: 0;
   width: 280px;
-  height: 80%;
-  padding: 19% 10px;
+  height: 100%;
+  padding: 10% 10px;
 
   text-align: center;
   text-rendering: optimizeLegibility;
