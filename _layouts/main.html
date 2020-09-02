@@ -20,7 +20,7 @@ pagination:
           <a href="{{ i.url }}">{{ i.text }}</a></li>
           {% if i.text == "Blog" %}
             {% for j in site.subblogs %}
-              <li class="menu_item{% if page.url == j.url % active{% endif %}">
+              <li class="menu_item{% if page.url == j.url %} active{% endif %}">
               <a href="{{ j.url }}">{{ j.text }}</a></li>
             {% endfor %}
           {% endif %}
