@@ -16,23 +16,24 @@ pagination:
   <body>
     <ul class="menu">
       {% for i in site.urls %}
-        <li class="menu_item{% if page.url == i.url %} active{% endif %}">
-          {% if i.text == "Blog" %}
-            <div class="dropdown">
-              <button class="dropbtn"><a href="{{ i.url }}">{{ i.text }}</a></button></li>
+        {% if i.text == "Blog" %}
+          <div class="dropdown">
+            <li class="menu_item{% if page.url == i.url %} active{% endif %}">
+            <button class="dropbtn"><a href="{{ i.url }}">{{ i.text }}</a></button></li>
 
-              <div class="dropdown-content">
-              {% for j in site.subblogs %}
-                <li>
-                <a href="{{ j.url }}">{{ j.text }}</a></li>
-              {% endfor %}
-              </div>
+            <div class="dropdown-content">
+            {% for j in site.subblogs %}
+              <li class="menu_item{% if page.url == j.url %} active{% endif %}">
+              <a href="{{ j.url }}">{{ j.text }}</a></li>
+            {% endfor %}
             </div>
+          </div>
 
-          {% else %}
-            <a href="{{ i.url }}">{{ i.text }}</a></li>
+        {% else %}
+          <li class="menu_item{% if page.url == i.url %} active{% endif %}">
+          <a href="{{ i.url }}">{{ i.text }}</a></li>
 
-          {% endif %}
+        {% endif %}
       {% endfor %}
     </ul>
     <style>
