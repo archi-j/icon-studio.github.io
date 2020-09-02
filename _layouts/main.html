@@ -18,7 +18,8 @@ pagination:
       {% for i in site.urls %}
         <li class="menu_item{% if page.url == i.url %} active{% endif %}">
           {% if i.text == "Blog" %}
-            <button class="dropbtn"><a href="{{ i.url }}">{{ i.text }}</a></li></button>
+          <div class="dropdown">
+            <button class="dropbtn"><a href="{{ i.url }}">{{ i.text }}</a></button>
 
             <div class="dropdown-content">
             {% for j in site.subblogs %}
@@ -26,6 +27,7 @@ pagination:
               <a href="{{ j.url }}">{{ j.text }}</a></li>
             {% endfor %}
             </div>
+          </div>
 
           {% else %}
           <a href="{{ i.url }}">{{ i.text }}</a></li>
