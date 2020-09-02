@@ -43,7 +43,7 @@ exclude:
 
 urls:
     - text: Home
-      url: /index.html
+      url: /
     - text: Research
       url: /research/
     - text: Design Works
@@ -51,7 +51,7 @@ urls:
     - text: publication
       url: /publication/
     - text: Blog
-      url: /blog/
+      url: /index.html
     - text: About
       url: /about/
     - text: Contact
