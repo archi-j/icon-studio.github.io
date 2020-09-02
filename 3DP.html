@@ -1,7 +1,21 @@
 ---
+title: Construction 3D Printing
+description: Construction 3D Printing refers to technologies that use 3D printing to fabricate buildings or contruction components. It's my main reserach area and these articles are my studies based on related journal papers.
 layout: main
+category: 3DP
 ---
-{% for post in paginator.posts %}
+<article class="article-page">
+  <div class="page-content">
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">{{page.title}}</h1>
+        {{page.description}}
+    </div>
+  </div>
+</article>
+
+{% for post in site.posts %}
+  {% if post.category == page.category %}
     <article class="post">
       {% if post.img %}
         <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -14,6 +28,7 @@ layout: main
         <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
       </div>
     </article>
+  {% endif %}
 {% endfor %}
 
 {% include pagination.html %}

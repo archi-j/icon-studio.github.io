@@ -1,0 +1,54 @@
+title: "J. Chung: Designer, Builder & Runner"
+description: Architectural Design / IT Construction / Computer Vision
+permalink: ':title/'
+baseurl: "/icon-studio.github.io" # the subpath of your site, e.g. /blog
+url: "https://archi-j.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+username: archi-j
+repo: icon-studio-clone.github.io
+branch: master
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Jihoon Chung # add your name
+author-img: ../../images/my_pic_2.jpg # add your photo
+about-author: DESIGNER. <br> BUILDER. <br> & RUNNER. # add description
+social-instagram: jihooonchung # add your Instagram handle
+social-brunch: likecrazy # add your Facebook handle
+social-github: archi-j # add your Github handle
+social-linkedin: jihoon-chung # add your Linkedin handle
+social-email: j_chung@yonsei.ac.kr # add your Email address
+
+# Disqus
+discus-identifier: j-chung-1 # add your discus identifier
+
+# Tracker
+analytics: UA-131742616-1 # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude:
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - yarn.lock
+
+urls:
+    - text: About
+      url: /about/
+    - text: Grasshopper
+      url: /GH/
+    - text: Construction 3D Printing
+      url: /3DP/
+    - text: Computer Vision
+      url: /CV/
+    - text: Contact
+      url: /contact/
