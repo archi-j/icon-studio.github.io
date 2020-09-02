@@ -51,7 +51,7 @@ urls:
     - text: publication
       url: /publication/
     - text: Blog
-      url: /index.html
+      url: /index.html/
     - text: About
       url: /about/
     - text: Contact
