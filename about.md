@@ -11,5 +11,5 @@ Hi, my name is Jihoon Chung and this is my blog used for archiving studies in my
 
 More information can be found on my [CV](https://drive.google.com/file/d/1oZSsbIkHi7Ic7EA7atsFGw2tyLl_7kQc/view?usp=sharing) & [Google Scholar Page](https://scholar.google.com/citations?user=ExZUcKYAAAAJ&hl=en&authuser=2).
 
-<a href="/CV_Jihoon Chung.pdf" class="image fit"><img src="assets/img/i-rest.jpg" alt=""></a>
-<a href="https://github.com/archi-j/resume/raw/main/CV_Jihoon%20Chung.pdf" class="image fit"><img src="assets/img/i-rest.jpg" alt=""></a>
+<a href="/CV_Jihoon Chung.pdf" class="image fit">aaaa</a>
+<a href="https://github.com/archi-j/resume/raw/main/CV_Jihoon%20Chung.pdf" class="image fit"><img src="assets/img/i-rest.jpg" alt="">aaa</a>
