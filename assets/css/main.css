@@ -1604,7 +1604,7 @@ a.newer-posts:hover {
 .linkedin_button {
   width: 24px;
   height: 24px;
-  margin-bottom: 0px;
+  margin-bottom: 2px;
   padding: 0px;
   background-color: transparent;
   background-image: url("../../images/linkedin_logo1.png");
