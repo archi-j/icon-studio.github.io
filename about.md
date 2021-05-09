@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-date: 2019-12-25 20:38:20 +0300
 permalink: /about/
 img: i-rest.jpg
 ---

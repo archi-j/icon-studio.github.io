@@ -48,7 +48,7 @@ urls:
       url: /research/
     - text: Design Works
       url: /design/
-    - text: publication
+    - text: Publication
       url: /publication/
     - text: Blog
       url: /index.html
