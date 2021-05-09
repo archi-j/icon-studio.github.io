@@ -1561,7 +1561,7 @@ a.newer-posts:hover {
   background-color: transparent;
   background-image: url("../../images/issuu_logo.png");
   background-position: 0px 0px;
-  background-size: 22px 22px;
+  background-size: 24px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   opacity: 1;
@@ -1585,7 +1585,7 @@ a.newer-posts:hover {
   background-color: transparent;
   background-image: url("../../images/github_logo.png");
   background-position: 0px 0px;
-  background-size: 22px 22px;
+  background-size: 24px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   opacity: 1;
