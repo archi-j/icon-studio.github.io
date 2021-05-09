@@ -1602,9 +1602,9 @@ a.newer-posts:hover {
 }
 
 .linkedin_button {
-  width: 26px;
+  width: 24px;
   height: 24px;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
   padding: 0px;
   background-color: transparent;
   background-image: url("../../images/linkedin_logo1.png");
@@ -1618,6 +1618,7 @@ a.newer-posts:hover {
 
 .linkedin_button:hover {
   background-image: url("../../images/linkedin_logo2.png");
+  margin-bottom: 2px;
   background-size: 24px;
   opacity: 1;
 }
