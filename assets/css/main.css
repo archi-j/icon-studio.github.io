@@ -989,8 +989,8 @@ table tfoot td {
 .about p {
   font-family: sans-serif, 'Noto Sans KR Light';
   margin: 0 0 10px;
-  font-size: 2.3rem;
-  font-weight: 800;
+  font-size: 2.6rem;
+  font-weight: bold;
   line-height: 1.2;
   padding-bottom: 5px;
 }
@@ -1392,7 +1392,7 @@ a.newer-posts:hover {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: inline-block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
