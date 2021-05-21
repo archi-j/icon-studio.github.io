@@ -1157,14 +1157,14 @@ footer .copyright {
   font-weight: 400;
 }
 
-body.post body.post-content body.post-title a {
-  font-family: 'Lora', serif, 'Jeju Myeongjo';
+.post .post-content .post-title a {
   text-decoration: none;
   color: #263959;
 }
 
 .post .post-content p {
   margin-top: 0;
+  font-family: 'Lora', serif, 'Jeju Myeongjo';
 }
 
 a.older-posts, a.newer-posts {
@@ -1193,6 +1193,10 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
+}
+
+p .wrap-content{
+  font-family: 'Lora', serif, 'Jeju Myeongjo';
 }
 
 .header-page {
