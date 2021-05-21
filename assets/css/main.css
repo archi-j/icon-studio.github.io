@@ -9,6 +9,7 @@
 
 @import url(https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);//google web font added
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 
 html {
   line-height: 1.15;
@@ -987,7 +988,7 @@ table tfoot td {
 }
 
 .about p {
-  font-family: sans-serif, 'Noto Sans KR Light';
+  font-family: 'Lora', 'Noto Sans KR Light';
   margin: 0 0 10px;
   font-size: 2.6rem;
   font-weight: bold;
@@ -1157,7 +1158,7 @@ footer .copyright {
 }
 
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif, 'Noto Sans KR Light';
+  font-family: 'PT Serif', serif, 'Jeju Myeongjo';
   text-decoration: none;
   color: #263959;
 }
