@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-permalink: /publication/
+permalink: /publications/
 img: i-rest.jpg
 ---
 
