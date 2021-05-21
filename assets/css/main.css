@@ -236,7 +236,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif. 'Noto Sans KR Light';
+  font-family: sans-serif, 'Noto Sans KR Light';
   /* 1 */
   font-size: 100%;
   /* 1 */
@@ -1648,7 +1648,7 @@ a.newer-posts:hover {
 .email_button {
   width: 28px;
   height: 19px;
-  margin-bottom: : 1px;
+  margin-bottom: 1px;
   padding:0px;
   background-color: transparent;
   background-image: url("../../images/email_logo1.png");
