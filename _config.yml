@@ -48,10 +48,10 @@ urls:
       url: /research/
     - text: Design Works
       url: /design/
-    - text: Publication
-      url: /publication/
+    - text: Publications
+      url: /publications/
     - text: Blog
-      url: /index.html
+      url: /blog.html
     - text: About
       url: /about/
     - text: Contact
