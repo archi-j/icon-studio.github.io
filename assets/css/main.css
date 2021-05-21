@@ -1157,7 +1157,7 @@ footer .copyright {
   font-weight: 400;
 }
 
-.post .post-content .post-title a {
+body.post body.post-content body.post-title a {
   font-family: 'Lora', serif, 'Jeju Myeongjo';
   text-decoration: none;
   color: #263959;
