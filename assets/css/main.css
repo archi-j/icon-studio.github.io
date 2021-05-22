@@ -1162,7 +1162,7 @@ footer .copyright {
   color: #263959;
 }
 
-.post .post-content p  body{
+.post .post-content p body.post body.post-content{
   margin-top: 0;
   font-family: 'Lora', serif, 'Jeju Myeongjo';
 }
