@@ -2,7 +2,6 @@
 layout: page
 title: About
 permalink: /about/
-img: i-rest.jpg
 ---
 
 <br><center><img src="../assets/img/my_pic2.png" width="30%"> </center><br>
