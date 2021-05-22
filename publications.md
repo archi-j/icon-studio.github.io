@@ -2,7 +2,6 @@
 layout: page
 title: Publications
 permalink: /publications/
-img: i-rest.jpg
 ---
 
 #### **Journals**
