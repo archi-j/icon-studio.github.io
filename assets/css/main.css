@@ -1158,13 +1158,14 @@ footer .copyright {
 }
 
 .post .post-content .post-title a {
+  font-family: 'PT Serif', serif, 'Jeju Myeongjo';
   text-decoration: none;
   color: #263959;
 }
 
 .post .post-content p{
   margin-top: 0;
-  font-family: 'Lora', serif, 'Jeju Myeongjo';
+  font-family: 'PT Serif', serif, 'Jeju Myeongjo';
 }
 
 a.older-posts, a.newer-posts {
