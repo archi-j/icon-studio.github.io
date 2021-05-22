@@ -16,6 +16,3 @@ i.src = "https://cdn.curator.io/published/d548ea14-fa66-4ebb-be4b-3d8441a95625.j
 e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
 })();
 </script>
-
-
-<div class="tagembed-container" style=" width:20%;height:100%;overflow: auto;"><div class="tagembed-socialwall" data-wall-id="4921" view-url="https://widget.tagembed.com/4921?view">  </div> <script src="//widget.tagembed.com/embed.min.js" type="text/javascript"></script></div>
