@@ -6,7 +6,7 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -102,6 +102,8 @@ hr {
 pre {
   overflow: auto;
 }
+
+/*
 code,
 kbd,
 pre,
@@ -109,6 +111,7 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
+*/
 button,
 input,
 optgroup,
@@ -265,7 +268,7 @@ th {
   }
 }
 @font-face {
-  font-family: 'Glyphicons Halflings';
+  /*font-family: 'Glyphicons Halflings';*/
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
@@ -274,11 +277,12 @@ th {
   position: relative;
   top: 1px;
   display: inline-block;
+  /*
   font-family: 'Glyphicons Halflings';
   font-style: normal;
   font-weight: normal;
+  */
   line-height: 1;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1074,6 +1078,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/*  
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -1081,7 +1086,6 @@ body {
   color: #333;
   background-color: #fff;
 }
-
 input,
 button,
 select,
@@ -1090,6 +1094,7 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
+*/
 a {
   color: #337ab7;
   text-decoration: none;
@@ -1163,6 +1168,7 @@ hr {
   overflow: visible;
   clip: auto;
 }
+/*
 h1,
 h2,
 h3,
@@ -1281,6 +1287,7 @@ h6,
 p {
   margin: 0 0 10px;
 }
+*/
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -1512,9 +1519,11 @@ address {
 code,
 kbd,
 pre,
+/*
 samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+*/
 code {
   padding: 2px 4px;
   font-size: 90%;
