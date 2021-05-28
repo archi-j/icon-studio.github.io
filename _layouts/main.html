@@ -13,7 +13,7 @@ pagination:
       </div>
     </div>
   </header> <!-- End Header -->
-  <body>
+  <body oncontextmenu='return false' ondragstart='return false' onselectstart='return false'>
     <ul class="menu">
       {% for i in site.urls %}
         {% if i.text == "Blog" %}

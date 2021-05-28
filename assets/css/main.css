@@ -1163,9 +1163,15 @@ footer .copyright {
   color: #263959;
 }
 
+.post .post-content body,
 .post .post-content p{
   margin-top: 0;
   font-family: 'PT Serif', serif, 'Jeju Myeongjo';
+}
+
+.post body,
+.post p{
+  font-weight: bold;
 }
 
 a.older-posts, a.newer-posts {
