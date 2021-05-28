@@ -1211,6 +1211,10 @@ p .wrap-content{
   line-height: 1.3;
 }
 
+body .page-title{
+  font-family: 'Lora', serif, 'Jeju Myeongjo';
+}
+
 .header-page .page-date {
   color: #a0a0a0;
   font-weight: 300;
