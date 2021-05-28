@@ -1165,7 +1165,7 @@ footer .copyright {
 
 .post .post-content p{
   margin-top: 0;
-  font-family: 'Lato', sans-serif, 'Noto Sans KR Light';
+  /*font-family: 'Lato', sans-serif, 'Noto Sans KR Light';*/
 }
 
 a.older-posts, a.newer-posts {
