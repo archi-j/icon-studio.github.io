@@ -1,0 +1,35 @@
+---
+title: Research Project
+description: Computer Vision is an scientific field that deals with how computers can be made to gain high-level understanding from digital images or videos. These articles are my studies focused on convolutional neural network algorithm.
+layout: main
+---
+<article class="article-page">
+  <div class="page-content">
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">{{page.title}}</h1>
+        {{page.description}}
+    </div>
+  </div>
+</article>
+
+{% for post in site.posts %}
+    {% if post in posts.research == true %}
+    
+      <article class="post">
+        {% if post.img %}
+          <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+        {% else %}
+        {% endif %}
+        <div class="post-content">
+          <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+          <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+          <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+          <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+        </div>
+      </article>
+
+    {% endif %}
+{% endfor %}
+
+{% include pagination.html %}
