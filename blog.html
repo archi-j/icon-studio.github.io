@@ -1,5 +1,5 @@
 ---
-title: Computer Vision
+title: Blog
 description: Computer Vision is an scientific field that deals with how computers can be made to gain high-level understanding from digital images or videos. These articles are my studies focused on convolutional neural network algorithm.
 layout: main
 ---
@@ -13,7 +13,7 @@ layout: main
   </div>
 </article>
 
-{% for post in paginator.posts %}
+{% for post in site.posts %}
     <article class="post">
       {% if post.img %}
         <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
