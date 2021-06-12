@@ -1111,7 +1111,7 @@ footer .copyright {
           align-items: stretch;
 }
 
-#project .post .post-thumbnail{
+#project a.post-thumbnail{
   width: 100%;
 }
 
