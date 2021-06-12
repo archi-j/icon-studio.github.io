@@ -1124,7 +1124,7 @@ footer .copyright {
           box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
 }
 
-#project .post{
+.project .post{
   width: 31.3%;
   margin: 0 0.9% 1.5%;
   display: flex;
@@ -1139,7 +1139,7 @@ footer .copyright {
           align-items: stretch;
 }
 
-#project .post-thumbnail{
+.project .post-thumbnail{
   width: 100%;
 }
 
@@ -1411,7 +1411,7 @@ body .post-title-in{
   .post .post-content .post-title a {
     font-size: 21px;
   }
-  #project .post {
+  .project .post {
     width: 48%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
@@ -1512,7 +1512,7 @@ body .post-title-in{
   .post .post-content .post-title a {
     font-size: 21px;
   }
-  #project .post {
+  .project .post {
     width: 98%;
     max-width: 100%;
     margin: 2%;
