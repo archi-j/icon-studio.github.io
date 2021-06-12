@@ -1111,7 +1111,7 @@ footer .copyright {
           align-items: stretch;
 }
 
-#project a.post-thumbnail{
+#project .post-thumbnail{
   width: 100%;
 }
 
@@ -1411,6 +1411,16 @@ body .post-title-in{
   .post .post-content .post-title a {
     font-size: 21px;
   }
+  #project .post {
+    width: 48%;
+    max-width: 100%;
+    margin: 0 0.9% 1.5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -1501,6 +1511,16 @@ body .post-title-in{
   }
   .post .post-content .post-title a {
     font-size: 21px;
+  }
+  #project .post {
+    width: 98%;
+    max-width: 100%;
+    margin: 2%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
