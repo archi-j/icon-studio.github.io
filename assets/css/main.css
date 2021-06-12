@@ -1096,6 +1096,21 @@ footer .copyright {
   margin: 7px;
 }
 
+#project{
+  width: 31.3%;
+  margin: 0 0.9% 1.5%;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
 .post {
   width: 100%;
   max-width: 100%;
