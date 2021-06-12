@@ -1125,7 +1125,7 @@ footer .copyright {
 }
 
 #project.post{
-  width: 31.3%;
+  width: 48%;
   margin: 0 0.9% 1.5%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1425,7 +1425,7 @@ body .post-title-in{
     font-size: 21px;
   }
   #project.post {
-    width: 48%;
+    width: 98%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
     -webkit-box-orient: vertical;
