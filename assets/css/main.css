@@ -1096,7 +1096,7 @@ footer .copyright {
   margin: 7px;
 }
 
-#project{
+#project .post{
   width: 31.3%;
   margin: 0 0.9% 1.5%;
   display: flex;
@@ -1109,6 +1109,10 @@ footer .copyright {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+}
+
+#project .post .post-thumbnail{
+  width: 100%;
 }
 
 .post {
