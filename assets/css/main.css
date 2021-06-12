@@ -1154,6 +1154,9 @@ footer .copyright {
 
 #project.post-thumbnail{
   width: 100%;
+  min-height: 18rem;
+  -webkit-background-size: cover;
+          background-size: cover;
 }
 
 .post:hover {
