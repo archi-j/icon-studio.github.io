@@ -15,6 +15,7 @@ category: research
 </article>
 
 {% for post in site.posts %}
+<p>{{post.category}}</p>
   {% if post.category == page.category %}
 
       <article class="post" id="project">
