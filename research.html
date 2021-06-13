@@ -1,5 +1,5 @@
 ---
-title: Research Projects
+title: Research Project
 description: Computer Vision is an scientific field that deals with how computers can be made to gain high-level understanding from digital images or videos. These articles are my studies focused on convolutional neural network algorithm.
 layout: main
 category: research
@@ -15,10 +15,8 @@ category: research
 </article>
 
 {% for post in site.posts %}
-<p>{{post.category}}</p>
-{% for category in post.category %}
-  {% if category == page.category %}
-
+  {% for category in post.category %}
+    {% if category == page.category %}
       <article class="post" id="project">
         {% if post.img %}
           <a class="post-thumbnail" id="project" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -30,6 +28,6 @@ category: research
           <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
         </div>
       </article>
-  {% endif %}
+    {% endif %}
   {% endfor %}
 {% endfor %}
