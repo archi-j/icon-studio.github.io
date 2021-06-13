@@ -898,8 +898,12 @@ table tfoot td {
   position: relative;
 }
 
-.post, .article-page {
+.post {
   background-color: #fff;
+}
+.article-page{
+  background-color: #fff;
+  width: 100%;
 }
 
 ::-moz-selection {
