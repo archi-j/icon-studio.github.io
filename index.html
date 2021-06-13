@@ -11,7 +11,7 @@ layout: main
 </article>
 
 {% for post in site.posts %}
-  {% if "research" == post.category  %}
+  {% if "research" in post.category  %}
 
       <article class="post" id="project">
         {% if post.img %}
