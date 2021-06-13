@@ -10,14 +10,12 @@ layout: main
   </div>
 </article>
 
-{{site.posts[0]}}
-
 {% for post in site.posts %}
   {% if post.category == page.category %}
 
-      <article class="post" class="project">
+      <article class="post" id="project">
         {% if post.img %}
-          <a class="post-thumbnail" class="project" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+          <a class="post-thumbnail" id="project" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
         {% else %}
         {% endif %}
         <div class="post-content">
