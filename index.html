@@ -53,7 +53,9 @@ layout: main
 </article>
 
 {% for post in site.posts %}
-  {% if "research" != post.category  %}
+  {% for category in post.category %}
+    {% if "research" != category  %}
+      {% if "highlight" != category %}
     <article class="post">
       {% if post.img %}
         <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -66,7 +68,9 @@ layout: main
         <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
       </div>
     </article>
-  {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 {% endfor %}
 
 
