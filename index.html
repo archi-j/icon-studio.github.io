@@ -15,7 +15,7 @@ layout: main
   {% if "research" == post.category  %}
 
       <article class="post" id="project">
-        {% if post.img %}
+        <p>{% if post.img %}</p>
           <a class="post-thumbnail" id="project" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
         {% else %}
         {% endif %}
