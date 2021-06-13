@@ -13,7 +13,7 @@ layout: main
 
 {% for post in site.posts %}
   {% for category in post.category %}
-    {% if "highlight" == page.category %}
+    {% if "highlight" == post.category %}
       <article class="post" id="project">
         {% if post.img %}
           <a class="post-thumbnail" id="project" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
