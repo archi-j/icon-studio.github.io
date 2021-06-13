@@ -11,10 +11,6 @@ category: research
         <h1 class="page-title">{{page.title}}</h1>
         {{page.description}}
         </header>
-    </div>
-  </div>
-</article>
-
 {% for post in site.posts %}
   {% for category in post.category %}
     {% if category == page.category %}
@@ -32,3 +28,7 @@ category: research
     {% endif %}
   {% endfor %}
 {% endfor %}
+
+    </div>
+  </div>
+</article>

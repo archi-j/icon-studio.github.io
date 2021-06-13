@@ -11,9 +11,6 @@ category: CV
         <h1 class="page-title">{{page.title}}</h1>
         {{page.description}}
       </header>
-    </div>
-  </div>
-</article>
 
 {% for post in site.posts %}
   {% for category in post.category %}
@@ -33,3 +30,7 @@ category: CV
     {% endif %}
   {% endfor %}
 {% endfor %}
+
+    </div>
+  </div>
+</article>
