@@ -10,7 +10,8 @@ layout: main
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
       {{page.description}}
-  <div>
+      </header>
+  <div class="wj-contact-align">
     <form class="wj-contact" action="https://formspree.io/mlepyzqv" method="POST">
         <input type="text" name="email" placeholder="Email Address">
         <input type="text" name="name" placeholder="Name">
@@ -42,6 +43,7 @@ layout: main
     form.wj-contact input[type="submit"] {
         outline: none;
         color: white;
+        text-align: left;
         background-color: #2e83e6;
         border-radius: 3px;
         padding: 0.5em;
@@ -49,8 +51,10 @@ layout: main
         border: 1px solid transparent;
         height: auto;
     }
+    .wj-contact-align{
+      text-align: center;
+    }
     </style>
-  </header>
 </div>
   </div>
 </article>
