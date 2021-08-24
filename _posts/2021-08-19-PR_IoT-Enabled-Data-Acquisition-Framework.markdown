@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Paper Reading] 2021_Internet of Things Enabled Data Acquisition Framework"
+title: "[Paper Reading] How to utilize IoT technologies for smart building research and applications?"
 date: 2021-08-19 09:00:00 +0300
-description: How to utilize IoT technologies for smart building research and applications? # Add post description (optional)
+description: 2021_Internet of Things Enabled Data Acquisition Framework for Smart Building Applications # Add post description (optional)
 img: PR/20210819/fig1.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 category: [PR]
