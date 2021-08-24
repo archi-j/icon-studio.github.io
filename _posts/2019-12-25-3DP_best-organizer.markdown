@@ -5,7 +5,7 @@ date: 2019-12-25 13:32:20 +0300
 description: 미국에 쏠렸던 자금 이동 ‘전망’...새해 미증시 ‘심판의 날’ 우려. # Add post description (optional)
 img: i-rest.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-category: 3DP
+category: [3DP]
 tags: [Holidays, Hawaii]
 ---
 새로운 10년을 여는 2020년 금융시장이 ‘위태로운 고요’ 속에 미국 증시에서 신흥국으로 글로벌 자금이 이동하는 ‘심판의 날’을 맞을 수 있다는 견해가 글로벌 자산운용사와 투자은행에서 제기됐다. 이들은 통화정책이 막다른 골목에 다다라 새해 화두는 ‘재정정책’이 될 것으로 전망했다.

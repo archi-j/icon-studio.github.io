@@ -1,6 +1,80 @@
 ---
 layout: main
 ---
+<article class="article-page">
+  <div class="page-content">
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">Research Project</h1>
+      </header>
+
+{% for post in site.posts %}
+  {% for category in post.category %}
+    {% if category == "highlight" %}
+      <article class="post" id="project">
+        {% if post.img %}
+          <a class="post-thumbnail" id="project" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+        {% else %}
+        {% endif %}
+        <div class="post-content">
+          <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+          <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+          <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+        </div>
+      </article>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+    </div>
+  </div>
+</article>
+
+
+<article class="article-page">
+  <div class="page-content">
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">Design works</h1>
+      </header>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-7dadcb9b-97af-4867-ae9f-878a907aad74"></div>
+    </div>
+  </div>
+</article>
+
+<article class="article-page">
+  <div class="page-content">
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">Blog</h1>
+      </header>
+
+{% for post in site.posts %}
+  {% for category in post.category %}
+    {% if "research" != category  %}
+      {% if "highlight" != category %}
+    <article class="post">
+      {% if post.img %}
+        <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+      {% else %}
+      {% endif %}
+      <div class="post-content">
+        <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+        <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+        <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+        <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+      </div>
+    </article>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+    </div>
+  </div>
+</article>
+
+
+<!--
 {% for post in paginator.posts %}
     <article class="post">
       {% if post.img %}
@@ -17,3 +91,4 @@ layout: main
 {% endfor %}
 
 {% include pagination.html %}
+-->
