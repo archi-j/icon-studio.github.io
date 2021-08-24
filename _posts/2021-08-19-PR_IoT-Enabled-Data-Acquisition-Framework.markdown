@@ -2,8 +2,8 @@
 layout: post
 title: [Paper Reading] 2021_Internet of Things Enabled Data Acquisition Framework
 date: 2021-08-19 09:00:00 +0300
-description: 미국에 쏠렸던 자금 이동 ‘전망’...새해 미증시 ‘심판의 날’ 우려. # Add post description (optional)
-img: PR/20210819/.jpg # Add image post (optional)
+description: How to utilize IoT technologies for smart building research and applications? # Add post description (optional)
+img: PR/20210819/fig1.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 category: [PR]
 tags: [BIM, IoT, Reading]
