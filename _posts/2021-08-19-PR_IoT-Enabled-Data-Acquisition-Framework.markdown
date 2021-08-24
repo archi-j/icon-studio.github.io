@@ -56,6 +56,7 @@ tags: [BIM, IoT, Reading]
 			§ MariaDB is adopted as database system. A Python to MariaDB Connector provides the support for Pyhton to manage the data stored in the MariaDB database (extract, transform, and load(ETL)). The extracted data are stored in the local MariaDB database.
 			§ Fig.6
 	4. The case study was conducted to demonstrate the proposed system prototype in a campus building
+
 ### Validation
 	- The case study is divided into two parts:
 		1. To evaluate the data agent for extracting data from building systems
@@ -66,6 +67,7 @@ tags: [BIM, IoT, Reading]
 			§ Fig.7
 			§ Fig.8
 			§ Fig.9
+
 ### Discusssion: How it can be used?
 	- Use Case 1: Facility Life-Cycle Cost Aanlysis
 	- Use Case2: Improved Energy Modeling and Calibration
@@ -76,6 +78,7 @@ tags: [BIM, IoT, Reading]
 		○ "The Basic Facility Data Package" provides the fundamental data for the smart building network.
 		○ The proposed architecture not only provide data to the network but also require services from it. For instance, security, emergency assistance, data connection, and operation and maintenance.
 		○ Fig.12
+    
 ### Conclusion
 	- Summary
 	- Contribution
