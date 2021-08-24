@@ -10,7 +10,7 @@ tags: [BIM, IoT, Reading]
 ---
 **Publication year:** 2021 <br>
 **Authors:** Xinghua Gao, Pardis Pishdad-Bozorgi, Dennis R. Shelden, and Shu Tang <br>
-**DOI:** "https://doi.org/10.1061/(ASCE)CO.1943-7862.0001983"
+**DOI:** [https://doi.org/10.1061/(ASCE)CO.1943-7862.0001983](https://ascelibrary.org/doi/10.1061/%28ASCE%29CO.1943-7862.0001983)
 
 ### Introduction
 	- Background
