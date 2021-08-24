@@ -3,13 +3,13 @@ layout: post
 title: "[Paper Reading] How to utilize IoT technologies for smart building research and applications?"
 date: 2021-08-19 09:00:00 +0300
 description: 2021_Internet of Things Enabled Data Acquisition Framework for Smart Building Applications # Add post description (optional)
-img: "PR/20210819/fig1.png" # Add image post (optional)
+img: "fig1.png" # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 category: [PR]
 tags: [BIM, IoT, Reading]
 ---
-**Publication year:** 2021
-**Authors:** Xinghua Gao, Pardis Pishdad-Bozorgi, Dennis R. Shelden, and Shu Tang
+**Publication year:** 2021 <br>
+**Authors:** Xinghua Gao, Pardis Pishdad-Bozorgi, Dennis R. Shelden, and Shu Tang <br>
 **DOI:** "https://doi.org/10.1061/(ASCE)CO.1943-7862.0001983"
 
 ### Introduction
