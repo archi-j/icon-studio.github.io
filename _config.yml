@@ -63,3 +63,5 @@ subblogs:
       url: /3DP/
     - text: Computer Vision
       url: /CV/
+    - text: Paper Reading
+      url: /PR/
