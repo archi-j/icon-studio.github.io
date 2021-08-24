@@ -1,0 +1,16 @@
+---
+layout: post
+title: [Paper Reading] 2021_Internet of Things Enabled Data Acquisition Framework
+date: 2021-08-19 09:00:00 +0300
+description: How to utilize IoT technologies for smart building research and applications? # Add post description (optional)
+img: js-1.png # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+category: [PR]
+tags: [BIM, IoT, Reading]
+---
+
+
+### Introduction
+	- Background
+		○ According to the UN, the world's urban population is expected to grow by 2.5 billion from 2014 to 2050. It would be connected to the fundamental demands such as housing, utilities, medical care, welfare, education, and employment.
+	
