@@ -65,9 +65,9 @@ tags: [BIM, IoT, Reading]
 	- To evaluate the data agent integrated with sensors for indoor environment data generation
 		- Eight data agents were deployed in a campus building and generated data for two weeks.
 		- The indoor environment data were integrated and stored in the central database server.
-![Fig.7]({{site.baseurl}}/assets/img/20210819/fig7.PNG){: width="470"}
-![Fig.8]({{site.baseurl}}/assets/img/20210819/fig8.PNG){: width="700"}
-![Fig.9]({{site.baseurl}}/assets/img/20210819/fig9.PNG){: width="700"}
+![Fig.7]({{site.baseurl}}/assets/img/20210819/fig7.PNG){: width="470"}{: .center}
+![Fig.8]({{site.baseurl}}/assets/img/20210819/fig8.PNG){: width="700"}{: .center}
+![Fig.9]({{site.baseurl}}/assets/img/20210819/fig9.PNG){: width="700"}{: .center}
 
 ## Discussion: How it can be used?
   - Use Case 1: Facility Life-Cycle Cost Analysis
