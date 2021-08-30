@@ -3,11 +3,12 @@ layout: post
 title: "[Paper Reading] How to utilize IoT technologies for smart building research and applications?"
 date: 2021-08-19 09:00:00 +0300
 description: 2021_Internet of Things Enabled Data Acquisition Framework for Smart Building Applications # Add post description (optional)
-img: 20210819_main.PNG # Add image post (optional)
+img: 20210819_main.PNG # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
 category: [PR]
 tags: [BIM, IoT, Reading]
 ---
+
 **Publication year:** 2021 <br>
 **Authors:** Xinghua Gao, Pardis Pishdad-Bozorgi, Dennis R. Shelden, and Shu Tang <br>
 **DOI:** [https://doi.org/10.1061/(ASCE)CO.1943-7862.0001983](https://ascelibrary.org/doi/10.1061/%28ASCE%29CO.1943-7862.0001983)
@@ -64,7 +65,7 @@ tags: [BIM, IoT, Reading]
 	- To evaluate the data agent integrated with sensors for indoor environment data generation
 		- Eight data agents were deployed in a campus building and generated data for two weeks.
 		- The indoor environment data were integrated and stored in the central database server.
-![Fig.7]({{site.baseurl}}/assets/img/20210819/fig7.PNG){: width="700"}
+![Fig.7]({{site.baseurl}}/assets/img/20210819/fig7.PNG){: width="470"}
 ![Fig.8]({{site.baseurl}}/assets/img/20210819/fig8.PNG){: width="700"}
 ![Fig.9]({{site.baseurl}}/assets/img/20210819/fig9.PNG){: width="700"}
 
