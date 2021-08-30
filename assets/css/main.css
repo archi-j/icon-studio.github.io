@@ -1835,3 +1835,8 @@ body .post-title-in{
 .dropdown:hover .dropbtn {
   font-weight: bold;
   color:rgba(30, 30, 30, 1);}
+
+.img_center{
+  display: block;
+  margin: auto;
+}
