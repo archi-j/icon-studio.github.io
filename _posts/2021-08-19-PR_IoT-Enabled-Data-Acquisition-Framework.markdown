@@ -3,7 +3,7 @@ layout: post
 title: "[Paper Reading] How to utilize IoT technologies for smart building research and applications?"
 date: 2021-08-19 09:00:00 +0300
 description: 2021_Internet of Things Enabled Data Acquisition Framework for Smart Building Applications # Add post description (optional)
-img: fig4.PNG # Add image post (optional)
+img: 20210819_main.PNG # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 category: [PR]
 tags: [BIM, IoT, Reading]
