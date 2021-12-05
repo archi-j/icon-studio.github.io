@@ -6,7 +6,7 @@ description: Urban Planning Project # Add post description (optional)
 img: i-rest.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 category: [research, highlight]
-tags: [Research, Urban Planning, Computational Design]
+tags: [Research, Urban, Computation]
 ---
 This project tackles corona blue phenomena in South Korea, which means depression caused by anxiety of infectious disease, reduced income, and loneliness out of unprecedented social distancing, since the outbreak of COVID-19. To overcome this situation, the proposal redesigns several Mangwon streets to keep social interaction and the safe distance of 6ft rule. The streets are selected for attracting pedestrians from overcrowded places, based on spatial network analysis, on-site survey, and typology analysis. The centrality, particularly betweenness, on each street was analyzed to figure out possibility of floating population. On-site survey was conducted to validate correlation between the betweenness value and real data collected throught the survey. Then, street typology was analyzed focused on street types, road with, pedestrain passage, program at first floor, the number of floors, and betweenness value. Based on the analysis result, New types of streets were proposed to keep social connection during the social distancing.
 
