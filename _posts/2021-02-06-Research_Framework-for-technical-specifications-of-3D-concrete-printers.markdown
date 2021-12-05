@@ -3,6 +3,7 @@ layout: post
 title: "Framework for technical specifications of 3D concrete printers"
 date: 2021-02-06 13:32:20 +0300
 description: 3D Concrete Printing Project # Add post description (optional)
+category: [research, highlight]
 category: [Research, Thesis, 3D Printing]
 img: workflow.jpg # Add image post (optional)
 ---
