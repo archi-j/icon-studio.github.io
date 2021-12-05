@@ -1,27 +1,13 @@
 ---
 layout: post
-title: Research Project 1
-date: 2017-04-06 13:32:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+title: "Haebang-ro: Relationship between Haebang-chon and Yongsan Park"
+date: 2018-06-06 13:32:20 +0300
+description: Undergraduate Thesis # Add post description (optional)
 category: [research, highlight]
 img: workflow.jpg # Add image post (optional)
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+This project presents a road connecting Namsan Mountain and Yongsan Park over the buildings in Haebang-chon. Yongsan distrcit has acted as the center of Seoul. After an announcement planning to relocate the U.S. military base in 2009, a movement was about to transform the U.S. military base area into Yongsan Park. For the past few years, the residents have fiercely opposed the city’s several large-scale plans, such as the “Namsan Greenway” project, because their buildings had to be torn down. The road between Yongsan Park and Namsan that maintains existing buildings can be a compromise between the residents and the city’s plans. This project suggests renovating four of the most symbolic places in Haebanchon: Haebang Church, Shinheung Market, Haebang Ogeori, and the public parking lot. In this project, Shinheung Market is mainly designed. This market is now underdeveloped and is the most urgent to be renovated . Due to construction regulations, the Buildings cannot be extended more than four stories above the Namsan Mountain, and the building owners cannot receive any subsidies from the government, because of their private ownership. To cover the existing monthly rent, they gradually change the market into residential use. Several young entrepreneurs try to do business in the buildings; however, it seems unmanageable. The meaning of Shinheung Market, “emerging market (in English)”, is tarnished in the bureaucratic society and capitalism.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+<img src="https://drive.google.com/uc?export=view&id=1wK33r8b2t4g8-Ge9bPKs4iAd68XIoXSg" style="780px;" alt="Proejct image">
+<img src="https://drive.google.com/uc?export=view&id=16481Pl6OhQMf214AMYvS8zjSF45IZXcN" style="780px;" alt="Proejct image">
+<img src="https://drive.google.com/uc?export=view&id=1GKx14ctdutetLO-aCgenypTVhev-hZNe" style="1050px;" alt="Proejct image">
