@@ -18,4 +18,4 @@ This project focuses on Shinheung Market where renovation is the most urgent. Th
 <img src="https://drive.google.com/uc?export=view&id=1wK33r8b2t4g8-Ge9bPKs4iAd68XIoXSg" class="" style="width:39.5%;" alt="Masterplan">
 <img src="https://drive.google.com/uc?export=view&id=16481Pl6OhQMf214AMYvS8zjSF45IZXcN" class="" style="width:60%;" alt="Building Diagram">
 <img src="https://drive.google.com/uc?export=view&id=1GKx14ctdutetLO-aCgenypTVhev-hZNe" class="post_img" style="width:100%;" alt="Process Diagram">
-<img src="https://drive.google.com/uc?export=view&id=1WM0-ARaf7xYnjE6aOFOW5bZOFwzcN8aK" class="post_img" style="width:100%;" alt="Scene">
+<img src="https://drive.google.com/uc?export=view&id=1obw06ntdMxCMWgH5fntq2CGlH3Z8rxx5" class="post_img" style="width:100%;" alt="Scene">
