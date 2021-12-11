@@ -3,7 +3,7 @@ layout: post
 title: "How to Keep Social Connections during Social Distancing?"
 date: 2020-09-12 13:32:20 +0300
 description: Urban Planning Project # Add post description (optional)
-img: i-rest.jpg # Add image post (optional)
+img: Research_SA_main.PNG # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 category: [research, highlight]
 tags: [Research, Urban, Computation]
@@ -12,5 +12,5 @@ This project tackles corona blue phenomena in South Korea, which means depressio
 
 <img src="https://drive.google.com/uc?export=view&id=16vxoHXPKuFZR923N9zo7QBEvYyRAytnv" class="post_img" style="width:80%;" alt="Site">
 <img src="https://drive.google.com/uc?export=view&id=1xcSv0F8rvQyaY9qVmydERtv9ZRdUOg30" class="post_img" style="width:80%;" alt="Betweenness">
-<img src="https://drive.google.com/uc?export=view&id=1Srh7egdmPIYNdlTwBfmksLsI-AjgZ0UH" class="post_img" style="width:80%;" alt="Outliar analysis">
-<img src="https://drive.google.com/uc?export=view&id=1ZsY5BJwFxRU0O7_YvgqRGyiIcmm6MtQ7" class="post_img" style="width:80%;" alt="Data analysis">             
+<img src="https://drive.google.com/uc?export=view&id=1ZsY5BJwFxRU0O7_YvgqRGyiIcmm6MtQ7" class="post_img" style="width:80%;" alt="Data analysis">    
+<img src="https://drive.google.com/uc?export=view&id=1Srh7egdmPIYNdlTwBfmksLsI-AjgZ0UH" class="post_img" style="width:80%;" alt="Outliar analysis">         
