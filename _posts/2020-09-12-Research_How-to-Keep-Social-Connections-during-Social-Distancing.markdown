@@ -14,3 +14,5 @@ This project tackles corona blue phenomena in South Korea, which means depressio
 <img src="https://drive.google.com/uc?export=view&id=1xcSv0F8rvQyaY9qVmydERtv9ZRdUOg30" class="post_img" style="width:80%;" alt="Betweenness">
 <img src="https://drive.google.com/uc?export=view&id=1ZsY5BJwFxRU0O7_YvgqRGyiIcmm6MtQ7" class="post_img" style="width:80%;" alt="Data analysis">    
 <img src="https://drive.google.com/uc?export=view&id=1Srh7egdmPIYNdlTwBfmksLsI-AjgZ0UH" class="post_img" style="width:80%;" alt="Outliar analysis">         
+<img src="https://drive.google.com/uc?export=view&id=14JaLCNkbAOVireqoAB5MKhoB7Pl6aQBS" class="post_img" style="width:80%;" alt="Street analysis">
+<img src="https://drive.google.com/uc?export=view&id=1z-PTcFhORs4cEZuC3LZ63P3mqjzgC4OD" class="post_img" style="width:80%;" alt="Street typologies">
