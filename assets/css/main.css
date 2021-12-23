@@ -1452,6 +1452,17 @@ body .post-title-in{
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  
+  #about-img{
+    width:60%;
+    padding:7%;
+  }
+
+  #about-desc{
+    width:80%;
+    padding:10px;
+    margin:auto;
+  }
 }
 
 /* Small Devices, Tablets */
