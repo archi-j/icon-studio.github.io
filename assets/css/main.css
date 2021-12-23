@@ -1000,7 +1000,7 @@ table tfoot td {
   padding-bottom: 5px;
 }
 
-#about-page{
+.about-page{
   display:flex;
 }
 
@@ -1458,7 +1458,7 @@ body .post-title-in{
             flex-direction: column;
   }
 
-  #about-page{
+  .about-page{
     display:inherit;
   }
 
@@ -1536,7 +1536,7 @@ body .post-title-in{
     display: none;
   }
 
-  #about-page{
+  .about-page{
     display:inherit;
   }
 
@@ -1591,7 +1591,7 @@ body .post-title-in{
             flex-direction: column;
   }
 
-  #about-page{
+  .about-page{
     display:inherit;
   }
 
