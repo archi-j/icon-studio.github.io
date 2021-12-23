@@ -1000,9 +1000,14 @@ table tfoot td {
   padding-bottom: 5px;
 }
 
+#about-page{
+  display:flex;
+}
+
 #about-img{
   width:40%;
   padding:7%;
+  margin:auto;
 }
 
 #about-desc{
@@ -1453,9 +1458,14 @@ body .post-title-in{
             flex-direction: column;
   }
 
+  #about-page{
+    display:inherit;
+  }
+
   #about-img{
     width:60%;
     padding:7%;
+    margin:auto;
   }
 
   #about-desc{
@@ -1526,9 +1536,14 @@ body .post-title-in{
     display: none;
   }
 
+  #about-page{
+    display:inherit;
+  }
+
   #about-img{
     width:60%;
     padding:7%;
+    margin:auto;
   }
 
   #about-desc{
@@ -1576,9 +1591,14 @@ body .post-title-in{
             flex-direction: column;
   }
 
+  #about-page{
+    display:inherit;
+  }
+
   #about-img{
     width:60%;
     padding:7%;
+    margin:auto;
   }
 
   #about-desc{
