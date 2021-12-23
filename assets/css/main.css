@@ -1000,6 +1000,17 @@ table tfoot td {
   padding-bottom: 5px;
 }
 
+#about-img{
+  width:40%;
+  padding:7%;
+}
+
+#about-desc{
+  width:60%;
+  padding:10px;
+  margin:auto;
+}
+
 .content-box {
   padding: 25px;
   padding-left: 300px;
@@ -1503,6 +1514,17 @@ body .post-title-in{
   .contact-title, .copyright {
     display: none;
   }
+
+  #about-img{
+    width:60%;
+    padding:7%;
+  }
+
+  #about-desc{
+    width:80%;
+    padding:10px;
+    margin:auto;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -1541,6 +1563,17 @@ body .post-title-in{
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  #about-img{
+    width:60%;
+    padding:7%;
+  }
+
+  #about-desc{
+    width:80%;
+    padding:10px;
+    margin:auto;
   }
 }
 
