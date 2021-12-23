@@ -1459,17 +1459,17 @@ body .post-title-in{
   }
 
   .about-page{
-    display:inherit;
+    display:flex;
   }
 
   #about-img{
-    width:60%;
+    width:40%;
     padding:7%;
     margin:auto;
   }
 
   #about-desc{
-    width:80%;
+    width:60%;
     padding:10px;
     margin:auto;
   }
@@ -1541,8 +1541,8 @@ body .post-title-in{
   }
 
   #about-img{
-    width:60%;
-    padding:7%;
+    width:40%;
+    padding:1%;
     margin:auto;
   }
 
@@ -1596,8 +1596,8 @@ body .post-title-in{
   }
 
   #about-img{
-    width:60%;
-    padding:7%;
+    width:50%;
+    padding:1%;
     margin:auto;
   }
 
