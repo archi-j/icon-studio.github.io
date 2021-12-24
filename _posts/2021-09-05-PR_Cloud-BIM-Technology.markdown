@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "[Paper Reading] How to utilize IoT technologies for smart building research and applications?"
+title: "[Paper Reading] Cloud BIM Technology as a Means of Collaboration and Project Integration
+in Smart Cities"
 date: 2021-09-05 09:00:00 +0300
 description: 2021_Cloud BIM Technology as a Means of Collaboration and Project Integration in Smart Cities # Add post description (optional)
-img: 20210819_main.png # Add image post (optional) 280px, 350px, 470px, 700px, 940px
+img: 20210905_post_main.png # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
 category: [PR]
 tags: [BIM, Cloud, Reading]
@@ -46,25 +47,25 @@ tags: [BIM, Cloud, Reading]
 - BIM and Smart City development
   - It has been used for energy efficiency, sewage planning, water demand, assessment of carbon dioxide emissions, and other environmental factors. Also, it has been touted as the instrument for interconnectivity of buildings and external services in smart city planning. For this to happen, the building has to be in the correct geographical position.
 - IoT and Smart City Development
+  - Hardware layer is important for developing smart city framework. The hardware layer is located at the bottom of the structure and it contains tangible hardware elements such as sensors, actuators, chips, and radios. The elements in this layer often communicate directly with the environment, other hardware elements, and some times users or consumers.
 
 ## Research Method & Result
-  - I
-![Fig.1]({{site.baseurl}}/assets/img/20210819/fig1.png){: width="700"}{: .img_center}
-  - P
+- The methodology consists of six steps:
+  - develooping individual models in Revit
+  - creating the existing master plan in AutoCAD
+  - placing buildings in the correct geographical location
+  - storing individual Revit models and master plan in BIM 360
+  - linking individual models to a master plan in the correct geographical position
+  - exporting individual buildings and master plan to Autodesk Infraworks
 
-## Validation
-  - T
+## Challenges Encountered
+- The large size of the master site slowed down the pace of work. Individual Revit models had to be unlinked to facilitate the process.
+- Coordinates could not be specified on the cloud (BIM360). Drawings had to be downloaded locally and uploaded back after coordinates were specified.
 
-## Discussion: How it can be used?
-  - U
-
-## Conclusion
-  - Summary
-	- Contribution
-		- T
-	- Limitation
-		- E
-	- Future work
-		- M
-
-## Comment & Interesting things
+## Findings and Discussion
+- Volume: 65 Revit files, the Revit master plan, and Autodesk Infraworks files were all uploaded to BIM BIM360.
+- Speed: The size and number of drawing files reduced the speed of execution of the project
+- Accuracy: Clash detection from drawings on the master plan could easily be detected with BIM360.
+- Information Management: In BIM360, folders were created for each drawing and the master site plan. This can be used for large-scale drawing and smart city development
+- Stakeholders' Participation: All stakeholders were able to monitor the real-time progress of the project using BIM360
+- Visualization of Information: Visualization of the project output was clear and authentic with the use of BIM360
