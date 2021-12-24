@@ -4,7 +4,7 @@ title: "[Paper Reading] Cloud BIM Technology as a Means of Collaboration and Pro
 in Smart Cities"
 date: 2021-09-05 09:00:00 +0300
 description: 2021_Cloud BIM Technology as a Means of Collaboration and Project Integration in Smart Cities # Add post description (optional)
-img: 20210905_post_main.png # Add image post (optional) 280px, 350px, 470px, 700px, 940px
+img: 20210905_post_main.jpeg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
 category: [PR]
 tags: [BIM, Cloud, Reading]
