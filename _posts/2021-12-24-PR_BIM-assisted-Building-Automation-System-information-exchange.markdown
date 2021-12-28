@@ -23,7 +23,7 @@ tags: [BIM, IFC, Reading]
 - This research aims to set a fundamental step to facilitate information exchange for BIM assisted BAS design and operation using one of the BAS open communication protocol named BACnet and BIM open standard, known as IFC.
 - This research leveraged the Information Delivery Manual (IDM) and the Model View Definition (MVD) methodologies to define an IFC subset schema (a BACnet MVD) so that BAS information conforming to the BACnet protocol can be represented in IFC data model for information exchange throughout various project stages
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr1_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr1_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet device, object, and properties">
 
 ## Background
 - BACnet overview
@@ -43,7 +43,7 @@ tags: [BIM, IFC, Reading]
 ## Research Method & Result
   - This paper leveraged IDM/MVD methodologies to define an IFC subset schema (a BACnet MVD), so that BAS information complying with the BACnet protocol can be represented in the IFC data model for information exchange between BIM tools and FM tools throughout various project stages.
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr2_lrg.jpg" class="post_img" style="width:80%;" alt="Overall process of methodology">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr2_lrg.jpg" class="post_img" style="width:70%;" alt="Overall process of methodology">
 
   - Firstly, the IDM method defined the information sharing process and a set of information to be exchanged at the user level for BAS design and operation.
     - The IDM contained process model, ER and Functional Parts (FPs).
@@ -76,8 +76,8 @@ process model, ERs, FPs were represented by MVD concepts.
     - An FP is a reusable information model in its own right as well as being a subset of information model on which it is based on IFC
     - Each information unit is mapped to an FP, which can be expressed as: i) IFC entity; ii) attribute of IFC entity with specified data type; iii) property in a property set with specified data type; iv) referring to another FP.
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr3_lrg.jpg" class="post_img" style="width:60%;" alt="Process map for BIM-based BAS design and operation information exchange">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr4_lrg.jpg" class="post_img" style="width:60%;" alt="Example of information unit, functional part and concept mapping">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr3_lrg.jpg" class="post_img" style="width:70%;" alt="Process map for BIM-based BAS design and operation information exchange">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr4_lrg.jpg" class="post_img" style="width:80%;" alt="Example of information unit, functional part and concept mapping">
 
 - MVD
   - MVDs have been defined as subsets of IFC model specification to support IFC implementation. The IFC implementation should satisfy requirements coming from end-users as defined in IDM
@@ -93,15 +93,15 @@ process model, ERs, FPs were represented by MVD concepts.
   - Documentation
     - An automatic documentation process enables additional descriptions and constraints to be encoded into MVD using HyperText Markup Language (HTML). IfcDoc generated an HTML documentation containing entity usage, concepts usage, and properties for BAS design and operation information exchange (Fig. 8). This documentation acts as an indication of information that is necessary to import/export between different BIM tools and FM tools.
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr5_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet view exchange requirement view">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr5_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet view exchange requirement view">
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr6_lrg.jpg" class="post_img" style="width:60%;" alt="Concept template and instance diagram">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr8_lrg.jpg" class="post_img" style="width:60%;" alt="The BACnet MVD documentation in HTML">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr8_lrg.jpg" class="post_img" style="width:80%;" alt="The BACnet MVD documentation in HTML">
 
 - Implementation of the prototype Test
   - A prototype test following the BACnet MVD was carried out with both the exporting tool and importing tool.
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr10_lrg.jpg" class="post_img" style="width:60%;" alt="Sample testing scenario">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr11_lrg.jpg" class="post_img" style="width:60%;" alt="Sample exported IFC instance file">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr9_lrg.jpg" class="post_img" style="width:60%;" alt=" The BACnet MVD implementation steps">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr10_lrg.jpg" class="post_img" style="width:80%;" alt="Sample testing scenario">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr11_lrg.jpg" class="post_img" style="width:90%;" alt="Sample exported IFC instance file">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580519301645-gr9_lrg.jpg" class="post_img" style="width:90%;" alt=" The BACnet MVD implementation steps">
 
 ## Results and Discussion
 - The result of this study showed that IFC is suitable for representing BAS metadata, whether representing BAS control, communication, constraints, and other data sources like real-time data using the IFC data model is appropriate or not remains to be a concern.
