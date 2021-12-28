@@ -150,5 +150,4 @@ process required manual set up for each object.
     - Further collaboration with current BIM-based design and FM tools vendors may be the next step to enable the seamless exchange of BAS information using IFC data model between BIM tools and FM tools.
     - different data sources such as real-time data, data generated during various project stages and data produced from interaction with other disciplines need the most suitable data models for representation.
     - Integration between building contextual data, BAS information and the Internet of Things using extended BACnet/WS and other open-source data models like Project Haystack deserve future investigation
-
-## Comment & Interesting things
+    
