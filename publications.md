@@ -5,7 +5,6 @@ permalink: /publications/
 ---
 
 ### **Journals**
-* Lee, G., **Chung, J.** and Kim, J. (2021) "On what basis should we buy a 3D concrete printer?" Journal of the Korea Institute of Building Construction, 21(4), 31-34, [[URL]](https://kiss.kstudy.com/journal/journal-sub-view.asp?key1=30531&key2=6129&selYEAR=2021&selVOL1=21&selNUM1=4&selMON=12)
 * **Chung, J.**, Lee, G. and Kim, J. (2021) "Framework for Technical Specifications of 3DConcrete Printers" Automation in Construction, 127, 103732, [[URL]](https://doi.org/10.1016/j.autcon.2021.103732)
 * Woo, J., **Chung, J.** and Koo, H. (2021) "A Study on the Pedestrian Route Choices and Accessibility in the Retail Areas after Acute COVID-19: Focused on the Peak Commercial Activity’s Hours in the Mangwon District" Journal of the Urban Design Institute of Korea, Submitted
 * **Chung, J.**, Lee, G., Kim, J. and Choi, J. (2020) "A Comparative Analysis of the Classification System for Three-Dimensional Concrete Printers" Korean Journal of Construction Engineering and Management, 21(2), 3-14, [[URL]](https://doi.org/10.6106/KJCEM.2020.21.2.003)
@@ -18,3 +17,6 @@ permalink: /publications/
 
 ### **Patent**
 * Kim, J., Lee, G., Lee, D., Lee, J. and **Chung, J.** (2020), “3D printer for construction with continuous printing on the go and 3D printing system comprising it”, Application Serial No. KR20200101482A, South Korea, [[URL]](https://patents.google.com/patent/KR20200101482A/ko)
+
+### **Articles**
+* Lee, G., **Chung, J.** and Kim, J. (2021) "On what basis should we buy a 3D concrete printer?" Building Construction, 21(4), 31-34, [[URL]](https://kiss.kstudy.com/journal/journal-sub-view.asp?key1=30531&key2=6129&selYEAR=2021&selVOL1=21&selNUM1=4&selMON=12)
