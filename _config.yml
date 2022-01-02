@@ -13,10 +13,10 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Jihoon Chung # add your name
 author-img: #../../images/my_pic_2.jpg # add your photo
 about-author: DESIGNER. <br> BUILDER. <br> & RUNNER. # add description
-social-instagram: #jihooonchung # add your Instagram handle
+social-instagram: jihooonchung # add your Instagram handle
 social-brunch: likecrazy # add your Facebook handle
 social-github: archi-j # add your Github handle
-social-linkedin: #jihoon-chung # add your Linkedin handle
+social-linkedin: jihoon-chung # add your Linkedin handle
 social-email: j_chung@yonsei.ac.kr # add your Email address
 
 # Disqus
