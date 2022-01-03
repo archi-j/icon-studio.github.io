@@ -6,7 +6,7 @@ description: 2021_BIM A review of building information modeling (BIM) and the in
 img: 20211229_post_main.jpg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
 category: [PR]
-tags: [BIM, IFC, Reading]
+tags: [BIM, IoT, Reading]
 ---
 
 **Publication year:** 2019 <br>
