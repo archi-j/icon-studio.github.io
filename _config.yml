@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Jihoon Chung # add your name
-author-img: #../../images/my_pic_2.jpg # add your photo
+author-img: ../../images/my_pic_2.jpg # add your photo
 about-author: DESIGNER. <br> BUILDER. <br> & RUNNER. # add description
 social-instagram: jihooonchung # add your Instagram handle
 social-brunch: likecrazy # add your Facebook handle
