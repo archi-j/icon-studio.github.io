@@ -20,7 +20,8 @@ tags: [BIM, Interoperability, Reading]
 - data currently have no proper method to examine and assess whether their BIM models that have been translated from IFC importing and exporting processes have syntactically correct and semantically accurate information without unintended geometric translation.
 - since project participants have customized BIM authoring tools and applications for their particular work processes, translating diverse native object information into IFC information according to the MVD can result in heterogeneous BIM data and geometries, preventing domain professionals from obtaining accurate BIM data.
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr1_lrg.jpg" class="post_img" style="width:90%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr1_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+
 
 
 ## BIM data validation regarding the Model View Definition
@@ -40,6 +41,7 @@ tags: [BIM, Interoperability, Reading]
 - This automated validation process and framework will enable project participants and software developers to confirm the quality, accuracy, and integrity of BIM data regarding the syntactic and semantic requirements defined in an MVD.
 
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr2_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+
 
 
 ## BIM and IoT integration for different domains
@@ -99,6 +101,7 @@ tags: [BIM, Interoperability, Reading]
   - An MVD generally addresses semantics embedded in the subset of the IFC schema. Thus, an evaluation of geometry and topology is not executable in MVD validation processes.
   - The current version of the IfcDoc tool implements a semantic match that compares one value of a BIM model with that of an MVD to identify the accuracy of the translated semantics of BIM models. However, this process cannot guarantee that a BIM model will satisfy the requirements of data exchanges declared for an associated domain.
   - the authors believe that the integration of validation processes using an MVD and geometrical checking features should be developed and applied to accurately evaluate a BIM model according to ER.
+
 
 
 ## Conclusion
