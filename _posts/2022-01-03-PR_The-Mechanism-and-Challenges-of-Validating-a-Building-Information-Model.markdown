@@ -22,6 +22,7 @@ tags: [BIM, Interoperability, Reading]
 
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr1_lrg.jpg" class="post_img" style="width:90%;" alt="BACnet device, object, and properties">
 
+
 ## BIM data validation regarding the Model View Definition
 - The increasing demand of data exchanges during a project has led to a critical issue for interoperability, particularly pertaining to the quality, accuracy, and requirements of BIM data.
 - An MVD facilitates seamless BIM data exchanges by describing the BIM data exchange processes of specific domain data among relevant project participants
@@ -40,6 +41,7 @@ tags: [BIM, Interoperability, Reading]
 
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr2_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
 
+
 ## BIM and IoT integration for different domains
 - During this research project, which develops a formalized validation method using the PC BIM standard, the authors have identified several unexpected challenges and limitations.
 - This research assessment process utilized the following MVD: The Precast Concrete MVD, Coordination View 2.0, and Construction Operations Building Information Exchange (COBie). The authors imported ER embedded in these MVDs to IfcDoc and used them as checking criteria to evaluate whether an IFC instance file has correct information as defined in an imported MVD or not.
@@ -50,7 +52,7 @@ tags: [BIM, Interoperability, Reading]
   - The primary problem of BIM data validation associated with the IFC schema is that the implementation of validation features currently developed on top of IfcDoc supports only the evaluation of syntactic and semantic constraints defined in an MVD, not accuracy or representation methods.
   - Even though IfcDoc currently validates BIM data regarding syntactic and semantic constraints, it has limitations such as its inability to directly evaluate accuracy and changes in transformed geometry. Thus, for evaluating BIM data, it is promising to adopt the integrated validation processes pertaining to syntax, semantics, and geometrical constraints that include program requirements.
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr4_lrg.jpg" class="post_img" style="width:90%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr4_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
 
 - Scope of MVD validation
   - The development of a data validation framework demands a strict definition of the scope of checking.
@@ -68,7 +70,7 @@ tags: [BIM, Interoperability, Reading]
   - the involvement of IFC syntactic constraint checking in MVD validation should be clearly determined, as it will provide consistent MVD validation without unnecessary checking processes.
 
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr6_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr6_lrg.jpg" class="post_img" style="width:90%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr8_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
 
 - Ambiguous constraints and their priorities for checking sequence
   - An MVD should include all definitions of entities, attributes, and relationships required for the data exchange processes of a targeted domain.
@@ -85,7 +87,7 @@ tags: [BIM, Interoperability, Reading]
   - Although this MVD development process, depending on the dexterity or the capabilities of MVD developers, can be complicated, several domains have used various methods to develop documents with distinct structures and contents of the MVD and concepts
   - This heterogeneous IFC data mapping of BIM authoring software can result in syntactic and semantic errors. Thus, the development of consistent rulesets and robust validation processes requires gthe formalization of MVD processes and their details.
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr10_lrg.jpg" class="post_img" style="width:90%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517311305-gr10_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet device, object, and properties">
 
 - Integrity of formalized rule logic and inconsistent structure of concept templates
   - Imperfection of rule sets and validation methods is one of critical limitations for establishing consistent a BIM checking approach using an MVD.
@@ -97,6 +99,7 @@ tags: [BIM, Interoperability, Reading]
   - An MVD generally addresses semantics embedded in the subset of the IFC schema. Thus, an evaluation of geometry and topology is not executable in MVD validation processes.
   - The current version of the IfcDoc tool implements a semantic match that compares one value of a BIM model with that of an MVD to identify the accuracy of the translated semantics of BIM models. However, this process cannot guarantee that a BIM model will satisfy the requirements of data exchanges declared for an associated domain.
   - the authors believe that the integration of validation processes using an MVD and geometrical checking features should be developed and applied to accurately evaluate a BIM model according to ER.
+
 
 ## Conclusion
 - The assurance of the accuracy and the interoperability of BIM data exchange requires formalized rulesets and a robust validation framework. Establishing a generalized checking process of BIM data according to the specifications of an MVD poses several limitations and challenges.
