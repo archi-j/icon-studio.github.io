@@ -20,6 +20,7 @@ tags: [IoT, Interoperability, Reading]
 become acute due to plethora of protocols and information exchange standards being used in both the built environment and IoT domains
 - One of the motivations behind this study is to support distributed, cross cutting and bottom-up innovation by supporting both consumption of data provided by the system and development of applications and further research by utilising the APIs (Application Programming Interfaces) provided by the platform.
 
+
 # Background
 - The field of built environment is plagued by information silos and lack of standardization that affects the information flow
 - As a major platform emerging to host built environment data, BIM is an important technology to consider from IoT integration perspective
@@ -35,6 +36,7 @@ become acute due to plethora of protocols and information exchange standards bei
 - IoT deployment
   - Most IoT deployments remain expert driven and cater to specialised use cases. Also, majority of sensors due to their inherent nature are hidden away from human interaction, which in turn make them an area reserved for top-down innovation. The IoT domain in general and its deployment areas such as Smart Cities have come under criticism for being top driven and self-congratulatory
   - Researchers have realised the potential of campuses as rich test bed for IoT deployment. However, such opportunities are also somewhat restricted due to point wise implementation of proprietary technologies that do not provide open interfaces. Also, researchers have criticised that previous smart campus deployments have mainly been conducted in a lab based environment that provide limited potential to engage with real life users
+
 
 # Otaniemi3D –core framework
 - At the outset, a three way challenge is addressed by this research
@@ -62,7 +64,7 @@ aware information to various stakeholders.
     - Front end(s)
       - The primary function of the frontends is to manage the interaction with the target users of the system (students and researchers).
       - one of the main goals of the entire smart campus project is to spark the development of a multitude of apps, leveraging on the competencies and interests of various research groups.
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr2_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr2_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
 
 - Standardized Web-API
   - One of the objectives of the Smart Campus backend is to harmonize publishing and consumption of data though a standardized Web-API.
@@ -72,7 +74,7 @@ aware information to various stakeholders.
     2. Publication and discovery of data sources and semantic metadata: The data and methods available provided by a given node can be discovered using the ReadAll operation. In addition O-DF tags can be semantically enriched using RDFa and LinkedData vocabularies.
     3. Payload agnostic: Even though the preferred payload is O-DF (XML formatted), within specific O-DF tags any payload could be transported (CSV, HTML, proprietary file formats), or even binary file formats converted using Base64 binary-to-text encoding.
     4. Support for Subscription: The possibility to create ad hoc, time limited information flows by specifying for how long (TTL) and at which sampling rate (INTERVAL) the data should be received, is the cornerstone of O-MI and what makes it particularly suited for IoT
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr3_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">    
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr3_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">    
 
 - IoT devices and service
   - The IoT Service has been implemented using the open source reference implementation of the O-MI and O-DF standards, developed at Aalto University (available online at https://github.com/AaltoAsia/O-MI).
@@ -84,6 +86,7 @@ aware information to various stakeholders.
   - The translation toolchain adopted, required some custom programming for retaining the association between the IfcSensorType and the final output web formats. The process described is very similar to the one adopted by BIMServer (http://bimserver.org/).
   - It is important to highlight that the outputs produced by IfcOpenShell and InstantReality/AOPT is acceptable if the main purpose is simply to visualize the model.
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr5_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+
 
 # Otaniemi3D proof of concept
 - The proof of concept has been called Otaniemi3D, where Otaniemi is the name of the Aalto University Campus and 3D stands for the dimension in which the BIM and IoT data is presented.
@@ -105,7 +108,8 @@ aware information to various stakeholders.
 - 3D view. Locating sensors 3D model and 360 panoramic images
   - The 3D View is still in an experimental phase. Besides the traditional 3D interaction pattern (Zoom, Pan, Tilt), it is also possible to enter a room number in the search bar activating a custom viewpoint/camera centered in the middle of the selected room
   - Once in the middle of the room, it is possible to click a “360° Box” which opens an interactive 360° picture of the room. In this picture, it is possible to spot and click on the installed sensor box to retrieve the current readings. The same interactivity is also possible from the 3D model
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr9_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr9_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+
 
 # Supported use cases
 - With an open framework, the authors envisage that a variety of use cases can be developed to demonstrate the capability of the system. Being a campus based system, there is an ongoing effort to encourage other research teams and students to develop compatible applications by using the open APIs provided by the Otaniemi3D platform
@@ -126,6 +130,7 @@ aware information to various stakeholders.
     - by integrating the Aalto Space app with the campus' facility booking system, the HVAC systems can respond directly to the user demand and switch off when not in use.
     - It should be noted that without the use of open standards such as OMI/ O-DF, it would be quite challenging to integrate all the information sources such as, Aalto's campus booking system, heating and ventilation controls and sensors by Fidelix and Fourdeg, and building data through Aalto Space and Otaniemi3D as highlighted in the case here.
 - Future integration
+
 
 # Conclusion
 - Contribution
