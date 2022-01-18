@@ -50,7 +50,7 @@ become acute due to plethora of protocols and information exchange standards bei
     - iii) connect IoT data with the context and spaces in which it has been generated
     - iv) develop interfaces including Virtual Reality to provide context
 aware information to various stakeholders.
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr1_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr1_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet device, object, and properties">
 
 - System architecture
   - the conceptual system architecture of Otaniemi3D, an open, campus wide platform that integrates Building Information using IFC with wireless sensor nodes through Open APIs. In synthesis, the developed system can be broken down in 3 main components:
@@ -62,7 +62,7 @@ aware information to various stakeholders.
     - Front end(s)
       - The primary function of the frontends is to manage the interaction with the target users of the system (students and researchers).
       - one of the main goals of the entire smart campus project is to spark the development of a multitude of apps, leveraging on the competencies and interests of various research groups.
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr2_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr2_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
 
 - Standardized Web-API
   - One of the objectives of the Smart Campus backend is to harmonize publishing and consumption of data though a standardized Web-API.
@@ -72,12 +72,12 @@ aware information to various stakeholders.
     2. Publication and discovery of data sources and semantic metadata: The data and methods available provided by a given node can be discovered using the ReadAll operation. In addition O-DF tags can be semantically enriched using RDFa and LinkedData vocabularies.
     3. Payload agnostic: Even though the preferred payload is O-DF (XML formatted), within specific O-DF tags any payload could be transported (CSV, HTML, proprietary file formats), or even binary file formats converted using Base64 binary-to-text encoding.
     4. Support for Subscription: The possibility to create ad hoc, time limited information flows by specifying for how long (TTL) and at which sampling rate (INTERVAL) the data should be received, is the cornerstone of O-MI and what makes it particularly suited for IoT
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr3_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">    
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr3_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">    
 
 - IoT devices and service
   - The IoT Service has been implemented using the open source reference implementation of the O-MI and O-DF standards, developed at Aalto University (available online at https://github.com/AaltoAsia/O-MI).
   - The data collected from the devices can be stored in a variety of databases. Currently, the O-MI and O-DF reference implementation supports all the major RDBMS (Relational Database Management Systems, such as SQL Server, Oracle, MySQL, Postgresql, SQLite etc.) providing a JDBC (Java Database Connectivity) driver.
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr4_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr4_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
 
 - BIM service and front end
   - This service is essentially used to manage the relationship between spaces/buildings (described using IFC) and IoT data, in particular the translation of static IFC files into interactive web documents.
@@ -91,7 +91,7 @@ aware information to various stakeholders.
   - (1D) Data Analytics Page.
   - (2D) Floor Plan and heatmaps page.
   - (3D) 3D Model and precise sensor location.
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr6_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr6_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
 
 - 1D view. Live and historical sensor data
   - This view simply presents the sensor data in a traditional graph form.
@@ -105,7 +105,7 @@ aware information to various stakeholders.
 - 3D view. Locating sensors 3D model and 360 panoramic images
   - The 3D View is still in an experimental phase. Besides the traditional 3D interaction pattern (Zoom, Pan, Tilt), it is also possible to enter a room number in the search bar activating a custom viewpoint/camera centered in the middle of the selected room
   - Once in the middle of the room, it is possible to click a “360° Box” which opens an interactive 360° picture of the room. In this picture, it is possible to spot and click on the installed sensor box to retrieve the current readings. The same interactivity is also possible from the 3D model
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr9_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr9_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
 
 # Supported use cases
 - With an open framework, the authors envisage that a variety of use cases can be developed to demonstrate the capability of the system. Being a campus based system, there is an ongoing effort to encourage other research teams and students to develop compatible applications by using the open APIs provided by the Otaniemi3D platform
