@@ -3,6 +3,6 @@ layout: about
 title: About
 permalink: /about/
 ---
-Hi there, I'm Jihoon Chung and welcome to my website!. This website is for archiving studies in my spare time. I'm currently enrolled in a Ph.D. program in architectural science at Rensselaer Polytechnic Institute and work as a research assistant in [Center for Architecture Science and Ecology](https://www.case.rpi.edu/). My research area is construction 3D printing, BIM with IoT, and natural language processing. Also, I love architectural design. I'm interest in how information technology creates a whole new ecology of architecture & construction. Thank you for stopping by and I wish you all the best.
+Hi there, I'm Jihoon Chung and welcome to my website!. This website is for archiving studies in my spare time. I'm currently enrolled in a Ph.D. program in architectural science at Rensselaer Polytechnic Institute and work as a research assistant in [Center for Architecture Science and Ecology](https://www.case.rpi.edu/). My research area is construction 3D printing, BIM with IoT, and natural language processing. Also, I love architectural design. I'm interest in how information technology creates a new ecology system of architecture & construction. Thank you for stopping by and I wish you all the best.
 
 More information can be found on my [CV](https://archi-j.github.io/resume/) & [Google Scholar Page](https://scholar.google.com/citations?user=ExZUcKYAAAAJ&hl=en&authuser=2).
