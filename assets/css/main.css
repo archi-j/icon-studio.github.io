@@ -48,6 +48,7 @@ section {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  font-weight: 400;
 }
 
 /* Grouping content
@@ -790,10 +791,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* h1 {
-  font-weight: 400;
-} */
 
 img {
   max-width: 100%;
