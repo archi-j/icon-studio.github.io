@@ -791,9 +791,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
+/* h1 {
   font-weight: 400;
-}
+} */
 
 img {
   max-width: 100%;
@@ -1267,7 +1267,7 @@ p .wrap-content{
 }
 
 body .post-title-in{
-  font-family: 'Lora', serif, 'Nanum Myeongjo';
+  font-family: 'Lora', serif, 'Jeju Myeongjo';
 }
 
 .header-page .page-date {
