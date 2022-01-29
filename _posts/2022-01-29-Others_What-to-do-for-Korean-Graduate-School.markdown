@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 국내 대학원에 진학하려면 뭘 준비해야 할까? - 국내 대학원 지원 전에 반드시 준비해야 할 8가지
-date: 2022-01-29 09:00:00 +0300
+date: 2021-01-29 09:00:00 +0300
 description: 국내 대학원 진학 전에 반드시 준비해야 할 8가지 # Add post description (optional)
 img: 20220129_post_main.png # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
