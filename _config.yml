@@ -65,3 +65,5 @@ subblogs:
       url: /CV/
     - text: Paper Reading
       url: /PR/
+    - text: Others
+      url: /others/
