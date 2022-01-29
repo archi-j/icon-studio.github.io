@@ -30,28 +30,28 @@ tags: [IoT, BIM, Reading]
 - Parametric Design-Based Approach
   - Dynamo (a free plug-in for Revit) is a parametric design software that can work closely with BIM-based software such as Revit, and allows a designer to programmatically create 3D BIM components automatically based on certain parameters.
   - The Firefly suite is a set of computer code fragments employed to bridge the gaps between BIM-based parametric design software such as Grasshopper, a sensor microcontroller such as Arduino, and other input/output devices Dynamo or such as webcams and mobile phones
+  1. Actual buildings (campus): The campus includes buildings, and sensors and Arduino were deployed in indoor spaces to perform environmental data collection.
+  2. Virtual world (BIM model): After establishing a virtual 3D space and sensor locations, we input real environmental data into the virtual environment through Firefly
+  3. Data reception and transmission: The Firefly suite is a set of computer code fragments employed to bridge the gaps between BIM-based parametric design software such as Dynamo or Grasshopper, a sensor microcontroller such as Arduino, and other input/output devices, such as webcams and mobile phones.
+  4. Parameterization: Depending on decision-making goals in different situations, the operating rules of custom nodes were established using Dynamo, which includes a context view index (including comfort, energy saving, and the WELL Standard).
+  5. Decision support: visualization layer input to the BIM model.
 
-<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g001-550.jpg" class="post_img" style="width:70%;">
+<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g001-550.jpg" class="post_img" style="width:60%;">
 
-    1. Actual buildings (campus): The campus includes buildings, and sensors and Arduino were deployed in indoor spaces to perform environmental data collection.
-    2. Virtual world (BIM model): After establishing a virtual 3D space and sensor locations, we input real environmental data into the virtual environment through Firefly
-    3. Data reception and transmission: The Firefly suite is a set of computer code fragments employed to bridge the gaps between BIM-based parametric design software such as Dynamo or Grasshopper [17], a sensor microcontroller such as Arduino, and other input/output devices, such as webcams and mobile phones.
-    4. Parameterization: Depending on decision-making goals in different situations, the operating rules of custom nodes were established using Dynamo, which includes a context view index (including comfort, energy saving, and the WELL Standard).
-    5. Decision support: visualization layer input to the BIM model.
   - The proposed platform’s four modules consisted of sensor data collection, sensor data integration, parametric control mechanism, and visualization modules
 
-<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g002-550.jpg" class="post_img" style="width:70%;">
+<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g002-550.jpg" class="post_img" style="width:80%;">
 
 - Experimental design
   - Scenario Assumptions
     - This study targeted student lectures in a typical classroom, and assumed that their comfort was only affected by the temperature and humidity at a height of 80–130 cm above the ground
     - The sensors were installed in a total of nine locations along the edges and in the center and corners of the campus research laboratory for the purpose of the experiment
 
-<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g003-550.jpg" class="post_img" style="width:70%;">
+<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g003-550.jpg" class="post_img" style="width:60%;">
 
-<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g004-550.jpg" class="post_img" style="width:70%;">
+<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g004-550.jpg" class="post_img" style="width:49%;">
 
-<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g005-550.jpg" class="post_img" style="width:70%;">
+<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g005-550.jpg" class="post_img" style="width:49%;">
 
   - Arduino Microcontroller
     - This paper used the Arduino Mega 2560 R3 microcontroller board, which was connected to sensors (DHT-11) measuring the temperature and humidity of the indoor space
@@ -64,7 +64,7 @@ tags: [IoT, BIM, Reading]
       4. Decisions concerning the indoor comfort pointer are based on predicted mean vote (PMV), and the results of analysis can be presented in the BIM model on this platform. Note that PMV is a common metric for assessing the comfort level of an indoor environment, and has been adopted in ISO 7730
     - PMV can be caculated based on factors including the body's metabolic rate and clothing insulation, as well as environmental parameters (air temperature, average radiant temperature, relative air velocity and humidity). According to ISO 7730, an ideal PMV value is between -0.5 and +0.5
 
-<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g013-550.jpg" class="post_img" style="width:70%;">
+<img src="https://www.mdpi.com/applsci/applsci-08-01086/article_deploy/html/images/applsci-08-01086-g013-550.jpg" class="post_img" style="width:80%;">
 
 ## Case Demonstration
 - This section uses an actual case to demonstrate the use of the proposed IoT visualization platform, which includes multiple temperature and humidity sensors and an Arduino microcontroller, and shows how a facility manager may adjust the layout of a space based on the visualized PMV comfort values.
