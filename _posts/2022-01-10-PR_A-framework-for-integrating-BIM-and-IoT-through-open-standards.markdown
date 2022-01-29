@@ -21,7 +21,7 @@ become acute due to plethora of protocols and information exchange standards bei
 - One of the motivations behind this study is to support distributed, cross cutting and bottom-up innovation by supporting both consumption of data provided by the system and development of applications and further research by utilising the APIs (Application Programming Interfaces) provided by the platform.
 
 
-# Background
+## Background
 - The field of built environment is plagued by information silos and lack of standardization that affects the information flow
 - As a major platform emerging to host built environment data, BIM is an important technology to consider from IoT integration perspective
 - BIM and IoT
@@ -38,7 +38,7 @@ become acute due to plethora of protocols and information exchange standards bei
   - Researchers have realised the potential of campuses as rich test bed for IoT deployment. However, such opportunities are also somewhat restricted due to point wise implementation of proprietary technologies that do not provide open interfaces. Also, researchers have criticised that previous smart campus deployments have mainly been conducted in a lab based environment that provide limited potential to engage with real life users
 
 
-# Otaniemi3D –core framework
+## Otaniemi3D –core framework
 - At the outset, a three way challenge is addressed by this research
   - i) the integration of built environment data and IoT sensors
   - ii) ensuring that open standards are used in deployment and integration of both IoT and BIM standards
@@ -88,7 +88,7 @@ aware information to various stakeholders.
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr5_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
 
 
-# Otaniemi3D proof of concept
+## Otaniemi3D proof of concept
 - The proof of concept has been called Otaniemi3D, where Otaniemi is the name of the Aalto University Campus and 3D stands for the dimension in which the BIM and IoT data is presented.
 - the core components are:
   - (1D) Data Analytics Page.
@@ -111,7 +111,7 @@ aware information to various stakeholders.
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517305964-gr9_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
 
 
-# Supported use cases
+## Supported use cases
 - With an open framework, the authors envisage that a variety of use cases can be developed to demonstrate the capability of the system. Being a campus based system, there is an ongoing effort to encourage other research teams and students to develop compatible applications by using the open APIs provided by the Otaniemi3D platform
 - Aalto spaces mobile application
   - The integration between the Aalto Space app and HVAC controls through O-MI and O-DF standards was part of the RealGO research & development project at Aalto University.
@@ -132,7 +132,7 @@ aware information to various stakeholders.
 - Future integration
 
 
-# Conclusion
+## Conclusion
 - Contribution
   - This research shows that it is possible to engage wide range of stakeholders with IoT devices by integrating them with building information data. The communication takes place through Open Messaging interfaces eliminating the need to depend on closed proprietary systems that hinder scalable deployment of such systems and through intuitive interfaces
 - Limitation
