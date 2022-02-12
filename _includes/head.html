@@ -1,6 +1,6 @@
 <head>
 	<meta charset="utf-8">
-	<title>{{site.title}}</title>
+	<title>{% if page.title %}{{page.title}} | {% endif %}{{site.title}} {{site.title}}</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
