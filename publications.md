@@ -19,4 +19,4 @@ permalink: /publications/
 * Kim, J., Lee, G., Lee, D., Lee, J. and **Chung, J.** (2020), “3D printer for construction with continuous printing on the go and 3D printing system comprising it”, Application Serial No. KR20200101482A, South Korea, [[URL]](https://patents.google.com/patent/KR20200101482A/ko)
 
 ### **Articles**
-* Lee, G., **Chung, J.** and Kim, J. (2021) "On what basis should we buy a 3D concrete printer?" Building Construction, 21(4), 31-34, [[URL]](https://kiss.kstudy.com/thesis/thesis-view.asp?key=3922747)
+* Lee, G., **Chung, J.** and Kim, J. (2021) "On What Basis Should We Buy a 3D Concrete Printer?" Building Construction, 21(4), 31-34, [[URL]](https://kiss.kstudy.com/thesis/thesis-view.asp?key=3922747)
