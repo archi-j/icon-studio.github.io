@@ -57,6 +57,8 @@ urls:
     - text: Contact
       url: /contact/
 subblogs:
+    - text: Internet of Things
+      url: /IoT/
     - text: Grasshopper
       url: /GH/
     - text: Construction 3D Printing
