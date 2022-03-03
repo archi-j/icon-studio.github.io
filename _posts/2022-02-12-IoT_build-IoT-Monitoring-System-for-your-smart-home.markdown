@@ -3,8 +3,10 @@ layout: post
 title: "[Lecture] Build IoT Monitoring System for Your Smart Home"
 date: 2022-02-12 13:32:20 +0300
 description: This lecture has been done in Black Families Technology Awareness Day 20222 organized by Rensselaer Polytechnic Institute # Add post description (optional)
-category: [IoT]
 img: 20220121_post_main.jpg  # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+category: [IoT]
+tags: [lecture, tutorial, IoT]
 ---
 This lecture has been done in Black Families Technology Awareness Day 20222 organized by Rensselaer Polytechnic Institute.
 
