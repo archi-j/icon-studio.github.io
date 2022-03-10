@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "[Paper Reading] Development of an IoT and BIM-based automated alert system for thermal comfort monitoring in buildings"
-date: 2021-03-07 09:00:00 +0300
+date: 2022-03-07 09:00:00 +0300
 description: 2021_Development of an IoT and BIM-based automated alert system for thermal comfort monitoring in buildings # Add post description (optional)
-img: 20210307_post_main.jpg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
+img: 20220307_post_main.jpg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
 category: [PR]
 tags: [BIM, IoT, Reading]
