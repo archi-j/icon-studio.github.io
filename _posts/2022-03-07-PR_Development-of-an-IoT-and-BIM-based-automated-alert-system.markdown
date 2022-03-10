@@ -88,10 +88,10 @@ mostly applied to decrease energy use and save money. However, BMS is complicate
 - As shown in Fig. 13, the instrumented office room’s working range condition in the BIM model is ‘Normal!’ and ‘Too Hot!’, respectively, in the first- and eighteenth-time intervals. Therefore, the room was highlighted in red in the time interval eighteen. As observed, the maximum temperature value was measured at 26.0 ◦C at 11:25 AM.
 - Fig. 16 illustrates the temperature variations in the instrumented office during the monitoring period. As shown, the temperature level exceeded the acceptable threshold thirteen times. As shown in Fig. 16, at thirteen data points (mostly at noon), the temperature level exceeded the acceptable threshold, and the thermal condition of the instrumented room was not ideal (Too Hot).
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr12_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr13_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr16_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr17_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr12_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr13_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr16_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr17_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
 
 
 ## Policy implication
