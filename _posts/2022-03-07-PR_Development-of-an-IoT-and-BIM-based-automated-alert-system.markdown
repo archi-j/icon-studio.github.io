@@ -64,7 +64,7 @@ mostly applied to decrease energy use and save money. However, BMS is complicate
 - Fig. 3 illustrates a schematic diagram that shows the data flow in the proposed method. As shown, the temperature and humidity values, measured by the microcontroller, are sent to a cloud-based database through a smart board and ZigBee module.
 - The monitoring data is managed in a pre-designed database and are transferred to the BIM model and a cloud-based system through a specially designed workflow to let facility managers or building supervisors to monitor different spaces in a building remotely and identify the technical reasons for possible issues through their PC and wireless-connected devices.
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr2_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr2_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr3_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet device, object, and properties">
 
 
@@ -90,8 +90,8 @@ mostly applied to decrease energy use and save money. However, BMS is complicate
 - Defining the conditional statements and updating room parameters
   - For thermal comfort visualization in the BIM model, a parameter named ‘Thermal Comfort Check’ was defined for the ‘Room’ object in the BIM model, which has to be updated based on the ‘Humidity Level’ and ‘Temperature Level’ values stored in room object. A module was created to cross the sensor value between the virtual temperature sensors and the correlating office room in the BIM model.
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr5_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet device, object, and properties">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr7_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr5_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr7_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
 
 
 ## System implementation
@@ -100,10 +100,10 @@ mostly applied to decrease energy use and save money. However, BMS is complicate
 - As shown in Fig. 13, the instrumented office room’s working range condition in the BIM model is ‘Normal!’ and ‘Too Hot!’, respectively, in the first- and eighteenth-time intervals. Therefore, the room was highlighted in red in the time interval eighteen. As observed, the maximum temperature value was measured at 26.0 ◦C at 11:25 AM.
 - Fig. 16 illustrates the temperature variations in the instrumented office during the monitoring period. As shown, the temperature level exceeded the acceptable threshold thirteen times. As shown in Fig. 16, at thirteen data points (mostly at noon), the temperature level exceeded the acceptable threshold, and the thermal condition of the instrumented room was not ideal (Too Hot).
 
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr12_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet device, object, and properties">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr13_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet device, object, and properties">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr16_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet device, object, and properties">
-<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr17_lrg.jpg" class="post_img" style="width:60%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr12_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr13_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr16_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr17_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
 
 
 ## Policy implication
