@@ -4,22 +4,26 @@
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
-    <meta content="{{ site.title }}" property="og:site_name">
+  <meta content="{{ site.title }}" property="og:site_name">
+	
   {% if page.title %}
     <meta content="{{ page.title }}" property="og:title">
   {% else %}
     <meta content="{{ site.title }}" property="og:title">
   {% endif %}
+
   {% if page.title %}
     <meta content="article" property="og:type">
   {% else %}
     <meta content="website" property="og:type">
   {% endif %}
+
   {% if page.description %}
     <meta content="{{ page.description }}" property="og:description">
   {% else %}
     <meta content="{{ site.description }}" property="og:description">
   {% endif %}
+
   {% if page.url %}
     <meta content="{{ site.url }}{{ page.url }}" property="og:url">
 		<link rel="canonical" href="{{ site.url }}{{ page.url }}">
@@ -28,16 +32,19 @@
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
     <meta content="{{ site.url }}/about/" property="article:author">
   {% endif %}
+
   {% if page.img %}
     <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.img }}" property="og:image">
   {% else %}
     <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}" property="og:image">
   {% endif %}
+
   {% if page.categories %}
     {% for category in page.categories limit:1 %}
     <meta content="{{ category }}" property="article:section">
     {% endfor %}
   {% endif %}
+
   {% if page.tags %}
     {% for tag in page.tags %}
     <meta content="{{ tag }}" property="article:tag">
@@ -47,19 +54,23 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.site-twitter }}">
     <meta name="twitter:creator" content="@{{ site.social-twitter }}">
+
   {% if page.title %}
     <meta name="twitter:title" content="{{ page.title }}">
   {% else %}
     <meta name="twitter:title" content="{{ site.title }}">
   {% endif %}
+
   {% if page.url %}
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
   {% endif %}
+
   {% if page.description %}
     <meta name="twitter:description" content="{{ page.description }}">
   {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
+
   {% if page.img %}
     <meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.img }}">
   {% else %}
@@ -91,16 +102,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="{{ "/assets/fonts/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
 	<!-- Styles -->
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+
 	<script data-ad-client="pub-3320077064619436" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 	<meta name="naver-site-verification" content="8ca735e4acb0e9177fafcdacd8391ba1ddb75f6f" />
 	<script src="https://www.google.com/recaptcha/api.js"></script>
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3320077064619436"
 	     crossorigin="anonymous"></script>
   <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" title="{{ site.title }} Feed">
+
   <script>
     /* It's possible, but this would block the following commands:
     * Right Click (entirely!)
