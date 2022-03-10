@@ -70,25 +70,13 @@ mostly applied to decrease energy use and save money. However, BMS is complicate
 
 ## The system framework
 - Hardware configuration of the system
-  - The acquisition system is used to collect the required thermal comfort data (temperature and humidity data) over a set of defined time intervals using temperature and humidity sensors. The received data are then transmitted to a MySQL database through the ZigBee data transmission module.
 - Development of the BIM model
-  - After developing the BIM model, virtual humidity and temperature sensors were embedded in the model.
 - MySQL database
-  - To insert the sensed data into a database like MySQL, a schema (database), and tables and all essential parameters are to be defined. The tables house the sensor data received from the DAQ system.
-  - The temperature and humidity values are measured, stored in a DAQ system, and transferred to a MySQL database at a specified interval to be stored in their corresponding tables
-  - To have a history of the temperature and humidity values in the monitored space, the data at each time interval is transferred to the database and placed in the measurement history tables
-  - The database model can be expanded in case of using temperature and humidity sensors for multiple rooms. To construct a comprehensive database model for the whole sensory system, the information on the corresponding rooms and their conditions must be determined.
 - Extracting parameters from the BIM model
-  - Here, a module is developed to retrieve the virtual sensor parameters from the BIM model. The sensor parameters must be extracted to check the latest values of the parameters in the BIM model.
 - Connecting the BIM model to the database
-  - After extracting the essential parameters from the BIM model, they must be linked to the database’s parameters already created for each sensor. This integration is required for any future BIM model updating
 - Automatic reading of sensor values from MySQL database server
-  - When a connection is established between the BIM model and the MySQL database server, the next step is to read the sensed data from the MySQL database in an automatic manner.
 - Updating the virtual sensors parameters in the BIM model
-  - After reading and sorting the sensed values stored in the MySQL database, the associated parameters of virtual sensors have to be updated in the BIM model at each time interval.
-  - To design an alarm system in the BIM model, a conditional statement has to be defined, and the BIM model color-coded to highlight the Room object in the BIM model to which the sensors are attached subject to extreme temperature ranges. This alarm system works as a signal to the building supervisors or facility manager when the sensor readings exceed the pre-defined acceptable ranges.
 - Defining the conditional statements and updating room parameters
-  - For thermal comfort visualization in the BIM model, a parameter named ‘Thermal Comfort Check’ was defined for the ‘Room’ object in the BIM model, which has to be updated based on the ‘Humidity Level’ and ‘Temperature Level’ values stored in room object. A module was created to cross the sensor value between the virtual temperature sensors and the correlating office room in the BIM model.
 
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr5_lrg.jpg" class="post_img" style="width:70%;" alt="BACnet device, object, and properties">
 <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2210670720308192-gr7_lrg.jpg" class="post_img" style="width:80%;" alt="BACnet device, object, and properties">
