@@ -5,7 +5,7 @@
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
   <meta content="{{ site.title }}" property="og:site_name">
-	
+
   {% if page.title %}
     <meta content="{{ page.title }}" property="og:title">
   {% else %}
@@ -28,6 +28,7 @@
     <meta content="{{ site.url }}{{ page.url }}" property="og:url">
 		<link rel="canonical" href="{{ site.url }}{{ page.url }}">
   {% endif %}
+
   {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
     <meta content="{{ site.url }}/about/" property="article:author">
@@ -85,7 +86,7 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta property="og:image" content="">
+	<!-- <meta property="og:image" content=""> -->
 	<link rel="shortcut icon" href="{{ "/assets/img/favicon/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
 	<link rel="apple-touch-icon" href="{{ "/assets/img/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
 	<link rel="apple-touch-icon" sizes="72x72" href="{{ "/assets/img/favicon/apple-touch-icon-72x72.png" | prepend: site.baseurl }}">
