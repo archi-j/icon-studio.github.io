@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 대학원 석사과정에서 반드시 얻어가야 할 11가지- ①
-date: 2022-03-13 09:00:00 +0300
+date: 2021-03-13 09:00:00 +0300
 description: 대학원 석사과정에서 반드시 얻어가야 할 11가지 # Add post description (optional)
-img: 20210313_post_main.jpg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
+img: 20220313_post_main.jpg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
 category: [Others]
 tags: [국내 대학원, 석사, 석사생활]
