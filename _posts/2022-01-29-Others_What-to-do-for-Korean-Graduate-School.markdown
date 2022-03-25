@@ -7,6 +7,7 @@ img: 20220129_post_main.png # Add image post (optional) 280px, 350px, 470px, 700
 fig-caption: # Add figcaption (optional)
 category: [Others]
 tags: [국내 대학원, 진학, 입학준비]
+KOR: true;
 ---
 
 대학원을 졸업할 즈음이 되면, 대학원 진학을 고민하는 지인들과 종종 마주하게 된다. 지금 돌아보면, 당연한 것처럼 보이지만, 대학원 진학을 고려할 당시에는 전혀 생각하지 못했지만 미리 알았다면 좋았겠다는 것들이 꽤 있다. 본 포스팅에서는 그것들을 공유하고자 한다.<br>

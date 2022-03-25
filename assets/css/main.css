@@ -1363,6 +1363,11 @@ body .post-title-in{
   text-decoration: underline;
 }
 
+.KOR {
+  line-height: 2;
+  word-spacing: 2px;
+}
+
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
   width: 100%;
