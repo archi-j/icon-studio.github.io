@@ -1250,7 +1250,6 @@ a.newer-posts:hover {
 
 p .wrap-content{
   font-family: 'Lora', serif, 'Jeju Myeongjo';
-  margin-bottom: 20px;
 }
 
 .header-page {
@@ -1367,6 +1366,10 @@ body .post-title-in{
 .KOR {
   line-height: 2;
   word-spacing: 2px;
+}
+
+.ENG{
+
 }
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */

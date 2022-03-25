@@ -24,7 +24,7 @@ pagination:
       {% if page.KOR %}
         <div class="KOR">{{content | markdownify}}</div>
       {% else %}
-        {{content | markdownify}}
+        <div class="ENG">{{content | markdownify}}</div>
       {% endif %}
       <div class="page-footer">
         <div class="page-share">
