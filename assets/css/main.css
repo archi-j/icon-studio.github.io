@@ -955,6 +955,10 @@ table tfoot td {
 
 }
 
+.sidebar-content{
+  vertical-align: middle;
+}
+
 .about {
   margin: 0 0 10px;
   text-align: center;
