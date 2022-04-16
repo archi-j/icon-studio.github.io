@@ -985,7 +985,10 @@ table tfoot td {
 }
 
 .about p {
-  font-family: sans-serif, 'Noto Sans KR Light';
+  /* font-family: sans-serif, 'Noto Sans KR Light'; */
+  font-family: bistro-script-web, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 0 0 10px;
   font-size: 1.8rem;
   font-weight: bold;
