@@ -989,8 +989,8 @@ table tfoot td {
   font-family: bistro-script-web, sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin: 0 0 10px;
-  font-size: 1.8rem;
+  margin: 20px 0 15px;
+  font-size: 3.1rem;
   font-weight: bold;
   line-height: 1.2;
   padding-bottom: 5px;
@@ -1258,7 +1258,7 @@ p .wrap-content{
 
 .header-page .page-title {
   font-family: urw-din, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   /* font-weight: 600; */
   margin: 0 0 25px;
