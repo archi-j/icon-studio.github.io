@@ -993,7 +993,7 @@ table tfoot td {
   margin: 20px 0 15px;
   font-size: 3.0rem;
   font-weight: normal;
-  text-shadow: -0.4px 0 0 black, 0.4px 0 0 black, 0.4px 0 0 black, -0.4px 0 0 black;
+  text-shadow: -0.4px 0 0 #222, 0.4px 0 0 #222, 0.4px 0 0 #222, -0.4px 0 0 #222;
   line-height: 1.2;
   padding-bottom: 5px;
 }
