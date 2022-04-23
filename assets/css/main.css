@@ -1216,7 +1216,7 @@ footer .copyright {
 }
 
 .post-title {
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .post .post-content p{
@@ -1459,6 +1459,9 @@ body .post-title-in{
   }
   .post .post-content .post-title a {
     font-size: 21px;
+  }
+  .post-title{
+    line-height: 1.3;
   }
   #project.post {
     width: 98%;
