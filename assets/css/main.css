@@ -992,7 +992,8 @@ table tfoot td {
   color: #222222;
   margin: 20px 0 15px;
   font-size: 3.0rem;
-  font-weight: bold;
+  font-weight: normal;
+  text-shadow: -0.4px 0 0 black, 0.4px 0 0 black, 0.4px 0 0 black, -0.4px 0 0 black;
   line-height: 1.2;
   padding-bottom: 5px;
 }
