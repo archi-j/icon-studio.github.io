@@ -82,4 +82,17 @@ tags: [BIM, IFC, JSON]
 ## Limitations
 
 ## Conclusion
+- This paper introduced ifcJSON and demonstrated that IFC Schema should and can be implemented in JSON format. JSON as a lightweight data exchange format has been proved to have higher parsing efficiency than XML and has been successful to replace XML in JavaScript-based web applications especially in AJAX applications.
+- Most importantly, the study demonstrated that ifcJSON4 schema is a well-formed and valid JSON schema and the ifcJSON documents that can be generated based on ifcJSON4 schema are valid JSON documents.
+- In fact, the major contribution of this paper is that ifcJSON is going to push the standardization efforts forward. Data exchange is a very important issue for making service based computing (i.e. Cloud computing) more efficiently and JSON data format supports high scalability.Therefore,ifcJSONdeveloped in this paper is anticipated to be widely used in Cloud-based Building Information Modeling solutions to improve interoperability of Cloud-BIM applications
+- This standardization effort can be done by using IFC schema as the industry established open standard and JSON as an open standard and language independent data format.
+- The result of this study has a major impact on interoperability of Webbased BIM applications by unifying BIM data representation based on both AEC industry standard.
 - Recommendations and future work
+  - the authors recommend that the ifcJSON implementation described in this paper, after further assessment, to be seriously considered for the full generation of the whole IFC schema in order to be added as a buildingSMART standards.
+  - this study recommends to develop a methodology to generate ifcJSON from IFC EXPRESS automatically considering the methodology described in this paper. Also, an automated translation process for mapping between IFC SPF file and ifcJSON document would facilitate the translation of IFC data from EXPRESS to JSON.
+  - Since the visualization of JSON geometry data is not possible within current applications, this study recommends current tools to add JSON functionalities to their application to be capable of using ifcJSON both on server and client side. This will facilitate the representation of ifcJSON geometry and attributes directly without the need to translate to EXPRESS.
+  - it would be useful if application developers develop methodologies to convert their native bindings to ifcJSON directly without the need to use IFC EXPRESS data.
+  - Future work should investigate the ifcJSON implementation for the relationships and property definitions in the IFC data model. Three fundamental entity types in the IFC model are object definitions, relationships and property definitions and in this paper, the ifcJSON representation is implemented only for object definition.
+  - Similar to the tools that exist for the validation of the IFC SPF file against a specific MVD, future work needs to outline the methodologies for a validation technique that can check the validity of the ifcJSON document against the MVD requirements.
+  - Future studies need to outline how JSON-LD constraints can be implemented in ifcJSON to introduce ifcJSON-LD schema and documents
+  - it is anticipated that future study will deploy the ifcJSON developed in this paper for precast concrete in a Web application that uses ifcJSON resources for exchanging data within a structured framework.
