@@ -52,16 +52,56 @@ tags: [BIM, IFC, JSON]
 
 ## Developing ifcJSON
 - Methods for JSON encoding of IFC specification
+  - In order to implement JSON encoding of IFC specification there are two major methodologies that can be applied: 1) to translate ifcXML to JSON serialization, or 2) to directly convert IFC EXPRESS specification to ifcJSON schema.
+  - First method is to translate ifcXML specification to JSON serialization using XML to JSON translating algorithms.
+    - The analysis of original XML data structure and translated JSON data structure shows that although the translation of data between XML and JSON can be applied, data mismatches will be caused and the data accuracy will decrease
+    - “If the ifcXML schema is used to generate a model in a database implementation that is not compliant to the EXPRESS standard then certain conflicts or limitations may be encountered”
+    - The methodology of translating ifcXML to ifcJSON is not accurate and effective, so it is not recommended.
+  - Second method is to directly translate IFC EXPRESS to JSON serialization. However, there is no standardization on configuration of mapping between EXPRESS and JSON and there is no available methodology for automatic conversion between IFC EXPRESS and ifcJSON. Therefore, this study develops the methodology for implementing ifcJSON schema definition from IFC EXPRESS specification.
 - ifcJSON4 implementation approach
+  - Unlike ifcXML schema specification that is an automatic conversion from the EXPRESS (ISO 10303 part 1) representation of the IFC schema, there is no available methodology for automatic conversion between IFC EXPRESS and ifcJSON. In addition, there is no standardization on configuration of mapping between EXPRESS and JSON in general.
+  - Then, the paper describes the data content of an ifcJSON document and its data validation process. The methodology for data model mapping in this paper (shown in Fig. 2) can be summarized in three main steps:
+    - ifcJSON4 Schema development, which is the JSON schema definition that corresponds to the IFC4 EXPRESS definition. This is developed through the generation of a schema from the IFC4 EXPRESS source definition as well as JSON Schema specification defined by IETF.
+    - ifcJSON document implementation, which is a JSON document that can be validated against the ifcJSON4 schema. Each ifcJSON document should be well structured and validated for formatting JSON data and it should also pass the validation against ifcJSON4 schema.
+    - Data validation approach, which addresses three validation approaches including the validation of ifcJSON data for formatting, the validation of ifcJSON4 Schema against the original JSON Schema, and the validation of ifcJSON document data content against the ifcJSON4 schema.
+  - JSON Schema “is a JSON media type for defining the structure of JSON data. JSON Schema is intended to define validation, documentation, hyperlink navigation, and interaction control of JSON data”
+  - The content of the ifcJSON document described in this paper, can be represented in “.ifcjson” or “.json” format which is the exchange format for ifcJSON. This document should be validated both with a validator for formatting JSON data as well as against the ifcJSON4 schema.
 - ifcJSON4 application and evaluation
+  - In addition to providing a data model mapping for ifcJSON, proposed implementation is applied in a use case to evaluate the data content of ifcJSON exchange model. There are three fundamental entity types in the IFC model as object definitions, relationships and property definitions and in this paper we focus on the representation of IFC object definition.
+  - The use case selected in this study indicates the implementation of ifcJSON representation for object definition in precast concrete exchange model known as EMPC1. Precast Concrete BIM standard defines the specification of the Model View Definitions for twelve precast model exchanges and specifies EMPC1 as a subset of IFC schema.
+  - The use case approach in this paper generates an ifcJSON document that contains three information groups, known as IFC concepts listed below to represent IFC object definition
+    - Owner History Data: While owner history data is optional in IFC schema [19], EMPC1 requires history and identification data as exists in IfcOwnerHistory entity (Fig. 3) to be mandatory in the exchange model.
+    - Geometry Representation Data: EMPC1 requires the model to use extruded geometry for representation of the building elements.
+    - Product Placement Data: Product occurrences can be placed in 3D space relative to where they are contained. For building elements positioning is relative to the containing spatial structure. In IFC schema, ObjectPlacement attribute is optional but in EMPC1 the provision of product placement data of precast pieces is required.
 - Implementation challenges and limitations
+  - The implementation of ifcJSON faces several challenges and issues listed below.
+    - There is a lack of standardization on translating EXPRESS model to JSON data. There is no automated methodology, standard or guideline to guide mapping from EXPRESS to JSON.
+    - There is no documentation on a methodology to convert the IFC source definition in EXPRESS into a JSON schema.
+    - The validation of ifcJSON document needs to ensure that the document is well formed and that it is conformed to ifcJSON4 schema. Currently there is no tool that can handle these two validation methods at the same time. Therefore, these two validation approaches need to be done separately.
+    - There is no tool for visualizing. ifcjson file in terms of the geometry representation and the attributes. Therefore, after generating the ifcJSON document and validating it, this document can be translated back to an SPF format in order to visualize model in model viewers (e.g. Solibri).
+    - IFC EXPRESS specification includes data item for types, entities, rules and functions but ifcJSON implementation in this paper similar to the schema derivation logic in ifcXML implementation oses some constraints including rules, inverse relationships and derived attributes
+    - some of the supertype/subtype dependencies are summarized in a way that it can manage limited number of entities to be implemented.
+    - some of the EXPRESS datatypes such as defined datatypes and select datatypes have been reduced in accordance with the use case in this study to facilitate the generation of the ifcJSON schema.
 
 ## Data model mapping
+- JSON Schema,ingeneral,defines a structure for what JSON data is required to provide and therefore its schema defines the validation and interaction control of JSON data
 - ifcJSON4 schema
+  - The ifcJSON4 schema implemented in this paper has seven major properties (i.e. keywords) shown in Table 2 which follows the structure of JSON Schema and uses the latest published draft v4 specification
   - Implementing IFC types and entities
+    - ifcJSON root represents IFC types under “definitions” and IFC entities under “properties” keywords.
+    - instead of using the IfcAxis2Placement type, this representation can be used to refer to IfcAxis2Placement2D or IfcAxisPlacement3D.
+    - Since IfcAxis2Placement2D and IfcAxis2Placement3D are main IFC entities, these are defined under “properties” in the ifcJSON4 schema root.
   - Attributes implementation
+    - In IFC specification class of information i.e. IFC entities defined by common attributes and constraints. In ifcJSON schema, each IFC entity has a “properties” keyword that lists its attributes following JSON schema convention
+    - In IFC specification two types of constraints is applied on attributes
+      - First constraint which is the most general constraint is about the existence of attribute values: mandatory and optional attributes.
+      - Second constraint that is applied on attributes in IFC specification is for aggregation data types such as Set, List, or Array, known as the existence constraint or cardinality constraints which is often refined by a minimal and maximal number of elements
 - ifcJSON documents
+  - An ifcJSON document is the exchange data for ifcJSON and should be validated against ifcJSON4 schema. The ifcJSON document consist of objects or an array of objects that represent IFC entity instances and its structure is defined by ifcJSON4 schema. Each data element that can be exchanged within an SPF file, can also be exchanged within an ifcJSON document.
   - Entity instance encoding
+    - In EXPRESS, when encoding an SPF file, each entity instances are represented by an entity name which is encoded as a number sign “#” followed by a sequence of digit characters represented as a number. In this ifcJSON4 schema, “instanceId” property is defined to keep track of the instance references.
+    - In JSON Schema, the “id” keyword defines a URI for the schema and subschemas can use “id” too to give themselves a document-local identifier
+    - In ifcJSON schema developed in this paper, the “instanceId” keyword refers to the entity instances of the SPF file to provide the capabilities of translating JSON document to SPF file.
 - Data validation
   - ifcJSON data validation for formatting
   - ifcJSON schema validation
