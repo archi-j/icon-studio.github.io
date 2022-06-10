@@ -135,6 +135,7 @@ tags: [BIM, IFC, JSON]
 ## Limitations
 - Similar to the limitations of ifcXML Schema [8] the ifcJSON Schema in this paper does not contain “Inverse” relationships and “derived attributes” that an EXPRESS schema can include. However, the implementation of JSON “$ref” keyword as shown in the above examples, can ensure the “Inverse” relationships in practice.
 - Another limitation of the ifcJSON4 implementation in this paper is with regard to the uniqueness of GUIDs and also instanceIds. Generally, it is not possible to check the uniqueness of properties such as instanceIds and GUIDs in JSON schema. This paper recommends that the functionality of checking the uniqueness of values should be implemented as an added function in JavaScript code or an array of IDs.
+- Additionally, there is currently no tools available that can visualize geometry data in ifcJSON. Therefore, for visualization purposes this study translates the ifcJSON document to SPF so that the data can be represented in model viewer tools.
 
 ## Conclusion
 - This paper introduced ifcJSON and demonstrated that IFC Schema should and can be implemented in JSON format. JSON as a lightweight data exchange format has been proved to have higher parsing efficiency than XML and has been successful to replace XML in JavaScript-based web applications especially in AJAX applications.
