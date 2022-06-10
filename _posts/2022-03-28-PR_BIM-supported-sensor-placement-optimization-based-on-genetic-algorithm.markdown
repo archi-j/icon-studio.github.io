@@ -103,23 +103,38 @@ tags: [BIM, IFC, JSON]
     - In JSON Schema, the “id” keyword defines a URI for the schema and subschemas can use “id” too to give themselves a document-local identifier
     - In ifcJSON schema developed in this paper, the “instanceId” keyword refers to the entity instances of the SPF file to provide the capabilities of translating JSON document to SPF file.
 - Data validation
+  - The ifcJSON documents developed in this paper, should be proved to be complete and well-formed. Therefore, this document needs to be validated with regard to two aspects: firstly, to check syntactic-based constraint according to JSON data formatting and secondly, for structural constraints defined in ifcJSON4 schema.
   - ifcJSON data validation for formatting
+    - In order to validate ifcJSON data for formatting, this paper uses a JSON validator (e.g. http://jsonlint.com/) to validate the JSON data for correctness. This helps debugging JSON data and reports failure if the document is not well-formed due to incorrect JSON syntax. This validation technique should be applied to JSON document and also to ifcJSON4 schema which is a JSON document itself.
   - ifcJSON schema validation
+    - JSON schema is used to validate the structure and data types of a piece of JSON. To validate the ifcJSON4 schema against current JSON schema, two approaches can be used.
+      - This study uses the “JSON Schema Lint” which is a JSON schema validator to help write and test any JSON Schema that conform with the JSON schema Draft V4 specification.
+      - An alternative approach is to use the methodology explained in Section 5.3.3. Since the ifcJSON4 Schema is an ifcJSON document itself, the methodology can be used to validate the ifcJSON4 schema against the main JSON schema draft V4.
+    - In this paper, both of these approaches is applied for the schema validation.
   - ifcJSON data validation against ifcJSON4 schema
+    - For validating the ifcJSON documents against the ifcJSON4 schema, JSON Schema validators should be used. There are some implementations of JSON Schema validators with specific functionalities. In this paper, “ajv” is used which is licensed by MIT and is available on GitHub that is an open source JSON schema validator for both node.js and browser. It implements full JSON schema draft V4 standard. ajv generates code to turn JSON schemas into JavaScript functions
 
 ## Use case approach
+- the use case in this paper is the exchange model EMPC1 [32] in the precast concrete National BIM Standard. More specifically, a precast concrete column is used shown in Fig. 8
+- ifcJSON4 schema and the ifcJSON document for this exchange model is described here for four data categories in the following Sections that respectively indicate the geometry data representation, object placement data, owner history data and the building element data for a precast concrete column that includes these three data categories.
 - Geometry representation data
+  - For the ease of schema representation in this paper, the geometry representation entities in the ifcJSON4 schema have been limited to the entities required for the use case here. In IFC EXPRESS schema, IfcProductDefinitionShape.Representations is a list of IfcRepresentation entities.
   - Geometry data content
 - Product placement data
+  - In the IFC4 EXPRESS schema, product occurrences can be placed in 3D space relative to where they are contained. Placement is defined by a relative position (X, Y, Z coordinates), a horizontal reference direction, and a vertical axis direction
   - Placement data content
 - Owner history data
+  - In the IfcRoot which is the most abstract and root class for all IFC entity definitions, ownership is captured in “OwnerHistory” attribute using IfcOwnerHistory. OwnerHistory assigns the information about the current ownership of that object, such as owning actor and application
   - Owner history data content
 - Precast column
+  - The building element used in this use case is a precast column. In the IFC specification, a column is represented by either IfcColumnStandardCase or IfcColumn mostly used for columns with changing profile sizes along the extrusion
   - Precast column data content
 
 ## Results and discussions
 
 ## Limitations
+- Similar to the limitations of ifcXML Schema [8] the ifcJSON Schema in this paper does not contain “Inverse” relationships and “derived attributes” that an EXPRESS schema can include. However, the implementation of JSON “$ref” keyword as shown in the above examples, can ensure the “Inverse” relationships in practice.
+- Another limitation of the ifcJSON4 implementation in this paper is with regard to the uniqueness of GUIDs and also instanceIds. Generally, it is not possible to check the uniqueness of properties such as instanceIds and GUIDs in JSON schema. This paper recommends that the functionality of checking the uniqueness of values should be implemented as an added function in JavaScript code or an array of IDs.
 
 ## Conclusion
 - This paper introduced ifcJSON and demonstrated that IFC Schema should and can be implemented in JSON format. JSON as a lightweight data exchange format has been proved to have higher parsing efficiency than XML and has been successful to replace XML in JavaScript-based web applications especially in AJAX applications.
