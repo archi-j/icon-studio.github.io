@@ -66,6 +66,9 @@ tags: [BIM, IFC, JSON]
     - Data validation approach, which addresses three validation approaches including the validation of ifcJSON data for formatting, the validation of ifcJSON4 Schema against the original JSON Schema, and the validation of ifcJSON document data content against the ifcJSON4 schema.
   - JSON Schema “is a JSON media type for defining the structure of JSON data. JSON Schema is intended to define validation, documentation, hyperlink navigation, and interaction control of JSON data”
   - The content of the ifcJSON document described in this paper, can be represented in “.ifcjson” or “.json” format which is the exchange format for ifcJSON. This document should be validated both with a validator for formatting JSON data as well as against the ifcJSON4 schema.
+
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517300316-gr2_lrg.jpg" class="post_img" style="width:90%;">
+
 - ifcJSON4 application and evaluation
   - In addition to providing a data model mapping for ifcJSON, proposed implementation is applied in a use case to evaluate the data content of ifcJSON exchange model. There are three fundamental entity types in the IFC model as object definitions, relationships and property definitions and in this paper we focus on the representation of IFC object definition.
   - The use case selected in this study indicates the implementation of ifcJSON representation for object definition in precast concrete exchange model known as EMPC1. Precast Concrete BIM standard defines the specification of the Model View Definitions for twelve precast model exchanges and specifies EMPC1 as a subset of IFC schema.
@@ -73,6 +76,10 @@ tags: [BIM, IFC, JSON]
     - Owner History Data: While owner history data is optional in IFC schema [19], EMPC1 requires history and identification data as exists in IfcOwnerHistory entity (Fig. 3) to be mandatory in the exchange model.
     - Geometry Representation Data: EMPC1 requires the model to use extruded geometry for representation of the building elements.
     - Product Placement Data: Product occurrences can be placed in 3D space relative to where they are contained. For building elements positioning is relative to the containing spatial structure. In IFC schema, ObjectPlacement attribute is optional but in EMPC1 the provision of product placement data of precast pieces is required.
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517300316-gr3_lrg.jpg" class="post_img" style="width:60%;">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517300316-gr4_lrg.jpg" class="post_img" style="width:70%;">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517300316-gr5_lrg.jpg" class="post_img" style="width:70%;">
+
 - Implementation challenges and limitations
   - The implementation of ifcJSON faces several challenges and issues listed below.
     - There is a lack of standardization on translating EXPRESS model to JSON data. There is no automated methodology, standard or guideline to guide mapping from EXPRESS to JSON.
@@ -85,6 +92,8 @@ tags: [BIM, IFC, JSON]
 
 ## Data model mapping
 - JSON Schema,ingeneral,defines a structure for what JSON data is required to provide and therefore its schema defines the validation and interaction control of JSON data
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517300316-gr6_lrg.jpg" class="post_img" style="width:60%;">
+
 - ifcJSON4 schema
   - The ifcJSON4 schema implemented in this paper has seven major properties (i.e. keywords) shown in Table 2 which follows the structure of JSON Schema and uses the latest published draft v4 specification
   - Implementing IFC types and entities
@@ -117,6 +126,8 @@ tags: [BIM, IFC, JSON]
 ## Use case approach
 - the use case in this paper is the exchange model EMPC1 [32] in the precast concrete National BIM Standard. More specifically, a precast concrete column is used shown in Fig. 8
 - ifcJSON4 schema and the ifcJSON document for this exchange model is described here for four data categories in the following Sections that respectively indicate the geometry data representation, object placement data, owner history data and the building element data for a precast concrete column that includes these three data categories.
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517300316-gr8_lrg.jpg" class="post_img" style="width:70%;">
+
 - Geometry representation data
   - For the ease of schema representation in this paper, the geometry representation entities in the ifcJSON4 schema have been limited to the entities required for the use case here. In IFC EXPRESS schema, IfcProductDefinitionShape.Representations is a list of IfcRepresentation entities.
   - Geometry data content
@@ -131,6 +142,8 @@ tags: [BIM, IFC, JSON]
   - Precast column data content
 
 ## Results and discussions
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517300316-gr9_lrg.jpg" class="post_img" style="width:80%;">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0926580517300316-gr10_lrg.jpg" class="post_img" style="width:80%;">
 
 ## Limitations
 - Similar to the limitations of ifcXML Schema [8] the ifcJSON Schema in this paper does not contain “Inverse” relationships and “derived attributes” that an EXPRESS schema can include. However, the implementation of JSON “$ref” keyword as shown in the above examples, can ensure the “Inverse” relationships in practice.
