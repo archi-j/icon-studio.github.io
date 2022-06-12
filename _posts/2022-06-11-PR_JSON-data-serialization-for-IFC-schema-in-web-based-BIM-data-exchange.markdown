@@ -25,6 +25,11 @@ tags: [BIM, IFC, Smantic Web]
     - Secondly, semantic web technologies were found useful to increase the value of BIM by enabling data integration and complex search queries across several data sources.
     - With the increase of the application of sensing technology in the construction site, the third added value brought by semantic web technology is to incorporate sensing technology to manage construction document information in the field.
 - Promises and expectancies
+  - The primary question this article investigates is what has been and can be obtained by adopting semantic web or linked data technologies for the AEC industries.
+    1. Interoperability: The usage of semantic web technologies has been considered as an opportunity to improve interoperability in the AEC industries [16–21], thus resulting in an integrated and successful data exchange environment.
+    2. Linking across domains: Second, semantic web technologies provide the option to link information stemming from diverse domains (e.g. BIM, GIS, heritage, sensor data, simulation data, smart cities) into one web of linked building data.
+    3. Logical inference and proofs: A third and last topic that is often used in arguing for the adoption of semantic web technologies in the architectural design and construction industry, is the underlying logical foundations of the language(s) used by semantic web technologies. An appropriate usage of the language thus allows the inference of extra information from the originally represented information.
+  - It is not always clear what the difference is between “interoperability” and “linking across domains”. We consider interoperability to be the challenge to load the same content in multiple applications. Linking across domains is considered here as the challenge to combine different content that is available in multiple applications (e.g. cost data, energy simulation data, geometrical data, GIS data).
 - Methodology
 
 ## Semantic web technologies
