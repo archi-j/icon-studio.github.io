@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recommendation of online courses
-date: 2021-06-12 09:00:00 +0300
+date: 2022-06-12 09:00:00 +0300
 description: Recommendation of Online Courses # Add post description (optional)
 img: 20220612_post_main.jpg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
