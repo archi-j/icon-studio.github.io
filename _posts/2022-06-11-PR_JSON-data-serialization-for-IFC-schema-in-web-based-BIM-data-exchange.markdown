@@ -47,15 +47,43 @@ tags: [BIM, IFC, Smantic Web]
   - The difference between CWA and OWA plays a key role when an ontology is used to represent a BIM model, because if something is not specified, then one cannot conclude much, except that it might still be true or false. A whole different kind of information usage and inference becomes available
   - the OWA of semantic web technologies is still something different from the traditional CWA features in current software applications.
 - Linked data vs. semantic web
+  - Other terms that can regularly be found in relation to semantic web technologies are linked data, web of data, and semantic web
 
 ## Aim 1: interoperability
 - Interoperability standards
+  - The desire for interoperability in the AEC domain was the key driver behind the International Alliance for Interoperability (IAI), now commonly known as BuildingSMART International. The efforts by this community have evolved into the Industry Foundation Classes (IFC) data model, along with a number of other standards (mvdXML, IFD, IDM).
+  - Building model data in a BIM authoring tool can be exported and imported to another tool using the IFC STEP Physical File Format (SPFF) following ISO 10303-21
+  - IFC is defined in the EXPRESS schema. The IFC release also contains the IFC schema defined in the XSD schema (ISO 10303-28), which allows building models to be shared as ifcXML files. The purpose of providing this alternative format is to leverage accessibility and applicability of the IFC schema through the XML format, which has been broadly used in other industry domains. Similarly, the ifcOWL ontology is proposed and maintained as a second alternative schema
+  - There are a number of challenges in using the IFC schema in EXPRESS as a means for achieving interoperability.
+    1. Binding
+      - Compatibility with the IFC schema, however, highly depends on implementation and usage practice because heterogeneous IFC translation and binding processes of each BIM authoring tool could result in unintended geometric transformations and semantic errors
+    2. Adaptability
+      - various industry domains and software vendors require a tremendous amount of work to agree upon and generate the compliant IFC schema and associated specifications. It thus requires a significant amount of time to reach consensus on its content, representation and definition scope, so that the schema typically does not encompass state-of-the-art technology and newly-launched construction methods.
+    3. Extensibility
+      - If one wants to express information that is not available as such in the IFC schema (and he does not know how to do this in EXPRESS), IfcProxy concepts and custom IFC property sets can be used. However, these are semantically very loose additions, in the sense that anybody who wishes to use this information will need to manually interpret strings in their application logics.
 - A semantic alternative
+  - In response to the earlier outlined challenges, it was therefore investigated whether semantic web technologies might provide an alternative technical means to address the interoperability issue
+  - The BuildingSMART LDWG has therefore produced an ifcOWL ontology that can serve as a domain ontology for the construction industry. The LDWG working group has heavily relied on earlier proposals to convert the IFC schema into an OWL ontology and to convert IFC STEP Physical Files (SPF) into RDF graphs that follow the ifcOWL ontology
+  - Further modifications and extensions to the ifcOWL ontology are now proposed, based on critical ontological analysis and tested alternative suggestions.
 - Binding parallel representations
+  - Of course, adopting semantic web technologies (ifcOWL) cannot address bad implementation and usage practices. However,
+    1. as they provide a single data model (RDF) for representing any kind of information;
+    2. as they allow adding a logical DL basis to this representation using OWL;
+    3. as they focus intensively on linking diverse graphs of information together in a web-like fashion,
+    - semantic web technologies might be the ideal technical means to provide interoperability while also allowing to flexibly handle new semantic structures
+  - An IFC, X3D and STL representation of a box can all be interlinked in diverse ways, but if one of these representations changes, the same changes should also be made for the other two representations in an interoperable system.
   - Link sets
+    - One interesting solution proposed in El-Gohary and El-Diraby is an ontology integrator (Onto-Integrator) for facilitating ontology interoperability within the AEC domains. The Onto-Integrator offers a heuristic for ontology merging, including the merging of concept taxonomies, relations, and axioms.
+    - Furthermore, Törmä argues for the need for instance-level interoperability in addition to ontologylevel or schema-level interoperability. This is particularly important when actual exchange of partial models (requirement model, architectural model, MEP model) takes place, in which the key challenge is to find out which elements in the diverse partial elements are actually identical
+    - There is no mechanism or suggestion made in the semantic web domain to properly deal with this situation. This leaves a high risk of redundancy and inconsistency of information. For example, Scherer et al. [19] and Törmä[69] propose to implement this transition mechanism with linked data technologies, which results in ‘linksets’: sets of links that represent the relationships between partial models (i.e. the blue circular arrows in Fig. 5). These linksets still need to be managed through human intervention though.
   - Mapping schemas in formal rules
+    - Assuming that all RDF graphs in the central web of data follow a specific OWL ontology, and thus have a solid formal structure, it should be possible to devise a mapping schema between specific pairs of schemas. By representing that mapping schema in formal rules, one can use an inference engine to automatically infer data in alternative ontologies, starting from data in a master ontology or central ontology
+    - In theory, this approach of mapping schemas in formal rules can also be used in the context of Model View Definitions (MVDs). An MVD is a subset of the building product model schema (the IFC schema) that provides a complete representation of BIM exchange data needed for a particular domain of the AEC industries. MVDs are currently captured in mvdXML files. The information that is currently captured in an mvdXML file can also be captured using semantic web rules (SWRL, N3Logic, and other) or SPARQL CONSTRUCT queries
+    - In principle, this would allow to ‘query’ the complete IFC/RDF file and automatically output the required subset on demand. One advantage of this approach is that the process can be implemented using regular semantic web technologies, including out-of-the-box inference engines, triple stores and query interpreters. The greatest advantage of this approach, however, is likely that it allows a far more flexible mechanism to generate subsets. Both semantic web rules and SPARQL construct queries namely allow to output information that does not have to follow the IFC schema (as opposed to a regular MVD subset). As such, output might be generated that automatically matches the semantic information structure of a target program, hence supporting interoperability in an alternative fashion (mapping schemas in formal rules).
+    - The two main components in this architecture, the Federal Controllor (FC) and the Federal Descriptor (FD) are placed in-between a knowledge base and a user interface (Fig. 6). These two components take into account the ontologies used in the query coming from the user interface and translate the query via ontology alignments and inference mechanisms to the ontology structures used in the knowledge base.
 
 ## Aim 2: linking across domains
+- Some of these approaches are more closely affiliated to linked data rather than semantic web technologies, although ontologies equally often play a crucial role as well. When specifically relying on ontologies, the key research question is often related to the creation of domain ontologies, which aim at providing a shared representation for the concepts within a domain of knowledge, and how they should be linked together and still remain useful
 - Collaborative information management
 - Product manufacturer data
 - Building performance analysis
