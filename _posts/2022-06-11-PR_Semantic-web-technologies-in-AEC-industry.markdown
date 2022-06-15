@@ -2,7 +2,7 @@
 layout: post
 title: "[Paper Reading] Semantic web technologies in AEC industry: A literature overview"
 date: 2022-06-11 09:00:00 +0300
-description: "2017_Semantic web technologies in AEC industry: A literature overview" # Add post description (optional)
+description: "2017_Semantic web technologies in AEC industry - A literature overview" # Add post description (optional)
 img: 20220611_post_main.jpg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
 category: [PR]
