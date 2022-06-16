@@ -36,7 +36,9 @@ layout: main
       <header class="header-page">
         <h1 class="page-title">Design works<br></h1>
       </header>
-        <script async src="https://apps.elfsight.com/p/platform.js"></script>
+        <script defer src="https://apps.elfsight.com/p/platform.js">
+          document.querySelector("a.eapps-link").style.display = 'none';
+        </script>
         <div class="elfsight-app-7dadcb9b-97af-4867-ae9f-878a907aad74"></div>
     </div>
   </div>
@@ -73,17 +75,13 @@ layout: main
   </div>
 </article>
 
-<script defer>
+<!-- <script defer>
   console.log(document.querySelector("a.eapps-link"));
   document.querySelector("a.eapps-link").style.display = 'none';
   console.log(document.getElementsByClassName("eapps-link"));
-  console.log(document.getElementsByClassName("eapps-link")['0']);
-  console.log(document.getElementsByClassName("eapps-link")["0"]);
-  console.log(Object.keys(document.getElementsByClassName("eapps-link")));
-  console.log(Object.values(document.getElementsByClassName("eapps-link")));
-  // console.log(document.getElementsByClassName("eapps-link")[0].style);
-  // const widget_ = document.getElementsByClassName("eapps-link");
-  // console.log(widget_['0']);
-  // widget_[0].style.display = "none";
-  // console.log(widget_[0].style.display);
-</script>
+  console.log(document.getElementsByClassName("eapps-link")[0].style);
+  const widget_ = document.getElementsByClassName("eapps-link");
+  console.log(widget_['0']);
+  widget_[0].style.display = "none";
+  console.log(widget_[0].style.display);
+</script> -->
