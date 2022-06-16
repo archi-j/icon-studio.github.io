@@ -74,7 +74,8 @@ layout: main
 </article>
 
 <script>
-  console.log(document.getElementsByClassName("eapps-link"))
+  console.log(document.getElementsByClassName("eapps-link")[0]);
+  console.log(document.getElementsByClassName("eapps-link")[0].style);
   const widget_ = document.getElementsByClassName("eapps-link");
   console.log(widget_[0].style.display);
   widget_[0].style.display = "none";
