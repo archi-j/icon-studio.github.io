@@ -26,7 +26,7 @@ This list shows online courses categorized by topics. I highly recommend to take
 
 ## Semantic Web
 - [Web of Data by Catherine Faron Zucker et al.](https://www.coursera.org/learn/web-data)
-- [Knowledge Graphs by Harald Sack, Mehwish Alam](https://open.hpi.de/courses/knowledgegraphs2020)
+- [Knowledge Graphs by Harald Sack & Mehwish Alam](https://open.hpi.de/courses/knowledgegraphs2020)
 
 ## Natural Language Proceesing
 - [텍스트 마이닝 실전 및 분석 by 송민 교수](http://www.kmooc.kr/courses/course-v1:YSUk+FD_YSU_LIS01k+2021_T1/about)
