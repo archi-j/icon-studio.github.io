@@ -6,7 +6,7 @@ description: "2017_Semantic web technologies in AEC industry - A literature over
 img: 20220611_post_main.jpg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
 category: [PR]
-tags: [BIM, IFC, Smantic Web]
+tags: [BIM, IFC, Semantic Web]
 ---
 
 **Publication year:** 2017 <br>
