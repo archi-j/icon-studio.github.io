@@ -40,5 +40,14 @@ This list shows online courses categorized by topics. I highly recommend to take
 - [Grasshopper Speed Modeling by DIGIT](https://www.youtube.com/watch?v=hbwhbg2F4vY&list=PLdg7fiFIJsji3VGpcXzEHmXDp5NclXm4f)
 - [라이노 그라스하퍼 C# 디자인 스크립팅 by Namjoo Lee](https://www.inflearn.com/course/%EB%9D%BC%EC%9D%B4%EB%85%B8-%EA%B7%B8%EB%9D%BC%EC%8A%A4%ED%95%98%ED%8D%BC)
 
-## App development
+## Web Development
+- [WEB1-HTML&Internet by 생활코딩](https://www.youtube.com/playlist?list=PLuHgQVnccGMDZP7FJ_ZsUrdCGH68ppvPb)
+- [WEB2-Node.js by 생활코딩](https://www.youtube.com/playlist?list=PLuHgQVnccGMA9QQX5wqj6ThK7t2tsGxjm)
+- [WEB3-Express by 생활코딩](https://www.youtube.com/playlist?list=PLuHgQVnccGMAGOQu8CBDO9hn-FXFmm4Wp)
+- [jQeury by 생활코딩](https://www.youtube.com/playlist?list=PLrCCNh6y7w2g6U7RX_v-TOefyRPiO32jT)
+- [Front-End Web UI Frameworks and Tools: Bootstrap 4 by Jogesh K. Muppala](https://www.coursera.org/learn/bootstrap-4)
+- [Front-End Web Development with React by Jogesh K. Muppala](https://www.coursera.org/learn/front-end-react)
+- [Server-side Development with NodeJS, Express and MongoDB by Jogesh K. Muppala](https://www.coursera.org/learn/server-side-nodejs)
+
+## App Development
 - [아이폰 앱 개발 입문 1편 by 최완택](https://www.inflearn.com/course/%EC%95%84%EC%9D%B4%ED%8F%B0-%EC%95%B1-%EA%B0%9C%EB%B0%9C/)
