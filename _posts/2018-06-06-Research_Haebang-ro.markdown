@@ -15,7 +15,7 @@ I suggest building a long road connecting Namsan Mountain and Yongsan Park over 
 
 This project focuses on Shinheung Market where renovation is the most urgent. This market is now underdeveloped. Buildings in the market cannot be extended more than four stories above the Namsan Mountain due to construction regulations, and the building owners cannot receive subsidies for renovation from the government, because of their private ownership. To cover the existing monthly rent, they gradually change the market into residential space, and young entrepreneurs try to do business at the building; however, it does not seem easy. The meaning of Shinheung Market, “emerging market”, is tarnishing in the capital and bureaucratic society.
 
-<img src="https://drive.google.com/uc?export=view&id=1wK33r8b2t4g8-Ge9bPKs4iAd68XIoXSg" class="" style="width:39.5%;" alt="Masterplan">
-<img src="https://drive.google.com/uc?export=view&id=16481Pl6OhQMf214AMYvS8zjSF45IZXcN" class="" style="width:60%;" alt="Building Diagram">
-<img src="https://drive.google.com/uc?export=view&id=1GKx14ctdutetLO-aCgenypTVhev-hZNe" class="post_img" style="width:100%;" alt="Process Diagram">
-<img src="https://drive.google.com/uc?export=view&id=1obw06ntdMxCMWgH5fntq2CGlH3Z8rxx5" class="post_img" style="width:100%;" alt="Scene">
+<img src="https://drive.google.com/uc?export=view&id=1XWf1R1R-zxrCFkthVrlpXdgzH5R8hUX-" class="" style="width:39.5%;" alt="Masterplan">
+<img src="https://drive.google.com/uc?export=view&id=1UX_QvHjr6uKEru8YeapPnO8GMPmrqMsT" class="" style="width:60%;" alt="Building Diagram">
+<img src="https://drive.google.com/uc?export=view&id=1D5O4dWjvR5-G0bVvWa7AnIFEwQSZEIf8" class="post_img" style="width:100%;" alt="Process Diagram">
+<img src="https://drive.google.com/uc?export=view&id=1Ve7KaH8sf9tjukQOPIhDoLmN45QSmafF" class="post_img" style="width:100%;" alt="Scene">
