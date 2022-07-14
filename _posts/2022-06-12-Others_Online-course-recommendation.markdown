@@ -16,6 +16,9 @@ This list shows online courses categorized by topics. I highly recommend to take
 - [Deep Learning Zero To All: TensorFlow by Sung Kim](https://deeplearningzerotoall.github.io/season2/lec_tensorflow.html)
 - [Deep Learning Zero To All: PyTorch by Sung Kim](https://deeplearningzerotoall.github.io/season2/lec_pytorch.html)
 
+## Natural Language Proceesing
+- [텍스트 마이닝 실전 및 분석 by 송민 교수](http://www.kmooc.kr/courses/course-v1:YSUk+FD_YSU_LIS01k+2021_T1/about)
+
 ## Internet of Things
 - [Introduction to the Internet of Things and Embedded Systems by Ian Harris](https://www.coursera.org/learn/iot)
 - [The Arduino Platform and C Programming by Ian Harris](https://www.coursera.org/learn/arduino-platform)
@@ -27,9 +30,6 @@ This list shows online courses categorized by topics. I highly recommend to take
 ## Semantic Web
 - [Web of Data by Catherine Faron Zucker et al.](https://www.coursera.org/learn/web-data)
 - [Knowledge Graphs by Harald Sack & Mehwish Alam](https://open.hpi.de/courses/knowledgegraphs2020)
-
-## Natural Language Proceesing
-- [텍스트 마이닝 실전 및 분석 by 송민 교수](http://www.kmooc.kr/courses/course-v1:YSUk+FD_YSU_LIS01k+2021_T1/about)
 
 ## Writing Skill
 - [Writing in the Science by Kristin Sainani](https://www.coursera.org/learn/sciwrite)
