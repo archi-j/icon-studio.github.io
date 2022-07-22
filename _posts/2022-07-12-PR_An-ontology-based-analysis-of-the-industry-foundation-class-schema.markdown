@@ -69,6 +69,9 @@ tags: [BIM, IFC, Semantic Web]
   - Validation and verification, which form the final phase, are concerned with ensuring semantic correctness of the defined product. For the purpose of the research in this paper, these questions can be translated to verification focuses on the correctness of the mvdXML structure developed in relation to the ontology and validation equates to checking whether the mvdXML development-based ontologies actually cover the semantic needs identified.
 
 ## Ontology building
+- The objective of the ontology development is to remove ambiguities associated with differing viewpoints and formalize IFC definitions for a robust model exchange solution
+- In order for the importing application to infer semantic knowledge from the exchange, the exporting application should structure the data based on an agreed upon standard. The ontology definitions provide a means to remove ambiguity regarding those different meanings in such scenarios, by using constraints that define the relationships and also provide equivalences between individuals.
+- Once the ontology is developed and validated, it can then be applied to other domains as well such as cast-in place concrete and steel industry. Protégé and web ontology language (OWL) are the tools that are used to represent knowledge in a structured and reasonable way and the final model view is in the form of mvdXML.
 
 ## Ontology definitions
 - Part-whole relationships
@@ -80,6 +83,11 @@ tags: [BIM, IFC, Semantic Web]
 ## Applications of ontology definitions
 - Some comparison of component ontology and the IFC schema
 - Defining a new classification structure based on ontology definitions
+  - The focus of this comparative study begins at the IfcElement level and classifies the hierarchy based on definitions from the ontology.
+  - A breadth first approach has been followed to divide the elements into two broad groups namely, (a) primary building elements and (b) element components.
+  - PrimayBuildingElements = [IfcBeam, IfcChimney, IfcColumn, IfcCurtainWall, IfcDoor, IfcFooting, IfcMember, IfcPile, IfcRamp, IfcRoof, IfcSlab, IfcStair, IfcWall, IfcWindow, IfcProxyBuildingElement]
+  - ElementParts = [IfcCovering, IfcRampFlight, IfcStairFlight, IfcBuildingElementPart, IfcDoor, IfcWindow]
+  - The ontology structure allows defining a more logical and consistent semantic structure to the building elements, defined as concepts. An important benefit of this classification is that, ideally based on their function, different users, as well as the software implementers can unambiguously define classes.
 
 ## Conclusion and outlook
 - This research outlines a possible foundation for the development and implementation of a new integrated framework that is expected to define a clearer and less ad hoc structure for IFC. The new structure, like the current IFC is extensible. In addition, the method and classifications of extensions are well defined. This research has shown the usefulness of ontologies for specifying consistent implementation structures using IFC.

@@ -30,6 +30,7 @@ This list shows online courses categorized by topics. I highly recommend to take
 ## Semantic Web
 - [Web of Data by Catherine Faron Zucker et al.](https://www.coursera.org/learn/web-data)
 - [Knowledge Graphs by Harald Sack & Mehwish Alam](https://open.hpi.de/courses/knowledgegraphs2020)
+- [Building Ontologies for Knowledge Discovery by Heather Hedden & James Morris](https://www.youtube.com/watch?v=GBp_YvE6WeY)
 
 ## Writing Skill
 - [Writing in the Science by Kristin Sainani](https://www.coursera.org/learn/sciwrite)
