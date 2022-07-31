@@ -11,4 +11,4 @@ KOR: true;
 ---
 라이노 그래스호퍼를 통해 파이썬 언어를 배워볼 수 있는 강의입니다. 파이썬은 파라메트릭 디자인의 효율성 높여줄 뿐만 아니라, 레빗 다이나모, 웹개발, 데이터 분석에도 활용할 수 있는 언어입니다.
 
-<iframe class="post_img" width="560" height="315" src="https://youtu.be/Sx3nfuI0Vro" title="라이노 그래스호퍼로 파이썬 배우기_Part1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="post_img" width="560" height="315" src="https://www.youtube.com/embed/Sx3nfuI0Vro" title="라이노 그래스호퍼로 파이썬 배우기_Part1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
