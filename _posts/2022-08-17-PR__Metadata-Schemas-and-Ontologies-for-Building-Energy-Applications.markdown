@@ -3,7 +3,7 @@ layout: post
 title: "[Paper Reading] Metadata Schemas and Ontologies for Building Energy Applications: A Critical Review and Use Case Analysis"
 date: 2022-08-17 09:00:00 +0300
 description: "2021_Metadata Schemas and Ontologies for Building Energy Applications: A Critical Review and Use Case Analysis" # Add post description (optional)
-img: 20220817_post_main.jpg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
+img: 20220817_post_main.JPG # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
 category: [PR]
 tags: [Metadata, Ontology, Semantic Web]
@@ -60,13 +60,52 @@ tags: [Metadata, Ontology, Semantic Web]
 - Metadata Schemas
   - Schemas for Building Design and Energy Modeling
     - The IFC standard is widely used in industry, and its latest version was published in 2018. Green Building XML (gbXML) is another popular schema aimed at enabling exchange of information between a BIM and architectural/engineering analysis software, including Building Energy Modeling (BEM)
+    - ifcOWL
+    - SimModel Ontology
+    - EnergyADE
+    - extention of CityGML schema
   - Schemas for Building Operations: Sensor Networks, IoT, and Smart Homes
+    - Semantic Sensor Network/Sensor, Observation, Sample, and Actuator (SSN/SOSA) ontology
+    - The Web Thing Model (WoT)
+    - oneM2M BaseOntology
+    - One Data Model (OneDM)
+    - Smart Energy Aware Systems (SEAS)
+    - ThinkHome ontology
+    - Building Ontology for Ambient Intelligence (BOnSAI)
+    - DogOnt ontology
+    - Ontology of smart building (SBOnto)
+    - Smart Applications REFerence (SAREF)
   - Schemas for Building Operations: Commercial Building Automation and Monitoring
+    - Project Haystack 3
+    - BASont
+    - Project Haystack 4
+    - Haystack Tagging Ontology (HTO)
+    - Brick Schema
+    - Google Digital Building Ontology
+    - Semantic BMS ontology (SBMS)
+    - CTRLont
+    - Green Button
+    - RealEstateCore (REC)
+    - Building Topology Ontology (BOT)
+    - Knowledge Model for City (KM4City)
+    - EM-KPI Ontology
   - Schemas for Building Operations: Grid-Interactive Efficient Building (GEB) Applications
+    - Facility Smart Grid Information Model standard
+    - RESPOND ontology
   - Schemas for Building Operations: Occupants and Behavior
+    - DNAs Framework (obXML)
+    - Occupancy Profile (OP) Ontology
+    - Onto-SB: Human Profile Ontology for Energy Efficiency in Smart Building
+    - OnCom
   - Schemas for Building Operations: Asset Management and Audits
+    - Building Energy Data Exchange Specification (BEDES)
+    - Virtual Buildings Information System (VBIS)
+    - Ontology of Property Management (OPM)
+    - BuildingSync
 
 ## Use Cases
+- Use cases are an effective way for capturing business processes and functional requirements. They are particularly useful for prioritizing the scope of work for complex interdisciplinary undertakings with large numbers of possibilities, stakeholders, and challenges.
+- To facilitate the analysis of the selected metadata schemas, we defined three use cases: (1) energy audits, (2) automated fault detection and diagnostics (AFDD), and (3) optimal control.
 - Use Case 1: Energy Audits
 - Use Case 2: Automated Fault Detection and Diagnostics
 - Use Case 3: Optimal Control of HVAC
