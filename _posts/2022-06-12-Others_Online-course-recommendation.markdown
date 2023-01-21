@@ -32,6 +32,12 @@ This list shows online courses categorized by topics. I highly recommend to take
 - [Knowledge Graphs by Harald Sack & Mehwish Alam](https://open.hpi.de/courses/knowledgegraphs2020)
 - [Building Ontologies for Knowledge Discovery by Heather Hedden & James Morris](https://www.youtube.com/watch?v=GBp_YvE6WeY)
 
+## Use Case
+- [What is a Use Case](https://en.wikipedia.org/wiki/Use_case)
+- [Use Cases, Ten Years Later](http://www.dsc.ufcg.edu.br/~garcia/cursos/ger_processos/seminarios/Crystal/Use%20Cases,%20Ten%20Years%20Later.htm)
+- [Functional and Nonfunctional Requirements: Specification and Types](https://www.altexsoft.com/blog/business/functional-and-non-functional-requirements-specification-and-types/)
+- [Top Ten Use Case Mistakes](https://www.drdobbs.com/top-ten-use-case-mistakes/184414701)
+
 ## Writing Skill
 - [Writing in the Science by Kristin Sainani](https://www.coursera.org/learn/sciwrite)
 
