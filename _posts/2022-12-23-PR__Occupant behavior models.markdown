@@ -10,7 +10,7 @@ tags: [Occupant Behavior, Building Performance Simulation, Review]
 ---
 
 **Publication year:** 2018 <br>
-**Authors:** Tianzhen Hong, Yixing Chen, Zsofia Belafi1, and Simona D’Oca<br>
+**Authors:** Tianzhen Hong, Yixing Chen, Zsofia Belafi, and Simona D’Oca<br>
 
 ## Introduction
 - Occupant behavior (OB) in buildings refers to occupants’ presence and movement, and interactions with building systems that have an impact on building performance (thermal, visual, acoustic, and indoor air quality). The interactions include adjusting thermostat settings, opening or closing windows, dimming or turning on/off lights, pulling up or down window blinds, switching on or off plug loads, and consuming domestic hot water.
