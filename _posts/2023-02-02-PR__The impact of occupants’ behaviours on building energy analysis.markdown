@@ -20,6 +20,7 @@ tags: [Occupant Behavior, Behavioral Model, Review]
 - Occupants’ behaviour as the most overlooked parameter that “might not be considered as part of the energy design” within the chain of design, construction, operation and maintenance.
 - This paper aims to undertake a comprehensive review of existing studies in this area to identify research trends and gaps for future studies.
 
+
 ## Method and materials
 ### Occupant behaviour
 - Occupant behaviour refers to the interaction with building systems in order to control the indoor environment for health, and to obtain thermal, visual and acoustic comfort inside buildings.
@@ -31,6 +32,7 @@ tags: [Occupant Behavior, Behavioral Model, Review]
 - Studies on the inter-relationship between various energy behaviours of occupants are useful but currently limited and further analysis is much needed.
 - Several studies have demonstrated that the consequences of occupants’ behaviours significantly increase the total energy consumption of buildings during non-working and unoccupied hours
 - Human behaviour is a complex phenomenon; therefore, most human behaviour studies adopted probabilistic methods.
+
 ### Parameters influencing occupants’ energy behaviour
 - Climatic (environmental, physical)
   - e.g., outdoor temperature, relative humidity, solar radiation, wind and rain.
@@ -55,6 +57,7 @@ tags: [Occupant Behavior, Behavioral Model, Review]
   - “sustainable interior design” describes the integration of sustainability principles in the interior design of space as part of building construction
   - The interior design of space can influence occupant behaviour in differing ways, including: visual quality of building openings (windows and doors), the architecture circulation and colours, material and compositions of interior spaces which may change occupants’ thermal perception
   - future research could extend to the urban design scale as the understanding of the impact of occupants’ energy behaviours on energy consumption on a larger scale improves the credibility of energy consumption policies made using more realistic data.
+
 ### Occupancy factor in energy simulation
 - Energy simulation of a building is a mathematical analysis of the physical properties of the building elements, considering thermal and lighting aspects
 - Current energy simulation engines such as TRNSYS, ESP-r, IES Virtual Environment or EnergyPlus, follow an almost similar procedure to calculate energy consumption in buildings. The final outputs are heating/ cooling/ ventilation design data, lighting data, CO2 emission, the total energy consumption and cost.
@@ -65,6 +68,7 @@ tags: [Occupant Behavior, Behavioral Model, Review]
 - Occupant's impact on building energy consumption is only considered in the occupancy section of energy simulation software. Input data regarding occupancy in energy simulation software is limited to occupants’ presence in fixed and scheduled patterns, and these do not reflect reality
 - This research project and other similar studies, demonstrated that by neglecting occupants’ interactions with building systems in building energy calculations leads to inaccuracies.
 - The consensus from researchers is that behavioural parameters should be fully incorporated into energy simulation tools in order to provide more accurate energy predictions
+
 
 ## Conclusion: current research limitations and recommendations for future studies
 - Numerous studies have investigated the impact of occupants on the energy consumption in buildings with the need to reduce the performance gap between the predicted and actual energy consumption of buildings.
