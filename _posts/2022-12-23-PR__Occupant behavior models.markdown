@@ -39,12 +39,15 @@ tags: [Occupant Behavior, Building Performance Simulation, Review]
   - This approach provides flexibility by enabling users to change how a BPS program simulates a building energy model without having to recompile the source code of a BPS program. This approach allows both deterministic and stochastic OB models using built-in or user-defined stochastic mathematical functions.
 - Co-Simulation
   - Co-simulation is a simulation methodology that allows distinct components to be simulated by different simulation tools running simultaneously and switching information in a combined routine
+
 ### Which implementation approach to choose for different OB model types
 - Modelers may also choose to implement a data-driven deterministic control logic or customized code for the specific purpose of the simulation study.
 - Probabilistic models typically are implemented as user functions or customized codes, or in a dedicated co-simulation environment.
 - Overall the direct input or control is the approach most frequently used by most simulation users. The built-in OB models approach is limited to a few BPS programs (e.g., DeST and ESP-r). The user function approach is also limited to a few BPS programs (e.g., EnergyPlus, DOE-2, IDA ICE, and TRNSYS). The co-simulation approach is emerging as a more robust and interoperable approach to simulating OB, as more BPS programs (e.g., EnergyPlus and ESP-r) are adopting this approach.
+
 ### The implementation approaches used in the eight BPS programs
 - The direct input or control approach is implemented in all eight BPS programs. The other three approaches show significant diversity within the BPS programs. Currently, EnergyPlus and ESP-r support co-simulation. Only DeST and ESP-r provide built-in OB models. User function or custom code is supported in EnergyPlus, DOE-2, IDA ICE, and TRNSYS.
+
 ### Strengths and weaknesses of the implementation approaches
 - Strengths and weaknesses of each of the implementation approaches are discussed as follows, using four qualitative metrics
   - Ease of implementation or application refers to the degree of knowledge required from the modeler to implement the OB model into the BPS environments.
@@ -55,23 +58,29 @@ tags: [Occupant Behavior, Building Performance Simulation, Review]
 - With the built-in OB models approach, OB results more flexibly represented with a good degree of ease of implementation. However, one of the drawbacks of this implementation approach is that users cannot create new types (equation forms or new input variables) of OB models or use new algorithms for the built-in OB models. Moreover, users can only choose those OB models that are already embedded in the simulation tool—hindering reusability of models and accuracy of simulation results.
 - Regarding ease of implementation, the user-customized code and functions approach usually requires advanced user experience and deep knowledge of a particular BPS program to use such features correctly and efficiently. Another limitation—which hinders usability and reusability—is that most BPS programs are supporting user-written code that lacks a comprehensive debugging mechanism.
 - The co-simulation approach provides the maximum flexibility regarding implementation of complex OB models in a separate software module that is independent of and interoperable with BPS programs. One unique requirement is that BPS programs have to implement FMI to support the co-simulation feature. Developing and testing OB models in FMUs for co-simulation also requires detailed knowledge of FMU and FMI, which are factors hindering the ease of implementation and the usability among modelers in the engineering and simulation community
+
 ### Application of OB models with BPS programs
 - For stochastic OB models in BPS programs, the simulation process consists of three main steps. First, the OB model is implemented as probabilistic inputs of the BPS programs, according to one of the four selected approaches (direct input, built-in model, user function or custom code, and co-simulation).
 - The simulation is then run a set of times (i.e., 20 or 100 times) with the BPS programs. For each run the simulated probability of behavior is paired with a uniformly distributed set of generated random numbers to determine the actual behavior condition—i.e., a space being occupied or an adaptive action being performed.
 - The complexity of the OB simulation process, from the selection of the most appropriate model and approach to the choice of the most suitable application into a BPS program, can lead to the dangerous possibility of misleading simulation results.
+
 ## Representation of OB models in BPS programs
 - OB models are currently represented using either the specific syntax of particular BPS programs or a common semantic data model, e.g., in the form of XML (eXtensible Markup Language)
+
 ### Specific input semantics in BPS programs
 - The eight BPS programs use their syntax to represent OB models in either ASCII text format or binary format
+
 ### The IFC data models
 - The IFC is an open and neutral ISO-certified (according to ISO 16739:2013) standard format for Building Information Modeling (BIM) data.The IFC data format has been used over the last 20 years to represent data models having different natures and domains.
 - IFC never gained momentum among the simulation community due to its complexity and lack of human-and-machine readability. To partially overcome this drawback, since 2004, the XML-based ifcXML schema has been regulated by the international standard ISO 10303-28.
 - Despite its enabling data transferability capacity, the ifcXML is only partially diffused in practice, due to the large size of typical ifcXML building model (an ifcXML file dimension is usually 300%–400% greater than that of an IFC file). At the current stage of development, IFC file format has not been used to represent any OB models.
+
 ### The XML-based data models
 - The XML language has the great advantage of being a neutral exchange language able to represent data and models in a way that can easily be integrated into a diverse software environment. In the field of building engineering, several existing standards, and data models make use of the XML data format and structure to describe data content from heterogeneous sources among applications of the same software
 - The gbXML’s primary goal was to enable the transmission of building information stored in CAD building models. By doing so, the gbXML aims to enable a two-way integrated interoperability and communication between a broad range of design and engineers’ building models. The gbXML has the advantage of representing one of the most widespread standard schemas for data standardization and exchange among the BPS programs.
 - The purpose of the XML representation of OB data and models is to enable the international research community to access a unified schema that represents the OB phenomena in the built environment at a large scale. The obXML schema is grounded on an ontology of energy-related behavior in buildings integrally embedded into a DNAS framework. The topology of the DNAS framework was implemented in the obXML schema based on the main root element OccupantBehavior branching into five sub-elements: (1) Behaviors, (2) Buildings, (3) Occupants, (4) Seasons, and (5) TimeofDay
 - The FMI is an independent standard that allows for component development and tool coupling, using a combination of XML and compiled C code. The FMI standard encompasses two main issues. First, it provides an explanation of how a modeling environment can generate C code and be utilized. Second, it technically describes the interface standard for coupling in a co-simulation environment
+
 ### Strengths and weaknesses of the representation approaches
 - The text- or binary-based representation of OB models in BPS programs does not require separate semantics to describe OB models. However, it is subject to the limitations of inherent input semantics of each BPS program
 - OB models coded for a specific BPS program cannot be reused by other BPS programs. It is also difficult for these models to share with users of the same BPS program as they are embedded and scattered in the whole input file of a building energy model.

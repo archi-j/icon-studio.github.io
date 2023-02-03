@@ -93,6 +93,8 @@ tags: [Occupant Behavior, Building Energy, Ontology]
 
 ### When can the DNAs framework be used?
 - The DNAs framework can benefit building energy performance during the whole building life cycle, including the design, operation, management and retrofit phases. During the design phase, the DNAs framework allows for more accurate prediction of actual building energy use.
+- During operation and maintenance the predictive models and algorithms of occupant behavior covered by the DNAs framework will advise users through smart humanmachine integrated communication (i.e. embedded in personal mobile devices and control technologies), as well as allow for building energy flows, control systems, appliance usage, and comfort level mapping.\
+- During a building retrofit, the DNAs framework could aid in the evaluation and impact assessment of different building technology solutions influenced by occupant behavior.
 
 ### How can energy-related behavior be represented using the DNAs framework?
 - The different applications of the described ontology aim to overcome some unbridged gaps in methods, models, and simulation tools, to represent the impact of energy-related occupant behavior on whole-building energy performance.
