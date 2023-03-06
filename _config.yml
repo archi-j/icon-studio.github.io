@@ -63,8 +63,6 @@ subblogs:
       url: /GH/
     - text: Construction 3D Printing
       url: /3DP/
-    - text: Computer Vision
-      url: /CV/
     - text: Paper Reading
       url: /PR/
     - text: Others
