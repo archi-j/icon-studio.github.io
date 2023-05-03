@@ -57,7 +57,10 @@ tags: [Occupant Behavior, Building Energy, Ontology]
 - One challenge with the development of the schema is establishing the order of events, considering multiple occupants and multiple actions. To account for this, each behavior within a group of behaviors is defined by a unique ID and priority indicator.
 - The question becomes which action is performed first and how is this sequence of events captured by obXML? In the current version of the schema (version 1.0) a priority ranking may be applied manually to each behavior.
 - Future work will address the algorithms needed for this priority ranking system with improvements to include constraints associated with (1) group versus individual behavior, (2) the occurrence of simultaneous multiple-actions, (3) the sequence of occupant actions and, (4) better accountability for culturally-motivated actions.
-- The behavior software module can be used in three different ways: (1) to pre-calculate schedules or settings which are used as inputs for occupancy or actions without feedback; (2) to direct code integration via function calls to dynamic link libraries (DLLs); and (3) to facilitate co-simulation with current BEM programs via FMIs.
+- The behavior software module can be used in three different ways:
+  1. to pre-calculate schedules or settings which are used as inputs for occupancy or actions without feedback
+  2. to direct code integration via function calls to dynamic link libraries (DLLs)
+  3. to facilitate co-simulation with current BEM programs via FMIs.
 - The advantages of this approach against the direct implementation or coupling of advanced OB models in/with building simulation programs are that it (1) utilizes the capabilities of domain-specific simulation and provides the flexibility to be integrated with an array of building modeling programs, extending beyond EnergyPlus, (2) allows users the option to select preferred simulation programs and directly enhances the occupant modeling component of the select simulation program and, (3) enables standardize representation of occupant behavior models for flexibility, future expansion and interoperability.
 
 ## Conclusion
