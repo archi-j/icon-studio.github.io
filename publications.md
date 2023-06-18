@@ -11,8 +11,8 @@ permalink: /publications/
 
 
 ### **Conferences**
-* **Chung, J.**, Jacoby-Cooper, G., Rook, K., Henrique, S., Shelden, D., Kendall, E., and McGuinness, D. (2023) " Towards an Indoor Environmental Quality Management Ontology" SWoCoT 2023: Workshop on Semantic Web of Constrained Things, Accepted
 * **Chung, J.**, Tsamis, A., and Shelden, D. (2023) " A framework for monitoring and identifying indoor air pollutants based on BIM with IoT sensors" Proceedings of Computer-Aided Architectural Design. Interconnections: Co-computing beyond boundaries: 20th International Conference, CAAD Futures 2023, Accepted
+* **Chung, J.**, Jacoby-Cooper, G., Rook, K., Henrique, S., Shelden, D., Kendall, E., and McGuinness, D. (2023) " Towards an Indoor Environmental Quality Management Ontology" Proceedings of First International Workshop on Semantic Web on Constrained Things @ ESWC-23 (SWoCoT-23), pp. 16-26, Hersonissos, Greece, 28 May., [[URL]](https://hdl.handle.net/20.500.13015/6674)
 * **Chung, J.**, Lee, G. and Kim, J. (2020) “A Systematic Review of the Geographic and Chronological Distributions of 3D Concrete Printers from 1997 to 2020”, Proceedings of the 37th International Symposium on Automation and Robotics in Construction (ISARC), pp. 84-19, Kitakyushu, Japan, 27-28 Oct., [[URL]](https://doi.org/10.22260/ISARC2020/0014)
 * Lee, G., Cho, J., Song, T., Roh, H., Jung, J., **Chung, J.**, Yong, G. and Jeong, D. (2020) “Construction Field Management Using a Popular Text Messenger” Proceedings of the 18th International Conference on Computing in Civil and Building Engineering, pp. 971-979, [[URL]](https://doi.org/10.1007/978-3-030-51295-8_67)
 * **Chung, J.**, Lee, G. and Kim, J. (2018), “Performance Evaluation Criteria for Building 3D Printing Focused on Concrete Properties”, Proceedings of the 2018 Annual Conference of the Korea Institute of Construction Engineering and Management, pp. 27-29, South Korea, 9 Nov.
