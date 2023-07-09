@@ -14,7 +14,7 @@ More information can be found on our [conference paper](https://doi.org/10.1007/
 
 <img src="https://drive.google.com/uc?export=view&id=1MeNmpY0nvEQo6mrsGF5LieMdVr1lEhTT" class="post_img" style="width:70%;" alt="Flowchart">
 
-<img src="https://drive.google.com/uc?export=view&id=1wCGdQh8r4CEIg3UfsdBfDP_djQlAY-a6" class="post_img" style="width:70%;" alt="Method 1">
+<img src="https://drive.google.com/uc?export=view&id=1wCGdQh8r4CEIg3UfsdBfDP_djQlAY-a6" class="post_img" style="width:60%;" alt="Method 1">
 
 <img src="https://drive.google.com/uc?export=view&id=1So1w7C7RxFqtw29N7c3S06IN14rwpCVQ" class="post_img" style="width:90%;" alt="Method 2">
 
