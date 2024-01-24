@@ -11,4 +11,4 @@ tags: [article, IoT, BIM, Ontology]
 
 My research project at CASE & RPI has been introduced on the RPI research blog, “Everyday Matters.” Special thanks to Jeanne Hedden Gallagher!
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7153498220671737856" height="482" width="504" frameborder="0" allowfullscreen="" title="Embedded RPI post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7153498220671737856" height="482" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
