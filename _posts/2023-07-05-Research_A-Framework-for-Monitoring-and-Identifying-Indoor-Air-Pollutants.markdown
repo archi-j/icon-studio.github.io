@@ -12,12 +12,12 @@ Americans spend 86.9% of their life in buildings; however, about 1.64 million pe
 
 More information can be found on our [conference paper](https://doi.org/10.1007/978-3-031-37189-9_34)
 
-<img src="https://drive.google.com/uc?export=view&id=1MeNmpY0nvEQo6mrsGF5LieMdVr1lEhTT" class="post_img" style="width:70%;" alt="Flowchart">
+<img src="https://drive.google.com/thumbnail?id=1MeNmpY0nvEQo6mrsGF5LieMdVr1lEhTT&sz=w4000" class="post_img" style="width:70%;" alt="Flowchart">
 
-<img src="https://drive.google.com/uc?export=view&id=1wCGdQh8r4CEIg3UfsdBfDP_djQlAY-a6" class="post_img" style="width:60%;" alt="Method 1">
+<img src="https://drive.google.com/thumbnail?id=1wCGdQh8r4CEIg3UfsdBfDP_djQlAY-a6&sz=w4000" class="post_img" style="width:60%;" alt="Method 1">
 
-<img src="https://drive.google.com/uc?export=view&id=1So1w7C7RxFqtw29N7c3S06IN14rwpCVQ" class="post_img" style="width:90%;" alt="Method 2">
+<img src="https://drive.google.com/thumbnail?id=1So1w7C7RxFqtw29N7c3S06IN14rwpCVQ&sz=w4000" class="post_img" style="width:90%;" alt="Method 2">
 
-<img src="https://drive.google.com/uc?export=view&id=1VXfujgVbrVEoaBbWdcidQseyNRaDiCdb" class="post_img" style="width:90%;" alt="Pilot Test">
+<img src="https://drive.google.com/thumbnail?id=1VXfujgVbrVEoaBbWdcidQseyNRaDiCdb&sz=w4000" class="post_img" style="width:90%;" alt="Pilot Test">
 
-<img src="https://drive.google.com/uc?export=view&id=1264UPQRx67vQfXOw_84dEAhubdPIVpqY" class="post_img" style="width:90%;" alt="Case Study">
+<img src="https://drive.google.com/thumbnail?id=1264UPQRx67vQfXOw_84dEAhubdPIVpqY&sz=w4000" class="post_img" style="width:90%;" alt="Case Study">

@@ -12,4 +12,4 @@ Buildings consume one-third of the world’s energy and are some of the major en
 
 More information can be found on our [website](https://indoor-environment-manager--rpi-ontology-engineering.netlify.app/oe2022/indoor-environment-manager/) and [conference paper](https://hdl.handle.net/20.500.13015/6674)
 
-<img src="https://drive.google.com/uc?export=view&id=1tyjzJ_2D-vm-cHYgumsQoZx0ywT79DM3" class="post_img" style="width:100%;" alt="Process Diagram">
+<img src="https://drive.google.com/thumbnail?id=1tyjzJ_2D-vm-cHYgumsQoZx0ywT79DM3&sz=w4000" class="post_img" style="width:100%;" alt="Process Diagram">

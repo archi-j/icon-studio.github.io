@@ -11,11 +11,11 @@ Although several previous studies have reviewed 3DCPs, they have been based on f
 
 More information can be found on our [conference paper](https://doi.org/10.22260/ISARC2020/0014)
 
-<img src="https://drive.google.com/uc?export=view&id=10MK8v6ly3szv5VnkVdNCMBk-TWARrZeJ" class="post_img" style="width:50%;" alt="Flowchart">
-<img src="https://drive.google.com/uc?export=view&id=1oTEsL6jqWj9hM36RrfJe9v-e-s0TNKYQ" class="" style="width:49%;" alt="Chronological distribution of publications">
-<img src="https://drive.google.com/uc?export=view&id=1hzMH6S6IqzyndxGNE5xl95XtdMucAp6-" class="" style="width:49%;" alt="Geographic distribution of publications">
-<img src="https://drive.google.com/uc?export=view&id=1CO0XlD3Sn_-NwDTpBL3NeY_PGmZtCNqX" class="" style="width:49%;" alt="Chronological distribution of 3DCPs">
-<img src="https://drive.google.com/uc?export=view&id=1c-p3LG8e6sVk3m6oxBVEXRKkog0kwRaf" class="" style="width:49%;" alt="Geographic distribution of 3DCPs">
-<img src="https://drive.google.com/uc?export=view&id=1TxKsAflKseHwcbegrs7q4UsUbtSRjSJP" class="" style="width:49%;" alt="Chronological distribution of nozzle-traveling 3DCPs">
-<img src="https://drive.google.com/uc?export=view&id=1UonLOwbzTsVoNP5EUHs3wCDNssanNbbE" class="" style="width:49%;" alt="Chronological distribution of mobile 3DCPs">
-<img src="https://drive.google.com/uc?export=view&id=12jLiaXwCU8K5HZmhMYAEYIxtJM_g74lY" class="" style="width:49%;" alt="Chronological distribution of collaborative 3DCPs">
+<img src="https://drive.google.com/thumbnail?id=10MK8v6ly3szv5VnkVdNCMBk-TWARrZeJ&sz=w4000" class="post_img" style="width:50%;" alt="Flowchart">
+<img src="https://drive.google.com/thumbnail?id=1oTEsL6jqWj9hM36RrfJe9v-e-s0TNKYQ&sz=w4000" class="" style="width:49%;" alt="Chronological distribution of publications">
+<img src="https://drive.google.com/thumbnail?id=1hzMH6S6IqzyndxGNE5xl95XtdMucAp6-&sz=w4000" class="" style="width:49%;" alt="Geographic distribution of publications">
+<img src="https://drive.google.com/thumbnail?id=1CO0XlD3Sn_-NwDTpBL3NeY_PGmZtCNqX&sz=w4000" class="" style="width:49%;" alt="Chronological distribution of 3DCPs">
+<img src="https://drive.google.com/thumbnail?id=1c-p3LG8e6sVk3m6oxBVEXRKkog0kwRaf&sz=w4000" class="" style="width:49%;" alt="Geographic distribution of 3DCPs">
+<img src="https://drive.google.com/thumbnail?id=1TxKsAflKseHwcbegrs7q4UsUbtSRjSJP&sz=w4000" class="" style="width:49%;" alt="Chronological distribution of nozzle-traveling 3DCPs">
+<img src="https://drive.google.com/thumbnail?id=1UonLOwbzTsVoNP5EUHs3wCDNssanNbbE&sz=w4000" class="" style="width:49%;" alt="Chronological distribution of mobile 3DCPs">
+<img src="https://drive.google.com/thumbnail?id=12jLiaXwCU8K5HZmhMYAEYIxtJM_g74lY&sz=w4000" class="" style="width:49%;" alt="Chronological distribution of collaborative 3DCPs">

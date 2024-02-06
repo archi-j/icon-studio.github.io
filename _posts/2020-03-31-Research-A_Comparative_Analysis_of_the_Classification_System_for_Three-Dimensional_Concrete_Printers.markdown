@@ -11,5 +11,5 @@ This study reviews and comparatively analyzes existing classification systems fo
 
 More information can be found on our [journal paper](https://doi.org/10.6106/KJCEM.2020.21.2.003)
 
-<img src="https://drive.google.com/uc?export=view&id=1QUH7Ui2SokBunOaPt7tRqRW2-NFxfCz1" class="post_img" style="width:30%;" alt="Identification">
-<img src="https://drive.google.com/uc?export=view&id=1qTFmzf5p7MFxXXbTKFaqYZhjexVZgo5B" class="post_img" style="width:100%;" alt="Classification">
+<img src="https://drive.google.com/thumbnail?id=1QUH7Ui2SokBunOaPt7tRqRW2-NFxfCz1&sz=w4000" class="post_img" style="width:30%;" alt="Identification">
+<img src="https://drive.google.com/thumbnail?id=1qTFmzf5p7MFxXXbTKFaqYZhjexVZgo5B&sz=w4000" class="post_img" style="width:100%;" alt="Classification">
