@@ -18,6 +18,6 @@ My research project at CASE & RPI has been introduced on the RPI research blog, 
    src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7153498221460287488"
   ></iframe>
 </div>
-
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7153498220671737856" height="482" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<!-- 
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7153498220671737856" height="482" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> -->
 
