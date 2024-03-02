@@ -19,13 +19,13 @@ pagination:
         {% if i.text == "Blog" %}
           <div class="dropdown">
             <li class="menu_item{% if page.url == i.url %} active{% endif %}">
-            <button class="dropbtn"><a href="{{ i.url }}">{{ i.text }}</a></button></li>
+            <button class="dropbtn" style="font-size:15px;"><a href="{{ i.url }}">{{ i.text }}</a></button></li>
 
             <div class="dropdown-content">
-            {% for j in site.subblogs %}
-              <li class="menu_item{% if page.url == j.url %} active{% endif %}">
-              <a href="{{ j.url }}">{{ j.text }}</a></li>
-            {% endfor %}
+              {% for j in site.subblogs %}
+                <li class="menu_item{% if page.url == j.url %} active{% endif %}" style="font-size:90%;">
+                <a href="{{ j.url }}">{{ j.text }}</a></li>
+              {% endfor %}
             </div>
           </div>
 
