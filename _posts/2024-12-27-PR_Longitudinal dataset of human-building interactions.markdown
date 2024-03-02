@@ -21,7 +21,7 @@ tags: [Occupant Comfort, Occupant Behavior, Human-Building Interaction]
 - U.S. Offices were chosen as the context for the research because of their prevalence in the existing literature on occupant behavior data collection and because they are responsible for the most energy use of any single commercial building type in the U.S.
 - The primary objective of the data collection approach was to record a comprehensive range of exogenous and endogenous factors that may drive personal comfort and behavior outcomes over time, where the latter have not been explored in previous longitudinal studies of occupant behavior despite their suggested importance in previous behavior research.
 
-<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-019-0273-5/MediaObjects/41597_2019_273_Fig1_HTML.png" class="post_img" style="width:70%;">
+<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-019-0273-5/MediaObjects/41597_2019_273_Fig1_HTML.png" class="post_img" style="width:80%;">
 
 ## Methods
 - Longitudinal data on building occupant behavior, comfort, and environmental conditions were collected between July 2012 and August 2013 at the Friends Center office building in Center City Philadelphia, Pennsylvania, United States. Data collection proceeded in three stages, described further below: (1) semi-structured interviews, (2) site selection and subject recruitment for the longitudinal study, and (3) longitudinal survey and datalogger measurements. 
@@ -45,7 +45,7 @@ tags: [Occupant Comfort, Occupant Behavior, Human-Building Interaction]
 - The final survey asked occupants to log any times when they were out of the office for a significant time (e.g., a whole or half day), also querying general comfort and the frequency of behaviors during the previous two week period.
 - Overall, the daily surveys generated consistently high response rates (>=85% in each season), yielding a total of 2503 responses from the 24 subjects.
 
-<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-019-0273-5/MediaObjects/41597_2019_273_Fig2_HTML.png" class="post_img" style="width:70%;">
+<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-019-0273-5/MediaObjects/41597_2019_273_Fig2_HTML.png" class="post_img" style="width:80%;">
 
 #### environment and behavior datalogger and building automation system (BaS) measurements
 - Regarding interior conditions, ambient temperature was measured for every occupant using the nearest thermostat reading logged by the BAS system at 15 minute intervals. Ambient temperature and relative humidity were also logged at 5 minute intervals for 11 occupants using HOBO U12-013 base sensors (accuracy: +/−0.35 °C temperature, +/−2.5% humidity), as was globe temperature in eight cases (TMC6-HE attachment covered with 40 mm black matte ping pong ball; +/−0.25 °C accuracy), and air velocity in four cases (T-DCI-F900-S-O attachment; +/−0.05 m/s accuracy).
@@ -53,7 +53,7 @@ tags: [Occupant Comfort, Occupant Behavior, Human-Building Interaction]
 - Datalogger measurements of occupant behavior recorded window adjustments and the use of personal fans and heaters.
 - Together with the daily survey responses, the above environment and behavior information comprises six longitudinal data streams (daily surveys, outdoor weather, BAS thermostats, local environment, personal fans and heaters, and windows).
 
-<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-019-0273-5/MediaObjects/41597_2019_273_Fig3_HTML.png" class="post_img" style="width:90%;">
+<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-019-0273-5/MediaObjects/41597_2019_273_Fig3_HTML.png" class="post_img" style="width:70%;">
 
 ## technical Validation
 
