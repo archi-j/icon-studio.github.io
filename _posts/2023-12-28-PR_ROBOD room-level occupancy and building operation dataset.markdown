@@ -29,28 +29,28 @@ tags: [Occupant Comfort, Occupant Behavior, Human-Building Interaction]
 - The five rooms include two different-sized lecture rooms (Room 1 and Room 2), an office space for administrative staff (Room 3), an office space for researchers (Room 4), and a library space for students (Room 5).
 - Specific rooms such as Room 1, Room 2 and Room 5 are open for all university students and staff, and are not limited to those situated in the SDE4 building. On the other hand, Room 3 and Room 4 are only accessible by dedicated administrative staff and researchers that have an assigned seating in these rooms as an access card is required for entry.
 
-###### Indoor environmental quality data
+#### Indoor environmental quality data
 - The indoor environmental data represent the measurements for indoor environmental quality, which include VOC (volatile organic compound), sound pressure level, relative humidity, indoor air temperature, illuminance, PM2.5 (particulate matter), and CO2 concentration levels.
 
-###### Wi-Fi data
+#### Wi-Fi data
 - The Wi-Fi data represents the number of Wi-Fi-enabled devices connected to the routers installed in each room.
 - To use the number of Wi-Fi connected devices to estimate the number of occupants in the room, several filtering steps could be introduced to differentiate between the stationary and mobile devices, before inferring the occupant count based on the number of mobile devices indirectly.
 
-###### Energy data
+#### Energy data
 - The energy data represents the energy consumption values of the building’s electrical end uses such as HVAC, lighting, plug loads, and ceiling fans. For HVAC energy consumption:
     - Room 1 and Room 2 are conditioned by Fan Coil Units (FCU), with the chilled water supplied by a district chiller plant and the supply airflow rate controlled by variable speed fans. 
     - Room 3, Room 4, and Room 5 are conditioned by Air Handling Units (AHU), which are connected to multiple rooms in the building. 
 - The energy consumption data of lighting, plug loads, and ceiling fans are collected through electrical meters and the number of each end use (i.e., lighting, plug loads and ceiling fans)
 
-###### HVAC operations data
+#### HVAC operations data
 - The HVAC operations data represent the different parameters and settings that the building’s HVAC system operates within.
 - It should be noted that the building uses a dedicated outdoor air system for air supply, so the CO2 level of incoming air is identical to the outdoor CO2 level. Furthermore, there is no operable shading or windows in the study rooms, except for the operable windows in Room 4 which are rarely open based on our observations.
 - The temperate setpoint in all rooms is conditioned by Proportional Integral Derivative (PID) control against the thermostat temperature setpoint set by the room occupants.
 
-###### Outdoor weather data
+#### Outdoor weather data
 - The outdoor weather data is measured by a local weather station installed on the roof of the study building.
 
-###### Occupancy data
+#### Occupancy data
 - The occupancy data contains both the occupant presence and number of occupants present in each room. This information was collected by monitoring the occupants’ movement through surveillance camera footage and manually counting the number of occupants. 
 - Due to the use of a passive monitoring approach to monitor occupancy within the study room, the impact of the Hawthorne effect is minimised as compared to the adoption of active monitoring approaches.
 
