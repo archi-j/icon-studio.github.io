@@ -3,7 +3,7 @@ layout: post
 title: "[Paper Reading] Ten questions concerning thermal resilience of buildings and occupants for climate adaptation"
 date: 2024-03-11 09:00:00 +0300
 description: "2024_Ten questions concerning thermal resilience of buildings and occupants for climate adaptation" # Add post description (optional)
-img: 2024311_post_main.jpg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
+img: 20240311_post_main.jpg # Add image post (optional) 280px, 350px, 470px, 700px, 940px
 fig-caption: # Add figcaption (optional)
 category: [PR]
 tags: [Ten Questions, Thermal resilience, Review paper]
