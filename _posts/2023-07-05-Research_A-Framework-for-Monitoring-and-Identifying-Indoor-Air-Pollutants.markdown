@@ -3,7 +3,7 @@ layout: post
 title: "A Framework for Monitoring and Identifying Indoor Air Pollutants based on BIM with IoT Sensor"
 date: 2023-07-05 13:32:20 +0300
 description: Conference Paper # Add post description (optional)
-category: [research, highlight]
+category: [research]
 tags: [Research, Conference, IoT]
 img: Research_BIM-IoTMonitoring.jpg # Add image post (optional)
 ---
