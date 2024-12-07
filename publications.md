@@ -11,7 +11,7 @@ permalink: /publications/
 
 
 ### **Conferences**
-* *(Submitted)* **Chung, J.**, Neo, K., Khan, M., Cruz, E., Zheng, Z., Munasinghe, T., and Wei, J. C. (2024) "Exploring Flooding Fraction Prediction through Machine Learning Models Focusing on Medical Infrastructure in the Southeast U.S. Coastal Areas" Proceedings of the IEEE BigData 2024
+* *(Accepted)* **Chung, J.**, Neo, K., Khan, M., Cruz, E., Zheng, Z., Munasinghe, T., and Wei, J. C. (2024) "Exploring Flooding Fraction Prediction through Machine Learning Models Focusing on Medical Infrastructure in the Southeast U.S. Coastal Areas" Proceedings of the IEEE BigData 2024
 * *(Accepted)* **Chung, J.** and Shelden, D. (2024) "A Framework of ifcJSON-based Web Platform for Monitoring Building Environment using BIM, IoT, and Semantic Web Technologies" Proceedings of the 20th International Society for Computing in Civil and Building Engineering
 * *(Accepted)* **Chung, J.**, Karlicek, B., and Shelden, D. (2024) " A Framework of Occupant-Behavior Monitoring System using BIM, IoT, and BAS" Proceedings of ASCE International Conference on Computing in Civil Engineering 2024
 * **Chung, J.**, Shahmansouri, N., Stoddart, J., Goldstein, R., and Locke, J. (2024) "Sustainability through Optimal Design of Buildings for Natural Ventilation using Updated Comfort and Occupancy Models" Proceedings of International Building Performance Simulation Association – USA and SimBuild 2024, [[URL]](https://publications.ibpsa.org/conference/paper/?id=simbuild2024_2172)
