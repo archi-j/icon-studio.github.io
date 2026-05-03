@@ -1,5 +1,5 @@
 ---
 layout: cv
-title: J. Chung's Resume
+title: Jihoon Chung's Resume
 permalink: /cv/
 ---

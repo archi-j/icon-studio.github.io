@@ -1,5 +1,5 @@
 ---
 layout: linkedin
-title: J. Chung's Linkedin
+title: Jihoon Chung's Linkedin
 permalink: /linkedin/
 ---
