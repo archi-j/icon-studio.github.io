@@ -8,12 +8,9 @@ pagination:
   <header>
     <div class="about">
       <p>{{site.about-author}}</p>
-      <div class="cover-author-image">
-        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{{site.author-img}}" alt="{{site.author}}"></a>
-      </div>
     </div>
   </header> <!-- End Header -->
-  <body oncontextmenu='return false' ondragstart='return false' onselectstart='return false'>
+  <nav>
     <ul class="menu">
       {% for i in site.urls %}
         {% if i.text == "Blog" %}
@@ -37,7 +34,7 @@ pagination:
       {% endfor %}
     </ul>
 
-  </body>
+  </nav>
   <footer>
     <section class="contact">
       <!-- <br>

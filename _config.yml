@@ -1,5 +1,5 @@
-title: "J. Chung: Designer, Builder & Runner"
-description: Architectural Design / IT Construction / Computational Design
+title: "Jihoon Chung, Ph.D."
+description: "Building science researcher: interoperable digital twins, grid-interactive efficient buildings, and human-AI building interaction."
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://j-chung.kr" # the base hostname & protocol for your site, e.g. http://example.com
@@ -19,12 +19,6 @@ social-github: archi-j # add your Github handle
 social-linkedin: jihoon-chung # add your Linkedin handle
 social-email: contact@j-chung.kr # add your Email address
 
-# Disqus
-discus-identifier: j-chung-1 # add your discus identifier
-
-# Tracker
-analytics: UA-131742616-1 # Google Analytics
-
 # Build Settings
 markdown: kramdown
 plugins:
@@ -32,8 +26,6 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 8
-paginate_path: "/page/:num"
 
 exclude:
   - node_modules
@@ -44,18 +36,8 @@ exclude:
 urls:
     - text: Home
       url: /
-    - text: Research Proejct
-      url: /research/
-    - text: Design Works
-      url: /designworks/
-    - text: Publications
-      url: /publications/
-    - text: Blog
-      url: /blog/
-    - text: About
-      url: /about/
-    - text: Contact
-      url: /contact/
+    - text: CV
+      url: /cv/
 subblogs:
     - text: Internet of Things
       url: /IoT/

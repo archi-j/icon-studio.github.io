@@ -1,0 +1,119 @@
+---
+layout: null
+permalink: /404.html
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found | Jihoon Chung, Ph.D.</title>
+  <meta name="robots" content="noindex">
+  <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#131619" media="(prefers-color-scheme: dark)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #fbfaf7;
+      --text: #1c1e22;
+      --muted: #575c63;
+      --accent: #2a5a88;
+      --rule: #d5dbe2;
+      --display: "Barlow Semi Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+      --sans: "IBM Plex Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131619;
+        --text: #e6e3dd;
+        --muted: #a4a9b0;
+        --accent: #8fb6dd;
+        --rule: #2c343d;
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 17px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.2em;
+    }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 80px 24px 56px;
+    }
+    .code {
+      font-family: var(--mono);
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin: 0 0 10px;
+    }
+    h1 {
+      font-family: var(--display);
+      font-weight: 600;
+      font-size: 3rem;
+      line-height: 1.05;
+      letter-spacing: 0.005em;
+      margin: 0;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--rule);
+    }
+    p { margin: 24px 0 0; }
+    .home {
+      font-family: var(--mono);
+      font-size: 14px;
+    }
+    footer {
+      margin-top: 64px;
+      padding-top: 20px;
+      border-top: 1px solid var(--rule);
+      font-family: var(--mono);
+      font-size: 13px;
+      color: var(--muted);
+    }
+    footer p { margin: 0; }
+    @media (max-width: 600px) {
+      body { font-size: 16.5px; }
+      .page { padding: 48px 16px 40px; }
+      h1 { font-size: 2.375rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <main>
+      <p class="code">HTTP 404</p>
+      <h1>Page not found</h1>
+      <p>The page you asked for does not exist or has moved.</p>
+      <p class="home"><a href="/">Go to the homepage of Jihoon Chung, Ph.D.</a></p>
+    </main>
+    <footer>
+      <p>© 2026 Jihoon Chung</p>
+    </footer>
+  </div>
+</body>
+</html>

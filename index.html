@@ -1,85 +1,573 @@
 ---
-layout: main
+layout: null
 ---
-<article class="article-page">
-  <div class="page-content">
-    <div class="wrap-content">
-      <!-- <header class="header-page">
-        <h1 class="page-title">Research Project<br></h1>
-      </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jihoon Chung, Ph.D.</title>
+  <meta name="description" content="Jihoon Chung, Ph.D., is a postdoctoral research associate at Oak Ridge National Laboratory working on interoperable digital twins, grid-interactive efficient buildings, and human-AI building interaction.">
+  <link rel="canonical" href="https://j-chung.kr/">
+  <meta name="naver-site-verification" content="8ca735e4acb0e9177fafcdacd8391ba1ddb75f6f" />
 
-{% for post in site.posts %}
-  {% for category in post.category %}
-    {% if category == "highlight" %}
-      <article class="post" id="project">
-        {% if post.img %}
-          <a class="post-thumbnail" id="project" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-        {% else %}
-        {% endif %}
-        <div class="post-content">
-          <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-          <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-          <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
-        </div>
-      </article>
-    {% endif %}
-  {% endfor %}
-{% endfor %} -->
-    </div>
-  </div>
-</article>
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Jihoon Chung, Ph.D.">
+  <meta property="og:title" content="Jihoon Chung, Ph.D.">
+  <meta property="og:description" content="Postdoctoral Research Associate, Grid-interactive Controls Group, Oak Ridge National Laboratory. Interoperable digital twins, grid-interactive efficient buildings, and human-AI building interaction.">
+  <meta property="og:url" content="https://j-chung.kr/">
+  <meta property="og:image" content="https://j-chung.kr/assets/img/headshot.jpg">
+  <meta property="og:image:width" content="467">
+  <meta property="og:image:height" content="584">
+  <meta property="og:image:alt" content="Jihoon Chung">
+  <meta property="profile:first_name" content="Jihoon">
+  <meta property="profile:last_name" content="Chung">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Jihoon Chung, Ph.D.">
+  <meta name="twitter:description" content="Postdoctoral Research Associate, Grid-interactive Controls Group, Oak Ridge National Laboratory. Interoperable digital twins, grid-interactive efficient buildings, and human-AI building interaction.">
+  <meta name="twitter:image" content="https://j-chung.kr/assets/img/headshot.jpg">
+  <meta name="twitter:image:alt" content="Jihoon Chung">
 
+  <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="16x16" href="/assets/img/favicon/apple-touch-icon-16x16.png">
+  <link rel="apple-touch-icon" sizes="32x32" href="/assets/img/favicon/apple-touch-icon-32x32.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#131619" media="(prefers-color-scheme: dark)">
 
-<article class="article-page">
-  <div class="page-content">
-    <div class="wrap-content">
-      <!-- <header class="header-page">
-        <h1 class="page-title">Design works<br></h1>
-      </header>
-      <script src="https://static.elfsight.com/platform/platform.js" defer></script>
-      <div class="elfsight-app-ca1630d3-dbe3-497f-a54e-08bb77c1c826"></div> -->
-    </div>
-  </div>
-</article>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 
-<article class="article-page">
-  <div class="page-content">
-    <div class="wrap-content">
-      <!-- <header class="header-page">
-        <h1 class="page-title">Blog<br></h1>
-      </header>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jihoon Chung",
+    "honorificSuffix": "Ph.D.",
+    "jobTitle": "Postdoctoral Research Associate",
+    "image": "https://j-chung.kr/assets/img/headshot.jpg",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Oak Ridge National Laboratory",
+      "url": "https://www.ornl.gov/"
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Rensselaer Polytechnic Institute"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Yonsei University"
+      }
+    ],
+    "url": "https://j-chung.kr/",
+    "email": "mailto:contact@j-chung.kr",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=ExZUcKYAAAAJ",
+      "https://orcid.org/0000-0001-8488-0815",
+      "https://www.linkedin.com/in/jihoon-chung/",
+      "https://github.com/JChung-Research",
+      "https://www.ornl.gov/staff-profile/jihoon-chung"
+    ]
+  }
+  </script>
 
-{% for post in site.posts %}
-  {% for category in post.category %}
-    {% if "research" != category  %}
-      {% if "highlight" != category %}
-    <article class="post">
-      {% if post.img %}
-        <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-      {% else %}
-      {% endif %}
-      <div class="post-content">
-        <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-        <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-        <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-        <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #fbfaf7;
+      --text: #1c1e22;
+      --muted: #575c63;
+      --accent: #2a5a88;
+      --rule: #d5dbe2;
+      --rule-strong: #2a5a88;
+      --select: #dbe6f1;
+      --display: "Barlow Semi Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+      --sans: "IBM Plex Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131619;
+        --text: #e6e3dd;
+        --muted: #a4a9b0;
+        --accent: #8fb6dd;
+        --rule: #2c343d;
+        --rule-strong: #8fb6dd;
+        --select: #27384a;
+      }
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 17px;
+      line-height: 1.6;
+      font-kerning: normal;
+      -webkit-font-smoothing: antialiased;
+    }
+    ::selection { background: var(--select); }
+
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.2em;
+    }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+
+    .skip {
+      position: absolute;
+      left: 16px;
+      top: -48px;
+      padding: 6px 10px;
+      background: var(--bg);
+      font-family: var(--mono);
+      font-size: 14px;
+      z-index: 10;
+    }
+    .skip:focus { top: 12px; }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 80px 24px 56px;
+    }
+
+    /* Header */
+    .masthead {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 160px;
+      grid-template-areas:
+        "id photo"
+        "links links";
+      column-gap: 32px;
+      align-items: start;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .id { grid-area: id; }
+    .photo {
+      grid-area: photo;
+      display: block;
+      width: 160px;
+      height: auto;
+      aspect-ratio: 467 / 584;
+      object-fit: cover;
+      border-radius: 3px;
+      margin-top: 6px;
+      background: #1d2a3a;
+    }
+    .masthead nav { grid-area: links; }
+    .masthead h1 {
+      font-family: var(--display);
+      font-weight: 600;
+      font-size: 3rem;
+      line-height: 1.05;
+      letter-spacing: 0.005em;
+      margin: 0;
+    }
+    .creds {
+      font-family: var(--mono);
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin: 10px 0 0;
+    }
+    .role {
+      margin: 22px 0 0;
+      font-size: 1.0625rem;
+    }
+    .nowrap { white-space: nowrap; }
+    .tagline {
+      list-style: none;
+      padding: 0;
+      font-family: var(--display);
+      font-weight: 500;
+      font-size: 1.125rem;
+      line-height: 1.4;
+      color: var(--accent);
+      margin: 10px 0 0;
+    }
+    .links {
+      list-style: none;
+      margin: 24px 0 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 20px;
+      font-family: var(--mono);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .links a { overflow-wrap: anywhere; }
+
+    /* Sections */
+    section { margin-top: 56px; }
+    h2 {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      font-family: var(--display);
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 1.2;
+      letter-spacing: 0.01em;
+      margin: 0 0 20px;
+    }
+    h2 .num {
+      font-family: var(--mono);
+      font-weight: 500;
+      font-size: 0.8125rem;
+      letter-spacing: 0.04em;
+      color: var(--accent);
+    }
+    h2::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+      align-self: center;
+      margin-left: 4px;
+    }
+    h3 {
+      font-family: var(--display);
+      font-weight: 600;
+      font-size: 1.1875rem;
+      line-height: 1.3;
+      letter-spacing: 0.01em;
+      margin: 0;
+    }
+    p { margin: 0 0 1em; }
+    p:last-child { margin-bottom: 0; }
+
+    /* Research themes */
+    .themes {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .themes li {
+      padding-left: 18px;
+      border-left: 2px solid var(--rule-strong);
+    }
+    .themes li + li { margin-top: 26px; }
+    .themes h3 { margin-bottom: 4px; }
+
+    /* Publications */
+    .pubs {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .pubs li {
+      display: grid;
+      grid-template-columns: 3.75rem 1fr;
+      column-gap: 12px;
+      padding: 14px 0;
+      border-top: 1px solid var(--rule);
+    }
+    .pubs li:first-child { border-top: 0; padding-top: 0; }
+    .year {
+      font-family: var(--mono);
+      font-size: 13.5px;
+      color: var(--muted);
+      padding-top: 0.2em;
+    }
+    .pub-title {
+      display: block;
+      font-weight: 600;
+      line-height: 1.45;
+    }
+    .authors, .venue {
+      display: block;
+      font-size: 15.5px;
+      line-height: 1.5;
+      color: var(--muted);
+    }
+    .authors b { color: var(--text); font-weight: 600; }
+    .venue i { font-style: italic; }
+    .refs, .sw-refs {
+      display: block;
+      margin-top: 4px;
+      font-family: var(--mono);
+      font-size: 13.5px;
+      line-height: 1.5;
+    }
+    .refs a, .sw-refs a {
+      text-decoration: none;
+      margin-right: 10px;
+      white-space: nowrap;
+    }
+    .refs a:hover, .sw-refs a:hover { text-decoration: underline; }
+    .refs a::before, .sw-refs a::before { content: "["; color: var(--muted); }
+    .refs a::after, .sw-refs a::after { content: "]"; color: var(--muted); }
+    .more {
+      margin-top: 18px;
+      font-size: 15.5px;
+      color: var(--muted);
+    }
+
+    /* Software and service */
+    .software, .service {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .software li + li { margin-top: 20px; }
+    .software p { margin: 2px 0 0; }
+    .service li {
+      position: relative;
+      padding-left: 18px;
+    }
+    .service li::before {
+      content: "";
+      position: absolute;
+      left: 2px;
+      top: 0.68em;
+      width: 5px;
+      height: 5px;
+      background: var(--accent);
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 64px;
+      padding-top: 20px;
+      border-top: 1px solid var(--rule);
+      font-family: var(--mono);
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--muted);
+      text-wrap: pretty;
+    }
+    footer p { margin: 0 0 6px; }
+
+    @media (max-width: 600px) {
+      body { font-size: 16.5px; }
+      .page { padding: 48px 16px 40px; }
+      .masthead h1 { font-size: 2.375rem; }
+      .masthead {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas:
+          "photo"
+          "id"
+          "links";
+      }
+      .photo { width: 120px; margin: 0 0 22px; }
+      .tagline { font-size: 1.0625rem; }
+      .links { gap: 6px 16px; }
+      section { margin-top: 44px; }
+      h2 { font-size: 1.375rem; }
+      .pubs li { display: block; }
+      .year { display: block; padding-top: 0; margin-bottom: 2px; }
+    }
+
+    @media print {
+      :root { --bg: #fff; --text: #000; --muted: #333; --accent: #000; --rule: #999; }
+      .skip { display: none; }
+      .page { padding-top: 0; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="page">
+    <header class="masthead">
+      <div class="id">
+        <h1>Jihoon Chung, Ph.D.</h1>
+        <p class="creds">LEED AP BD+C · WELL AP · FMP</p>
+        <p class="role">Postdoctoral Research Associate, <span class="nowrap">Grid-interactive Controls Group,</span> <span class="nowrap">Oak Ridge National Laboratory</span></p>
+        <ul class="tagline" aria-label="Research areas">
+          <li>Interoperable Digital Twins</li>
+          <li>Grid-Interactive Efficient Buildings</li>
+          <li>Human-AI Building Interaction</li>
+        </ul>
       </div>
-    </article>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-{% endfor %} -->
-    </div>
-  </div>
-</article>
+      <img class="photo" src="/assets/img/headshot.jpg" alt="Jihoon Chung" width="160" height="200">
+      <nav aria-label="Profiles and contact">
+        <ul class="links">
+          <li><a href="/cv/">CV</a></li>
+          <li><a href="https://scholar.google.com/citations?user=ExZUcKYAAAAJ">Google Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0001-8488-0815">ORCID</a></li>
+          <li><a href="https://www.linkedin.com/in/jihoon-chung/">LinkedIn</a></li>
+          <li><a href="https://github.com/JChung-Research">GitHub</a></li>
+          <li><a href="https://www.ornl.gov/staff-profile/jihoon-chung">ORNL profile</a></li>
+          <li><a href="mailto:contact@j-chung.kr">contact@j-chung.kr</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<!-- <script defer>
-  console.log(document.querySelector("a.eapps-link"));
-  document.querySelector("a.eapps-link").style.display = 'none';
-  console.log(document.getElementsByClassName("eapps-link"));
-  console.log(document.getElementsByClassName("eapps-link")[0].style);
-  const widget_ = document.getElementsByClassName("eapps-link");
-  console.log(widget_['0']);
-  widget_[0].style.display = "none";
-  console.log(widget_[0].style.display);
-</script> -->
+    <main id="main">
+      <section aria-labelledby="about">
+        <h2 id="about"><span class="num" aria-hidden="true">01</span>About</h2>
+        <p>I am a postdoctoral research associate in the Grid-interactive Controls Group at Oak Ridge National Laboratory (ORNL). I am a contributor and developer on three projects funded by the U.S. Department of Energy (DOE) Building Technologies Office (BTO) that build grid-interactive, scalable infrastructure for small- and medium-sized commercial buildings (SMCBs). These buildings are 94% of U.S. commercial buildings and account for nearly half of commercial building energy use.</p>
+        <p>I received my Ph.D. in Architectural Sciences (Built Ecologies) from Rensselaer Polytechnic Institute (RPI) in May 2025, advised by Dr.&nbsp;Dennis Shelden. My dissertation developed a cross-domain interoperability framework that connects BIM, building energy modeling, building control systems, and occupant behavior. I also hold an M.S. in Architectural Engineering (Construction IT) from Yonsei University. With degrees in architecture (a five-year B.Arch from Yonsei University) and design technology (an M.S. in Architecture from RPI), I design the interfaces and visualizations of the research tools I build, such as the building energy management web interface in ORNL/TM-2026/4715 and the Comfit digital twin dashboard.</p>
+      </section>
+
+      <section aria-labelledby="research">
+        <h2 id="research"><span class="num" aria-hidden="true">02</span>Research</h2>
+        <ul class="themes">
+          <li>
+            <h3>Interoperable digital twins</h3>
+            <p>Design, simulation, and operations tools each keep their own description of a building, and I work on connecting them. At RPI's Center for Architecture Science and Ecology, I built prototypes of a SHACL-based IFC-to-Brick converter and an IFC4.3-to-ECS translator with industry experts from Autodesk, Solibri, and Trimble (demonstrated at the buildingSMART International IFC Implementers Meeting), and a web-based building monitoring system that brings together BIM, IoT sensors, building automation, and semantic web technologies, validated in university lab and meeting-room pilots.</p>
+          </li>
+          <li>
+            <h3>Grid-interactive efficient buildings</h3>
+            <p>At ORNL I designed and developed a configuration-driven building control platform that integrates model predictive control, VOLTTRON middleware, Brick Schema semantic models, and BACnet/Modbus for vendor-agnostic deployment across heterogeneous building stock, in collaboration with Pacific Northwest National Laboratory (PNNL), AReCoS LLC, and the Alliance for Energy Innovation. Before the postdoc, as an ORISE graduate researcher at ORNL, I built an open-source, scalable web application prototype integrated with BOPTEST and validated it in simulation across HVAC system types.</p>
+          </li>
+          <li>
+            <h3>Human-AI building interaction</h3>
+            <p>Building automation acts on assumptions about the people inside, so I work on representing occupants explicitly enough that those assumptions can move between tools and be tested in simulation. At Lawrence Berkeley National Laboratory (2024, hosted by Dr.&nbsp;Tianzhen Hong), I improved the occupant behavior schema obXML (v1.4) used with EnergyPlus and converted the C++ obFMU simulator to Python; as a research intern at Autodesk (2023), I worked on generative design with natural ventilation simulation in EnergyPlus and am a co-inventor on two U.S. patent applications (US20250238578A1, US20250238566A1).</p>
+          </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="publications">
+        <h2 id="publications"><span class="num" aria-hidden="true">03</span>Selected publications</h2>
+        <ul class="pubs">
+          <li>
+            <span class="year">2026</span>
+            <p>
+              <span class="pub-title">Generalizable Web User Interface for Scalable and Streamlined Deployment of Building Energy Management Systems in Small and Medium-Sized Commercial Buildings</span>
+              <span class="authors"><b>J.&nbsp;Chung</b>, S.&nbsp;Huang, B.&nbsp;Liu, J.&nbsp;Lian, J.&nbsp;Dong, S.&nbsp;Katipamula, R.&nbsp;Lutes</span>
+              <span class="venue">Technical Report ORNL/TM-2026/4715, Oak Ridge National Laboratory</span>
+              <span class="refs"><a href="https://doi.org/10.2172/3740260">DOI</a><a href="https://www.osti.gov/servlets/purl/3740260">PDF</a></span>
+            </p>
+          </li>
+          <li>
+            <span class="year">2026</span>
+            <p>
+              <span class="pub-title">Low-Cost, Customizable Heating and Cooling Management for Small and Medium-Sized Medical Office Buildings: Design and Laboratory Validation</span>
+              <span class="authors"><b>J.&nbsp;Chung</b>, J.&nbsp;Lian, S.&nbsp;Huang, J.&nbsp;Dong, B.&nbsp;Liu</span>
+              <span class="venue">Technical Report ORNL/TM-2026/4854, Oak Ridge National Laboratory</span>
+              <span class="refs"><a href="https://doi.org/10.2172/17197391">DOI</a><a href="https://www.osti.gov/servlets/purl/17197391">PDF</a></span>
+            </p>
+          </li>
+          <li>
+            <span class="year">2026</span>
+            <p>
+              <span class="pub-title">Extending the Supervisory Controller Kit for Small and Medium-Sized Commercial Buildings to Small and Medium Industrial Facilities: A Literature-Based Feasibility Assessment</span>
+              <span class="authors"><b>J.&nbsp;Chung</b>, J.&nbsp;Lian, B.&nbsp;Cui</span>
+              <span class="venue">Technical Report ORNL/TM-2026/4735, Oak Ridge National Laboratory</span>
+              <span class="refs"><a href="https://doi.org/10.2172/17197467">DOI</a><a href="https://www.osti.gov/servlets/purl/17197467">PDF</a></span>
+            </p>
+          </li>
+          <li>
+            <span class="year">2026</span>
+            <p>
+              <span class="pub-title">Simulation-Based Validation of an Open-Source, Scalable Framework for Building Energy Management in Small and Medium-Sized Commercial Buildings</span>
+              <span class="authors"><b>J.&nbsp;Chung</b>, S.&nbsp;Huang, J.&nbsp;Lian, S.&nbsp;Katipamula, R.&nbsp;Lutes</span>
+              <span class="venue"><i>Proceedings of SimBuild 2026</i>, IBPSA-USA</span>
+              <span class="refs"><a href="https://doi.org/10.26868/30680611.2026.1365">DOI</a><a href="https://publications.ibpsa.org/proceedings/simbuild/2026/papers/simbuild2026_1365.pdf">PDF</a></span>
+            </p>
+          </li>
+          <li>
+            <span class="year">2025</span>
+            <p>
+              <span class="pub-title">Enhancing Occupant Behavior Representation for Interoperability between Building Information Modeling and Building Energy Modeling</span>
+              <span class="authors"><b>J.&nbsp;Chung</b>, T.&nbsp;Hong, J.&nbsp;Malik, D.&nbsp;Shelden</span>
+              <span class="venue"><i>Building Simulation</i> 18(9), 2435-2458</span>
+              <span class="refs"><a href="https://doi.org/10.1007/s12273-025-1313-z">DOI</a></span>
+            </p>
+          </li>
+          <li>
+            <span class="year">2025</span>
+            <p>
+              <span class="pub-title">Towards High-Performance Buildings for Thermal Resilience and Health</span>
+              <span class="authors">Y.&nbsp;Lu, N.&nbsp;Ma, A.&nbsp;Y.&nbsp;Arsano, N.&nbsp;Brown, <b>J.&nbsp;Chung</b>, et al.</span>
+              <span class="venue"><i>Energy and Buildings</i> 347, 116367</span>
+              <span class="refs"><a href="https://doi.org/10.1016/j.enbuild.2025.116367">DOI</a></span>
+            </p>
+          </li>
+          <li>
+            <span class="year">2024</span>
+            <p>
+              <span class="pub-title">A Framework of ifcJSON-Based Digital Twin Platform for Monitoring Building Environment Using BIM, IoT, and Semantic Web Technologies</span>
+              <span class="authors"><b>J.&nbsp;Chung</b>, D.&nbsp;Shelden</span>
+              <span class="venue"><i>Proceedings of the 20th International Conference on Computing in Civil and Building Engineering (ICCCBE)</i>, Montreal, pp. 39-53</span>
+              <span class="refs"><a href="https://doi.org/10.1007/978-3-031-84208-5_4">DOI</a></span>
+            </p>
+          </li>
+          <li>
+            <span class="year">2024</span>
+            <p>
+              <span class="pub-title">Sustainability Through Optimal Design of Buildings for Natural Ventilation Using Updated Comfort and Occupancy Models</span>
+              <span class="authors"><b>J.&nbsp;Chung</b>, N.&nbsp;Shahmansouri, J.&nbsp;Stoddart, R.&nbsp;Goldstein, J.&nbsp;Locke</span>
+              <span class="venue"><i>Proceedings of SimBuild 2024</i>, IBPSA-USA</span>
+              <span class="refs"><a href="https://doi.org/10.26868/30680611.2024.2172">DOI</a><a href="https://publications.ibpsa.org/proceedings/simbuild/2024/papers/simbuild2024_2172.pdf">PDF</a></span>
+            </p>
+          </li>
+          <li>
+            <span class="year">2023</span>
+            <p>
+              <span class="pub-title">A Framework for Monitoring and Identifying Indoor Air Pollutants Based on BIM with IoT Sensors</span>
+              <span class="authors"><b>J.&nbsp;Chung</b>, A.&nbsp;Tsamis, D.&nbsp;Shelden</span>
+              <span class="venue"><i>CAAD Futures 2023</i>, pp. 518-531</span>
+              <span class="refs"><a href="https://doi.org/10.1007/978-3-031-37189-9_34">DOI</a></span>
+            </p>
+          </li>
+          <li>
+            <span class="year">2021</span>
+            <p>
+              <span class="pub-title">Framework for Technical Specifications of 3D Concrete Printers</span>
+              <span class="authors"><b>J.&nbsp;Chung</b>, G.&nbsp;Lee, J.&nbsp;Kim</span>
+              <span class="venue"><i>Automation in Construction</i> 127, 103732</span>
+              <span class="refs"><a href="https://doi.org/10.1016/j.autcon.2021.103732">DOI</a></span>
+            </p>
+          </li>
+        </ul>
+        <p class="more">The full list is on <a href="https://scholar.google.com/citations?user=ExZUcKYAAAAJ">Google Scholar</a> and in my <a href="/cv/">CV</a>.</p>
+      </section>
+
+      <section aria-labelledby="software">
+        <h2 id="software"><span class="num" aria-hidden="true">04</span>Software</h2>
+        <ul class="software">
+          <li>
+            <h3>ORBIT (ORNL Building Interactive Toolkit)</h3>
+            <p>An open-source, scalable software platform for building energy management in small and medium-sized commercial buildings. Built on PNNL's VOLTTRON middleware and AEMS framework, it connects devices over BACnet and Modbus, provides a configuration-driven web application for monitoring and supervisory control, and generates each building's configuration files from a single YAML or Brick Schema model.</p>
+            <span class="sw-refs"><a href="https://github.com/JChung-Research/ornl-building-interactive-toolkit">code</a></span>
+          </li>
+          <li>
+            <h3>gb-obXML Converter</h3>
+            <p>A command-line tool that translates gbXML to obXML, so occupant behavior models can enter BIM-to-BEM simulation workflows.</p>
+            <span class="sw-refs"><a href="https://github.com/JChung-Research/gb-obXML-Converter">code</a></span>
+          </li>
+          <li>
+            <h3>Comfit</h3>
+            <p>A prototype digital twin dashboard that visualizes IoT sensor data on a BIM model in real time.</p>
+            <span class="sw-refs"><a href="https://github.com/JChung-Research/Comfit-Demo">code</a><a href="https://jchung-research.github.io/Comfit-Demo/">demo</a></span>
+          </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="service">
+        <h2 id="service"><span class="num" aria-hidden="true">05</span>Service</h2>
+        <ul class="service">
+          <li>Session chair, IBPSA-USA SimBuild 2024 and 2026</li>
+          <li>Member, IBPSA-USA Research Committee</li>
+          <li>Peer reviewer for 10+ journals</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Views expressed here are my own and do not represent ORNL or the U.S. Department of Energy.</p>
+      <p>© 2026 Jihoon Chung</p>
+    </footer>
+  </div>
+</body>
+</html>
