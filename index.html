@@ -577,8 +577,9 @@ layout: null
 
     <footer>
       <p>This is a personal website. Its content does not represent the official positions of Oak Ridge National Laboratory or the U.S. Department of Energy.</p>
-      <p>© 2026 Jihoon Chung</p>
+      <p>© <span class="cy">{{ site.time | date: '%Y' }}</span> Jihoon Chung</p>
     </footer>
   </div>
+<script>document.querySelectorAll(".cy").forEach(function(e){e.textContent=new Date().getFullYear();});</script>
 </body>
 </html>

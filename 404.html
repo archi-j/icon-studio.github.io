@@ -112,8 +112,9 @@ permalink: /404.html
       <p class="home"><a href="/">Go to the homepage of Jihoon Chung, Ph.D.</a></p>
     </main>
     <footer>
-      <p>© 2026 Jihoon Chung</p>
+      <p>© <span class="cy">{{ site.time | date: '%Y' }}</span> Jihoon Chung</p>
     </footer>
   </div>
+<script>document.querySelectorAll(".cy").forEach(function(e){e.textContent=new Date().getFullYear();});</script>
 </body>
 </html>
